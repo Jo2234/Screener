@@ -47,9 +47,30 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT
 SHORT_EMA = 78
 LONG_EMA = 165
 
-# Target week for crossover detection (Monday to Friday)
-TARGET_WEEK_START = datetime(2026, 1, 26)  # Monday
-TARGET_WEEK_END = datetime(2026, 1, 30)    # Friday
+# Target week for crossover detection (dynamically calculated)
+def get_previous_full_week():
+    """
+    Calculate the previous full trading week (Monday to Friday).
+    If run on a weekend, returns the week that just ended.
+    If run on a weekday, returns the week before the current week.
+    """
+    today = datetime.now().date()
+    weekday = today.weekday()  # Monday=0, Sunday=6
+    
+    if weekday >= 5:  # Saturday (5) or Sunday (6)
+        # Previous week just ended - get last Monday to Friday
+        days_since_friday = weekday - 4  # Sat=1, Sun=2
+        friday = today - timedelta(days=days_since_friday)
+        monday = friday - timedelta(days=4)
+    else:  # Monday (0) to Friday (4)
+        # Current week is incomplete - get the week before
+        days_since_last_friday = weekday + 3  # Mon=3, Tue=4, Wed=5, Thu=6, Fri=7
+        friday = today - timedelta(days=days_since_last_friday)
+        monday = friday - timedelta(days=4)
+    
+    return datetime.combine(monday, datetime.min.time()), datetime.combine(friday, datetime.min.time())
+
+TARGET_WEEK_START, TARGET_WEEK_END = get_previous_full_week()
 
 # How many days of history to fetch (need enough for 165-day EMA to stabilize)
 HISTORICAL_DAYS = 400
