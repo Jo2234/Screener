@@ -20,3 +20,4 @@ build/
 
 # Output files (optional - remove this line if you want to track outputs)
 output/
+.email_config
