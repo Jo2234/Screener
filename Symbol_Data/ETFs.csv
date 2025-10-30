@@ -1,0 +1,1236 @@
+Ticker,Name,Last Price,Market Cap,Trading Region,Exchange,Trading Country,EMA (100D),EMA (200D),EMA % (100D),EMA % (200D)
+QSIG,WisdomTree U.S. Short-Term Bond ETF,48.9799,,United States and Canada,BATS,US,48.9785,48.8433,0.0000,0.0028
+IEI,iShares 3-7 Year Treasury ETF,119.3500,,United States and Canada,NasdaqGM,US,119.3432,118.9081,0.0001,0.0037
+TIP,iShares TIPS ETF,110.4800,,United States and Canada,ARCA,US,110.4732,110.1650,0.0001,0.0029
+LQDI,iShares Inflation Hedged Bond ETF,26.5900,,United States and Canada,BATS,US,26.5878,26.4677,0.0001,0.0046
+QLTA,iShares Aaa Corporate Bond ETF,48.2100,,United States and Canada,ARCA,US,48.2058,48.0128,0.0001,0.0041
+EVSD,MS Eaton Vance Short Duration ETF,51.4600,,United States and Canada,NasdaqGM,US,51.4554,51.2965,0.0001,0.0032
+SCHG,Schwab U.S. Large-Cap Growth ETF,32.0000,,United States and Canada,ARCA,US,31.9971,30.7416,0.0001,0.0409
+BSCY,Invesco BulletShares 2034 Corp Bond ETF,20.9900,,United States and Canada,NasdaqGM,US,20.9878,20.8771,0.0001,0.0054
+JHCP,John Hancock Exchange-Traded Fund Trust - John Hancock Core Plus Bond ETF,25.4356,,United States and Canada,ARCA,US,25.4328,25.2765,0.0001,0.0063
+GTO,Invesco Total Return Bond ETF,47.4400,,United States and Canada,ARCA,US,47.4344,47.2497,0.0001,0.0040
+FHYS,Federated Hermes Short Duration ETF,23.3000,,United States and Canada,ARCA,US,23.2965,23.2271,0.0001,0.0031
+FLCO,Franklin Investment Grade ETF,21.7100,,United States and Canada,ARCA,US,21.7066,21.6243,0.0002,0.0040
+TUSB,Thrivent ETF Trust - Thrivent Ultra Short Bond ETF,50.4500,,United States and Canada,ARCA,US,50.4417,50.3775,0.0002,0.0014
+GCOR,Goldman Sachs U.S. Aggregate Bond ETF,41.6200,,United States and Canada,ARCA,US,41.6111,41.4639,0.0002,0.0038
+IBIH,iShares Oct 2031 TIPS ETF,26.2300,,United States and Canada,ARCA,US,26.2243,26.1715,0.0002,0.0022
+AOHY,Angel Oak High Yield ETF,11.1450,,United States and Canada,NasdaqGM,US,11.1425,11.1183,0.0002,0.0024
+GBF,iShares Gov/Credit Bond ETF,105.0399,,United States and Canada,ARCA,US,105.0165,104.6691,0.0002,0.0035
+NULG,Nuveen ESG Large-Cap ETF,97.8400,,United States and Canada,BATS,US,97.8164,95.0338,0.0002,0.0295
+LQDB,iShares BBB Corporate Bond ETF,87.3800,,United States and Canada,ARCA,US,87.3557,86.9904,0.0003,0.0045
+PCRB,Putnam ESG Bond ETF,49.3799,,United States and Canada,ARCA,US,49.3659,49.1806,0.0003,0.0041
+DUSB,Dimensional Ultrashort ETF,50.7600,,United States and Canada,ARCA,US,50.7454,50.7464,0.0003,0.0003
+ACGR,American Century Sustainable ETF,64.8967,,United States and Canada,ARCA,US,64.8778,62.6504,0.0003,0.0359
+PSQO,Palmer Square Credit ETF,20.6850,,United States and Canada,ARCA,US,20.6785,20.6014,0.0003,0.0041
+FDRV,Fidelity Electric Vehicles ETF,16.7000,,United States and Canada,BATS,US,16.6947,16.0767,0.0003,0.0388
+MBS,Angel Oak MBS ETF,8.7500,,United States and Canada,NasdaqGM,US,8.7469,8.7071,0.0004,0.0049
+ZTWO,RBB 2Y Corp Bond ETF,50.8550,,United States and Canada,NasdaqGM,US,50.8369,50.7484,0.0004,0.0021
+HIYS,Invesco High Yield ETF,25.7050,,United States and Canada,BATS,US,25.6952,25.6269,0.0004,0.0030
+GIGB,Goldman Sachs Access IG Corporate Bond ETF,46.4200,,United States and Canada,ARCA,US,46.4014,46.2110,0.0004,0.0045
+JAAA,Janus Detroit CLO ETF,50.6700,,United States and Canada,ARCA,US,50.6478,50.6453,0.0004,0.0005
+FEIG,FlexShares ESG Climate Core ETF,41.4595,,United States and Canada,ARCA,US,41.4388,41.3032,0.0005,0.0038
+UITB,VictoryShares Core Bond ETF,47.4127,,United States and Canada,NasdaqGM,US,47.3889,47.2028,0.0005,0.0044
+PTRB,PGIM Total Return ETF,42.1400,,United States and Canada,ARCA,US,42.1177,41.9560,0.0005,0.0044
+QQQH,Neos Nasdaq 100 Hedged Income ETF,54.3152,,United States and Canada,NasdaqGM,US,54.2860,53.5203,0.0005,0.0149
+VRIG,Invesco Variable Rate ETF,25.1200,,United States and Canada,NasdaqGM,US,25.1060,25.1002,0.0006,0.0008
+IGEB,iShares IG Systematic Bond ETF,45.7600,,United States and Canada,BATS,US,45.7342,45.5346,0.0006,0.0049
+LDRT,iShares 1-5 Year Treasury ETF,25.3350,,United States and Canada,ARCA,US,25.3206,25.2646,0.0006,0.0028
+BRHY,iShares High Yield ETF,51.7200,,United States and Canada,NasdaqGM,US,51.6891,51.5973,0.0006,0.0024
+HYBL,SPDR Blackstone High Income ETF,28.4850,,United States and Canada,BATS,US,28.4678,28.4244,0.0006,0.0021
+HISF,First Trust High Income ETF,45.1703,,United States and Canada,NasdaqGM,US,45.1427,44.9318,0.0006,0.0053
+FDAT,Tidal Tactical ETF,22.2045,,United States and Canada,ARCA,US,22.1909,21.9752,0.0006,0.0104
+IBTK,iShares Dec 2030 Treasury ETF,19.8550,,United States and Canada,NasdaqGM,US,19.8423,19.7771,0.0006,0.0039
+CGUI,Capital Group Ultra Short ETF,25.3450,,United States and Canada,ARCA,US,25.3283,25.3014,0.0007,0.0017
+NOVZ,TrueShares November ETF,44.2989,,United States and Canada,BATS,US,44.2694,43.3001,0.0007,0.0231
+HFSI,Hartford Strategic Income ETF,35.5950,,United States and Canada,BATS,US,35.5712,35.3237,0.0007,0.0077
+JCPI,JPM Inflation Bond ETF,48.4600,,United States and Canada,BATS,US,48.4271,48.2582,0.0007,0.0042
+QQJG,Invesco ESG Next Gen 100 ETF,27.4397,,United States and Canada,NasdaqGM,US,27.4208,26.3670,0.0007,0.0407
+LRGE,Clearbridge Large Cap Growth ETF,81.9547,,United States and Canada,NasdaqGM,US,81.8983,80.0462,0.0007,0.0238
+BBAG,JPMorgan U.S. Aggregate Bond ETF,46.5200,,United States and Canada,ARCA,US,46.4873,46.3209,0.0007,0.0043
+UBND,VictoryShares Core Plus Bond ETF,22.0100,,United States and Canada,NasdaqGM,US,21.9942,21.9089,0.0007,0.0046
+BSCW,Invesco BulletShares 2032 Corp Bond ETF,20.8600,,United States and Canada,NasdaqGM,US,20.8441,20.7312,0.0008,0.0062
+EAGG,iShares ESG U.S. Bond ETF,47.9400,,United States and Canada,ARCA,US,47.9023,47.7059,0.0008,0.0049
+HTAX,Macquarie ETF Trust - National High-Yield Municipal Bond ETF,24.3747,,United States and Canada,ARCA,US,24.3555,24.1943,0.0008,0.0075
+BBCB,JPMorgan BetaBuilders USD Corp Bond ETF,46.0000,,United States and Canada,ARCA,US,45.9627,45.7954,0.0008,0.0045
+DJIA,Global X Dow 30 ETF,22.1900,,United States and Canada,ARCA,US,22.1719,22.0958,0.0008,0.0043
+IBD,Inspire Corp Bond ETF,24.1500,,United States and Canada,ARCA,US,24.1302,24.0373,0.0008,0.0047
+SJLD,SanJac Alpha Low Duration ETF,25.3850,,United States and Canada,NasdaqGM,US,25.3634,25.3138,0.0008,0.0028
+FLTB,Fidelity Limited Term Bond ETF,50.7500,,United States and Canada,ARCA,US,50.7051,50.5320,0.0009,0.0043
+RSMC,Tidal Trust III - Rock U.S. Small-Mid ETF,25.9900,,United States and Canada,ARCA,US,25.9670,25.7822,0.0009,0.0081
+TDTF,FlexShares iBoxx 5-Year Target Duration TIPS ,24.1100,,United States and Canada,ARCA,US,24.0886,24.0432,0.0009,0.0028
+BND,Vanguard Total Bond ETF,74.2300,,United States and Canada,NasdaqGM,US,74.1641,73.8576,0.0009,0.0050
+CORP,PIMCO Investment Grade Bond ETF,98.2000,,United States and Canada,ARCA,US,98.1129,97.6679,0.0009,0.0054
+IIGD,Invesco IG Defensive ETF,24.8422,,United States and Canada,ARCA,US,24.8197,24.7321,0.0009,0.0045
+FLDZ,RiverNorth Patriot ETF,29.4283,,United States and Canada,BATS,US,29.4014,29.0078,0.0009,0.0145
+ISRPF,iShares $ Corp Bond ETF,102.8585,,United States and Canada,OTCPK,US,102.7641,102.6251,0.0009,0.0023
+BSMQ,Invesco BS 2026 Muni ETF,23.6450,,United States and Canada,NasdaqGM,US,23.6231,23.6015,0.0009,0.0018
+SPBO,SPDR Corp Bond ETF,29.4500,,United States and Canada,ARCA,US,29.4227,29.3103,0.0009,0.0048
+PAB,PGIM Active Bond ETF,42.8595,,United States and Canada,ARCA,US,42.8197,42.6310,0.0009,0.0054
+NJNK,Columbia High Yield ETF,20.2900,,United States and Canada,ARCA,US,20.2708,20.2105,0.0009,0.0039
+PSH,PGIM Short Duration ETF,50.5600,,United States and Canada,BATS,US,50.5111,50.4792,0.0010,0.0016
+VSHY,Virtus Short Duration High Yield ETF,21.9000,,United States and Canada,ARCA,US,21.8788,21.8432,0.0010,0.0026
+NUBD,Nuveen ESG Bond ETF,22.4100,,United States and Canada,ARCA,US,22.3881,22.3002,0.0010,0.0049
+TDTT,FlexShares 3Y TIPS Fund,24.1800,,United States and Canada,ARCA,US,24.1564,24.1399,0.0010,0.0017
+BILZ,PIMCO Ultra Short Gov ETF,101.0500,,United States and Canada,ARCA,US,100.9502,100.9734,0.0010,0.0008
+UDN,Invesco DB US Dollar Bear Fund,18.4800,,United States and Canada,ARCA,US,18.4617,18.4165,0.0010,0.0034
+ZTRE,RBB 3Y Investment Grade Bond ETF,51.2698,,United States and Canada,NasdaqGM,US,51.2190,51.0687,0.0010,0.0039
+JBND,JPM Active Bond ETF,54.1200,,United States and Canada,NYSE,US,54.0663,53.8048,0.0010,0.0059
+SCCR,Schwab Strategic Trust - Core Bond Etf,25.8800,,United States and Canada,ARCA,US,25.8541,25.6741,0.0010,0.0080
+XTRE,BondBloxx 3Y Target Duration ETF,49.8300,,United States and Canada,ARCA,US,49.7794,49.6700,0.0010,0.0032
+TCHP,T. Rowe Price Blue Chip ETF,48.8900,,United States and Canada,ARCA,US,48.8402,46.9757,0.0010,0.0408
+YEAR,AB Ultra Short ETF,50.6300,,United States and Canada,ARCA,US,50.5777,50.5661,0.0010,0.0013
+JHMB,John Hancock Mortgage ETF,22.2203,,United States and Canada,ARCA,US,22.1972,22.0760,0.0010,0.0065
+MTGP,WisdomTree Mortgage Bond ETF,44.6400,,United States and Canada,ARCA,US,44.5919,44.3731,0.0011,0.0060
+PFIG,Invesco Fundamental Corp Bond ETF,24.2750,,United States and Canada,ARCA,US,24.2487,24.1341,0.0011,0.0058
+XTWO,BondBloxx 2Y Treasury ETF,49.5500,,United States and Canada,ARCA,US,49.4960,49.4522,0.0011,0.0020
+PZT,Invesco NY AMT-Free Mun Bond ETF,22.2800,,United States and Canada,ARCA,US,22.2554,22.2070,0.0011,0.0033
+FMCX,NLFT IV FM Focus ETF,34.6315,,United States and Canada,ARCA,US,34.5932,33.7273,0.0011,0.0268
+BSCR,Invesco BulletShares 2027 Corp Bond ETF,19.7400,,United States and Canada,NasdaqGM,US,19.7178,19.6769,0.0011,0.0032
+MGOV,First Trust Intermediate Gov ETF,20.5000,,United States and Canada,ARCA,US,20.4767,20.3795,0.0011,0.0059
+BIL,SPDR 1-3 Month T-Bill ETF,91.6500,,United States and Canada,ARCA,US,91.5455,91.5652,0.0011,0.0009
+BKAG,BNY Core Bond ETF,42.5050,,United States and Canada,ARCA,US,42.4563,42.3013,0.0011,0.0048
+IWF,iShares Russell 1000 Growth,465.9500,,United States and Canada,ARCA,US,465.4026,447.0126,0.0012,0.0424
+XLU,Utilities SPDR ETF,43.2500,,United States and Canada,ARCA,US,43.1991,42.3527,0.0012,0.0212
+TRSY,Xtrackers 0-1Y Treasury ETF,30.1500,,United States and Canada,BATS,US,30.1144,30.1106,0.0012,0.0013
+VCRB,Vanguard Core Bond,78.1877,,United States and Canada,NasdaqGM,US,78.0946,77.7993,0.0012,0.0050
+VFH,Vanguard Financials ETF,130.8900,,United States and Canada,ARCA,US,130.7327,127.6173,0.0012,0.0256
+IHYF,Invesco High Yield ETF,22.6850,,United States and Canada,NasdaqGM,US,22.6573,22.5992,0.0012,0.0038
+GBIL,Goldman Sachs Access Treasury 0-1 Year ETF,100.2000,,United States and Canada,ARCA,US,100.0757,100.0548,0.0012,0.0015
+VTC,Vanguard Total Corp Bond ETF,77.9687,,United States and Canada,NasdaqGM,US,77.8713,77.5612,0.0013,0.0053
+SHYL,Xtrackers Short High Yield Bond ETF,45.1150,,United States and Canada,ARCA,US,45.0585,44.9977,0.0013,0.0026
+MBBB,VanEck BBB Corporate Bond ETF,21.7592,,United States and Canada,BATS,US,21.7319,21.6581,0.0013,0.0047
+SJCP,SanJac Alpha Bond ETF,25.2600,,United States and Canada,NasdaqGM,US,25.2282,25.1690,0.0013,0.0036
+XIDE,FT U.S. Equity Buffer ETF,30.2700,,United States and Canada,BATS,US,30.2319,30.2047,0.0013,0.0022
+FEBZ,TrueShares Structured Outcome ETF,38.0164,,United States and Canada,BATS,US,37.9683,37.1631,0.0013,0.0230
+IUSB,iShares Core USD Bond ETF,46.6500,,United States and Canada,NasdaqGM,US,46.5910,46.3858,0.0013,0.0057
+QHY,WisdomTree U.S. High Yield Bond ETF,46.5000,,United States and Canada,BATS,US,46.4402,46.2092,0.0013,0.0063
+FUMB,First Trust Ultra Short Municipal ETF,20.1200,,United States and Canada,ARCA,US,20.0936,20.0970,0.0013,0.0011
+BBSB,JPMorgan 1-3 Year Treasury ETF,99.3500,,United States and Canada,BATS,US,99.2189,99.0905,0.0013,0.0026
+IG,Principal Investment Grade ETF,20.9607,,United States and Canada,ARCA,US,20.9327,20.8545,0.0013,0.0051
+NUSA,Nuveen ESG 1-5 Year Bond ETF,23.4250,,United States and Canada,ARCA,US,23.3937,23.3427,0.0013,0.0035
+SPAB,SPDR Aggregate Bond ETF,25.8200,,United States and Canada,ARCA,US,25.7854,25.6790,0.0013,0.0055
+XIJN,FT Vest U.S. Equity Buffer ETF,30.9400,,United States and Canada,BATS,US,30.8976,30.8605,0.0014,0.0026
+SDFI,AB Short Duration ETF,35.8899,,United States and Canada,ARCA,US,35.8404,35.7777,0.0014,0.0031
+AGZ,iShares Agency Bond ETF,110.3400,,United States and Canada,ARCA,US,110.1865,109.8636,0.0014,0.0043
+USIG,iShares Broad USD Corp Bond ETF,51.9600,,United States and Canada,NasdaqGM,US,51.8867,51.6458,0.0014,0.0061
+XIMR,FT U.S. Equity Buffer ETF,31.1300,,United States and Canada,BATS,US,31.0860,31.0588,0.0014,0.0023
+CLIP,Global X 1-3 Month T-Bill ETF,100.4000,,United States and Canada,ARCA,US,100.2581,100.2576,0.0014,0.0014
+AGG,iShares Core U.S. Bond ETF,100.1300,,United States and Canada,ARCA,US,99.9882,99.5553,0.0014,0.0058
+FUSI,American Century Multisector ETF,50.5550,,United States and Canada,ARCA,US,50.4832,50.5321,0.0014,0.0005
+MARZ,TrueShares March ETF,34.6252,,United States and Canada,BATS,US,34.5757,33.8558,0.0014,0.0227
+XONE,BondBloxx 1Y Target Duration ETF,49.6600,,United States and Canada,ARCA,US,49.5885,49.5868,0.0014,0.0015
+PSQA,Palmer Square CLO ETF,20.4700,,United States and Canada,ARCA,US,20.4405,20.3968,0.0014,0.0036
+XHLF,BondBloxx 6M Target Duration ETF,50.3900,,United States and Canada,ARCA,US,50.3174,50.3038,0.0014,0.0017
+IBTG,iShares Dec 2026 Treasury ETF,22.9350,,United States and Canada,NasdaqGM,US,22.9016,22.8882,0.0015,0.0020
+SIHY,Harbor Scientific Alpha ETF,45.9800,,United States and Canada,ARCA,US,45.9131,45.8104,0.0015,0.0037
+SHV,iShares Short Treasury ETF,110.4400,,United States and Canada,NasdaqGM,US,110.2789,110.2804,0.0015,0.0014
+NBSD,Neuberger Berman Short Duration ETF,51.2600,,United States and Canada,ARCA,US,51.1849,51.1029,0.0015,0.0031
+BSJW,Invesco 2032 High Yield Bond ETF,25.7855,,United States and Canada,NasdaqGM,US,25.7476,25.6515,0.0015,0.0052
+BKUI,BNY Mellon Ultra Short ETF,49.9063,,United States and Canada,ARCA,US,49.8309,49.8027,0.0015,0.0021
+RMOP,Tidal Rockefeller Municipal Bond ETF,25.0500,,United States and Canada,ARCA,US,25.0120,24.9917,0.0015,0.0023
+OBND,SSGA Loomis Sayles Opportunistic Bond ETF,26.1900,,United States and Canada,BATS,US,26.1503,26.0823,0.0015,0.0041
+BSCV,Invesco BulletShares 2031 Corp Bond ETF,16.6900,,United States and Canada,NasdaqGM,US,16.6646,16.5767,0.0015,0.0068
+IBDZ,iShares iBonds 2034 ETF,26.4100,,United States and Canada,ARCA,US,26.3698,26.2293,0.0015,0.0069
+SGOV,iShares 0-3M Treasury ETF,100.6700,,United States and Canada,ARCA,US,100.5164,100.5182,0.0015,0.0015
+XHYH,BondBloxx High Yield Healthcare ETF,35.8250,,United States and Canada,ARCA,US,35.7698,35.5614,0.0015,0.0074
+EMCB,WisdomTree EM Corp Bond ETF,66.9200,,United States and Canada,NasdaqGM,US,66.8166,66.4604,0.0015,0.0069
+EGUS,iShares ESG USA Growth ETF,51.8828,,United States and Canada,BATS,US,51.8021,49.6196,0.0016,0.0456
+XHYF,BondBloxx High Yield REIT ETF,37.9950,,United States and Canada,ARCA,US,37.9358,37.8241,0.0016,0.0045
+BSCU,Invesco BulletShares 2030 Corp Bond ETF,16.9200,,United States and Canada,NasdaqGM,US,16.8936,16.8189,0.0016,0.0060
+BSCS,Invesco BulletShares 2028 Corp Bond ETF,20.6000,,United States and Canada,NasdaqGM,US,20.5675,20.5069,0.0016,0.0045
+TMB,Thornburg Etf Trust - Multi Sector Bond ETF,25.6854,,United States and Canada,NasdaqGM,US,25.6449,25.5103,0.0016,0.0069
+GMMF,Blackrock ETF Trust - Ishares Government Money Market ETF,100.5050,,United States and Canada,ARCA,US,100.3460,100.3151,0.0016,0.0019
+IROC,Invesco Municipal Income ETF,50.7447,,United States and Canada,BATS,US,50.6642,50.6023,0.0016,0.0028
+PCY,Invesco EM Sovereign Debt ETF,21.5600,,United States and Canada,ARCA,US,21.5257,21.1943,0.0016,0.0173
+DFSD,Dimensional Short-Duration ETF,48.1600,,United States and Canada,ARCA,US,48.0822,47.9695,0.0016,0.0040
+BILS,SPDR 3-12 Month T-Bill ETF,99.4900,,United States and Canada,ARCA,US,99.3282,99.3195,0.0016,0.0017
+GVI,iShares Intermediate Bond ETF,107.4600,,United States and Canada,BATS,US,107.2816,106.8498,0.0017,0.0057
+CGIB,Capital Group Intl Bond ETF (USD-Hedged),25.4795,,United States and Canada,ARCA,US,25.4372,25.4345,0.0017,0.0018
+FLCB,Franklin U.S. Core Dividend ETF - Franklin U.S. Core Bond ETF,21.6900,,United States and Canada,ARCA,US,21.6539,21.5750,0.0017,0.0053
+HYS,PIMCO 0-5 High Yield Bond ETF,95.1800,,United States and Canada,ARCA,US,95.0207,94.7467,0.0017,0.0046
+OOSP,Obra Opportunistic ETF,10.1950,,United States and Canada,ARCA,US,10.1779,10.1690,0.0017,0.0026
+PMMF,Blackrock ETF Trust - iShares Prime Money Market ETF,100.5300,,United States and Canada,ARCA,US,100.3612,100.3318,0.0017,0.0020
+NZUS,SPDR MSCI USA Climate ETF,35.3306,,United States and Canada,NasdaqGM,US,35.2705,34.2558,0.0017,0.0314
+NUSB,Nuveen Ultra Short ETF,25.3150,,United States and Canada,NasdaqGM,US,25.2720,25.2631,0.0017,0.0021
+LDSF,First Trust Low Duration ETF,19.1650,,United States and Canada,NasdaqGM,US,19.1324,19.0679,0.0017,0.0051
+JCPB,JPM Core Plus Bond ETF,47.5050,,United States and Canada,BATS,US,47.4241,47.2299,0.0017,0.0058
+TIPX,SPDR TIPS 1-10 ETF,19.1900,,United States and Canada,ARCA,US,19.1573,19.1064,0.0017,0.0044
+VPLS,Vanguard Core Plus Bond ETF,78.4534,,United States and Canada,NasdaqGM,US,78.3187,78.0065,0.0017,0.0057
+APRZ,TrueShares April ETF,37.7806,,United States and Canada,BATS,US,37.7154,36.8635,0.0017,0.0249
+FNCL,Fidelity MSCI Financials ETF,76.2200,,United States and Canada,ARCA,US,76.0882,74.2479,0.0017,0.0266
+GSST,Goldman Sachs Ultra Short Bond ETF,50.6550,,United States and Canada,BATS,US,50.5671,50.5256,0.0017,0.0026
+IBDR,iShares Dec 2026 Corporate ETF,24.2800,,United States and Canada,ARCA,US,24.2379,24.2077,0.0017,0.0030
+BSV,Vanguard Short Bond ETF,78.9300,,United States and Canada,ARCA,US,78.7930,78.5836,0.0017,0.0044
+DECZ,TrueShares December ETF,40.6268,,United States and Canada,BATS,US,40.5555,39.6748,0.0018,0.0240
+ZHDG,ZEGA Hedge ETF,22.6219,,United States and Canada,ARCA,US,22.5822,22.0346,0.0018,0.0267
+SUSC,iShares ESG Corporate Bond ETF,23.4700,,United States and Canada,NasdaqGM,US,23.4286,23.3217,0.0018,0.0064
+GRNB,VanEck Green Bond ETF,24.4110,,United States and Canada,ARCA,US,24.3677,24.2729,0.0018,0.0057
+STIP,iShares 0-5 Year TIPS ETF,102.9500,,United States and Canada,ARCA,US,102.7658,102.6105,0.0018,0.0033
+KORP,American Century Diversified Bond ETF,47.4550,,United States and Canada,ARCA,US,47.3699,47.1666,0.0018,0.0061
+IBTJ,iShares Dec 2029 Treasury ETF,21.9750,,United States and Canada,NasdaqGM,US,21.9355,21.8717,0.0018,0.0047
+PULS,PGIM Ultra Short Bond ETF,49.8000,,United States and Canada,ARCA,US,49.7103,49.6936,0.0018,0.0021
+STBF,Pro Managers Short Term Bond ETF,25.4500,,United States and Canada,BATS,US,25.4039,25.3652,0.0018,0.0033
+SHY,iShares 1-3 Year Treasury ETF,82.9900,,United States and Canada,NasdaqGM,US,82.8381,82.7287,0.0018,0.0032
+PRNT,ARK 3D Printing ETF,22.8200,,United States and Canada,BATS,US,22.7780,22.3511,0.0018,0.0210
+SPTS,SPDR Short Term Treasury ETF,29.3300,,United States and Canada,ARCA,US,29.2759,29.2410,0.0018,0.0030
+PGRO,Putnam Focused Growth ETF,44.0300,,United States and Canada,ARCA,US,43.9486,42.4229,0.0019,0.0379
+BSMR,Invesco BulletShares 2027 Muni ETF,23.7050,,United States and Canada,NasdaqGM,US,23.6608,23.6237,0.0019,0.0034
+LDUR,PIMCO Enhanced Low Duration ETF,96.1900,,United States and Canada,ARCA,US,96.0096,95.8497,0.0019,0.0036
+SCUS,Schwab Ultra-Short ETF,25.2500,,United States and Canada,ARCA,US,25.2024,25.1859,0.0019,0.0025
+SCIO,First Trust Structured Credit ETF,20.8300,,United States and Canada,ARCA,US,20.7906,20.7078,0.0019,0.0059
+VGSH,Vanguard Short-Term Treasury ETF,58.8600,,United States and Canada,NasdaqGM,US,58.7480,58.6807,0.0019,0.0031
+FPFD,Fidelity Preferred Income ETF,21.9700,,United States and Canada,BATS,US,21.9282,21.8382,0.0019,0.0060
+WABF,Franklin Western Bond ETF,25.4522,,United States and Canada,NasdaqGM,US,25.4037,25.3484,0.0019,0.0041
+VBIL,Vanguard Institutional Index Fund - 0-3 Months Treasury Bill ETF,75.6400,,United States and Canada,NasdaqGM,US,75.4956,75.4451,0.0019,0.0026
+MYCF,SPDR My2026 Corp Bond ETF,25.1150,,United States and Canada,NasdaqGM,US,25.0665,25.0532,0.0019,0.0025
+JMBS,Janus Detroit Mortgage ETF,45.7500,,United States and Canada,ARCA,US,45.6616,45.4217,0.0019,0.0072
+ULST,SPDR SSGA Ultra Short Bond ETF,40.6600,,United States and Canada,ARCA,US,40.5813,40.5755,0.0019,0.0021
+FLOT,iShares Floating Rate ETF,51.0400,,United States and Canada,BATS,US,50.9408,50.9348,0.0019,0.0021
+EMNT,PIMCO Enhanced Short Maturity ESG ETF,98.9090,,United States and Canada,ARCA,US,98.7153,98.6767,0.0020,0.0024
+PGHY,Invesco Global High Yield Bond ETF,19.9800,,United States and Canada,ARCA,US,19.9404,19.9062,0.0020,0.0037
+BGRN,iShares USD Green Bond ETF,48.0606,,United States and Canada,NasdaqGM,US,47.9648,47.7686,0.0020,0.0061
+IBTI,iShares Dec 2028 Treasury ETF,22.4050,,United States and Canada,NasdaqGM,US,22.3601,22.3092,0.0020,0.0043
+EUSB,iShares ESG Total Bond ETF,43.9700,,United States and Canada,ARCA,US,43.8818,43.6797,0.0020,0.0066
+VGUS,Vanguard Institutional Index Funds - Vanguard Ultra-Short Treasury ETF,75.6800,,United States and Canada,NasdaqGM,US,75.5270,75.4638,0.0020,0.0029
+PRIV,Spdr Ssga Apollo Ig Public & Private Credit Etf,25.4750,,United States and Canada,ARCA,US,25.4233,25.2336,0.0020,0.0096
+MINT,PIMCO Enhanced Short Maturity ETF,100.7100,,United States and Canada,ARCA,US,100.5051,100.4723,0.0020,0.0024
+FDIF,Fidelity Disruptors ETF,35.6663,,United States and Canada,NasdaqGM,US,35.5930,34.5056,0.0021,0.0336
+SJNK,SPDR Short Term High Yield ETF,25.4300,,United States and Canada,ARCA,US,25.3777,25.3494,0.0021,0.0032
+TFLO,iShares Treasury Float ETF,50.6300,,United States and Canada,ARCA,US,50.5258,50.5323,0.0021,0.0019
+MIG,VanEck IG Corporate Bond ETF,21.6846,,United States and Canada,BATS,US,21.6397,21.5615,0.0021,0.0057
+SCHI,Schwab 5-10 Yr Corp Bond ETF,23.0200,,United States and Canada,ARCA,US,22.9722,22.8343,0.0021,0.0081
+SLDR,Global X Short-Term Treasury ETF,50.4150,,United States and Canada,ARCA,US,50.3103,50.2496,0.0021,0.0033
+PULT,Putnam ESG Ultra ETF,50.8000,,United States and Canada,ARCA,US,50.6945,50.6623,0.0021,0.0027
+AVIG,Avantis Core Income ETF,42.0300,,United States and Canada,ARCA,US,41.9423,41.7528,0.0021,0.0066
+SCHZ,Schwab U.S. Aggregate Bond ETF,23.4500,,United States and Canada,ARCA,US,23.4003,23.3069,0.0021,0.0061
+YLD,Principal Active High Yield ETF,19.1750,,United States and Canada,ARCA,US,19.1342,19.1479,0.0021,0.0014
+STPZ,PIMCO 1-5 Year TIPS ETF,53.9600,,United States and Canada,ARCA,US,53.8449,53.7092,0.0021,0.0047
+SCHO,Schwab Short-Term Treasury ETF,24.4200,,United States and Canada,ARCA,US,24.3679,24.3406,0.0021,0.0033
+AFIF,Anfield Universal Fixed Income ETF,9.4350,,United States and Canada,BATS,US,9.4147,9.3654,0.0022,0.0074
+HYRM,Xtrackers Risk Managed High Yield ETF,23.4999,,United States and Canada,ARCA,US,23.4490,23.4301,0.0022,0.0030
+ICSH,iShares Ultra Short Bond ETF,50.7500,,United States and Canada,BATS,US,50.6395,50.6223,0.0022,0.0025
+USRD,Themes R&D Champions ETF,33.4313,,United States and Canada,NasdaqGM,US,33.3582,32.5653,0.0022,0.0266
+VONG,Vanguard Russell 1000 Growth ETF,120.0300,,United States and Canada,NasdaqGM,US,119.7651,115.0334,0.0022,0.0434
+IBDY,iShares iBonds Dec 2033 ETF,26.1800,,United States and Canada,ARCA,US,26.1213,25.9692,0.0022,0.0081
+IBTH,iShares Dec 2027 Treasury ETF,22.5250,,United States and Canada,NasdaqGM,US,22.4744,22.4419,0.0023,0.0037
+TMFE,RBB Motley Fool Capital Efficiency ETF,29.0900,,United States and Canada,BATS,US,29.0246,28.3932,0.0023,0.0245
+FLRN,SPDR Bloomberg Floating Rate ETF,30.8500,,United States and Canada,ARCA,US,30.7803,30.7732,0.0023,0.0025
+JPST,JPM Ultra-Short Income ETF,50.7800,,United States and Canada,ARCA,US,50.6651,50.6266,0.0023,0.0030
+RAVI,FlexShares Ultra-Short Income ETF,75.6282,,United States and Canada,ARCA,US,75.4567,75.4290,0.0023,0.0026
+IBCA,iShares Trust - iShares iBonds Dec 2035 Term Corp ETF,25.9700,,United States and Canada,ARCA,US,25.9110,25.6512,0.0023,0.0124
+IWY,iShares Russell 200 Growth ETF,272.3000,,United States and Canada,ARCA,US,271.6794,260.7550,0.0023,0.0443
+IAK,iShares U.S. Insurance ETF,133.0049,,United States and Canada,ARCA,US,132.6969,131.6080,0.0023,0.0106
+ISVIF,iShares 7-10yr Treasury Bond ETF,154.1729,,United States and Canada,OTCPK,US,153.8142,151.8920,0.0023,0.0150
+MYCN,SPDR My2034 Corp Bond ETF,24.8786,,United States and Canada,NasdaqGM,US,24.8202,24.6801,0.0024,0.0080
+LDRH,iShares iBonds 1-5Y High Yield ETF,25.0262,,United States and Canada,ARCA,US,24.9671,24.9419,0.0024,0.0034
+UCRD,VictoryShares Corp Bond ETF,21.7683,,United States and Canada,NasdaqGM,US,21.7169,21.5943,0.0024,0.0081
+HAIL,SPDR S&P Smart Mobility ETF,34.7371,,United States and Canada,ARCA,US,34.6545,33.1375,0.0024,0.0483
+GUMI,Goldman Sachs Ultra Short Muni ETF,50.4299,,United States and Canada,ARCA,US,50.3077,50.2645,0.0024,0.0033
+CLOB,VanEck AA-BB CLO ETF,50.9500,,United States and Canada,ARCA,US,50.8244,50.7569,0.0025,0.0038
+VCIT,Vanguard Intermediate Corporate Bond ETF,83.9500,,United States and Canada,NasdaqGM,US,83.7421,83.1927,0.0025,0.0091
+CALI,iShares CA Short-Term Muni ETF,50.6500,,United States and Canada,NasdaqGM,US,50.5245,50.4740,0.0025,0.0035
+HYDW,Xtrackers Low Beta Bond ETF,47.3193,,United States and Canada,ARCA,US,47.2017,47.0461,0.0025,0.0058
+CLOI,VanEck CLO ETF,53.0430,,United States and Canada,ARCA,US,52.9109,52.8909,0.0025,0.0029
+BSCT,Invesco BulletShares 2029 Corp Bond ETF,18.8600,,United States and Canada,NasdaqGM,US,18.8130,18.7410,0.0025,0.0064
+NUAG,Nuveen Enhanced Yield Bond ETF,21.2650,,United States and Canada,ARCA,US,21.2119,21.1272,0.0025,0.0065
+STOT,SSGA SPDR DoubleLine Short Duration ETF,47.4473,,United States and Canada,BATS,US,47.3285,47.2721,0.0025,0.0037
+YFYA,Listed Fund Trust - Yields For You Strategy ETF,9.9300,,United States and Canada,ARCA,US,9.9050,9.9106,0.0025,0.0020
+XRLX,Fundx Conservative ETF,46.4007,,United States and Canada,ARCA,US,46.2826,45.4653,0.0026,0.0206
+HYUP,Xtrackers High Beta Bond ETF,42.3722,,United States and Canada,ARCA,US,42.2629,42.1371,0.0026,0.0056
+VUSE,Vident U.S. Equity ETF,65.8650,,United States and Canada,ARCA,US,65.6913,64.0605,0.0026,0.0282
+IDU,iShares U.S. Utilities ETF,109.8100,,United States and Canada,ARCA,US,109.5199,107.5543,0.0026,0.0210
+USTB,VictoryShares Short-Term Bond ETF,51.0000,,United States and Canada,NasdaqGM,US,50.8638,50.7671,0.0027,0.0046
+GTOS,Invesco Short Duration Bond ETF,25.1900,,United States and Canada,BATS,US,25.1217,25.0717,0.0027,0.0047
+IGIB,iShares 5-10 Yr Inv Grade Corp Bond ETF,54.0100,,United States and Canada,NasdaqGM,US,53.8636,53.4868,0.0027,0.0098
+MBSD,FlexShares MBS Duration Fund,20.8650,,United States and Canada,ARCA,US,20.8083,20.7340,0.0027,0.0063
+NCPB,Nuveen Core Plus Bond ETF,25.3494,,United States and Canada,NasdaqGM,US,25.2804,25.1998,0.0027,0.0059
+FLUD,Franklin Core Dividend ETF,25.0950,,United States and Canada,ARCA,US,25.0264,25.0029,0.0027,0.0037
+IBMO,iShares Dec 2026 Muni Bond ETF,25.7100,,United States and Canada,BATS,US,25.6396,25.6088,0.0027,0.0040
+MFUL,Mindful Conservative ETF,22.0250,,United States and Canada,BATS,US,21.9646,21.9050,0.0028,0.0055
+BSJU,Invesco 2030 High Yield Bond ETF,26.1500,,United States and Canada,NasdaqGM,US,26.0782,25.9908,0.0028,0.0061
+BSJV,Invesco 2031 High Yield Bond ETF,26.7050,,United States and Canada,NasdaqGM,US,26.6314,26.5410,0.0028,0.0062
+HYXF,iShares ESG High Yield Bond ETF,47.3803,,United States and Canada,NasdaqGM,US,47.2491,47.0631,0.0028,0.0067
+MUSI,American Century Multisector ETF,44.3300,,United States and Canada,ARCA,US,44.2070,44.0582,0.0028,0.0062
+GSIG,Goldman Sachs Access IG Corp 1-5 Year Bond ETF,47.8318,,United States and Canada,ARCA,US,47.6988,47.5704,0.0028,0.0055
+FLXR,TCW Flex Income ETF,39.7500,,United States and Canada,NYSE,US,39.6386,39.5172,0.0028,0.0059
+NEAR,iShares Short Duration Bond ETF,51.2900,,United States and Canada,BATS,US,51.1443,51.0548,0.0028,0.0046
+BBBS,BondBloxx BBB 1-5 Yr Corp ETF,51.6650,,United States and Canada,ARCA,US,51.5179,51.3639,0.0029,0.0059
+DCRE,DoubleLine CRE ETF,52.1700,,United States and Canada,ARCA,US,52.0209,51.9333,0.0029,0.0046
+FUTY,Fidelity MSCI Utilities ETF,56.0700,,United States and Canada,ARCA,US,55.9083,54.7502,0.0029,0.0241
+MBSF,Regan Floating Rate ETF,25.6766,,United States and Canada,ARCA,US,25.6023,25.5624,0.0029,0.0045
+AVSF,Avantis Short-Term Bond ETF,47.2200,,United States and Canada,ARCA,US,47.0833,46.9679,0.0029,0.0054
+ARB,AltShares Merger ETF,29.0500,,United States and Canada,ARCA,US,28.9659,28.7443,0.0029,0.0106
+HYTR,Counterpoint High Yield ETF,21.8450,,United States and Canada,NYSE,US,21.7815,21.7555,0.0029,0.0041
+FLTR,VanEck IG Float ETF,25.5800,,United States and Canada,ARCA,US,25.5055,25.4875,0.0029,0.0036
+SYSB,iShares U.S. Fixed Income ETF,90.0300,,United States and Canada,BATS,US,89.7668,89.2016,0.0029,0.0093
+ISTB,iShares 1-5 Year USD Bond ETF,48.8900,,United States and Canada,NasdaqGM,US,48.7470,48.6028,0.0029,0.0059
+BBBI,BondBloxx BBB 5-10 Year Corp ETF,52.2000,,United States and Canada,ARCA,US,52.0473,51.7173,0.0029,0.0093
+STAX,Macquarie Tax-Free Short Term ETF,25.5900,,United States and Canada,ARCA,US,25.5151,25.4662,0.0029,0.0049
+EVSM,MS Eaton Vance Short Duration Muni ETF,50.5700,,United States and Canada,ARCA,US,50.4216,50.3065,0.0029,0.0052
+CLOX,Panagram AAA CLO ETF,25.6250,,United States and Canada,ARCA,US,25.5496,25.5324,0.0030,0.0036
+JMST,JPM Ultra-Short Muni ETF,51.1300,,United States and Canada,BATS,US,50.9794,50.9321,0.0030,0.0039
+DBND,DoubleLine Opportunistic Bond ETF,46.5400,,United States and Canada,ARCA,US,46.4025,46.2601,0.0030,0.0061
+MYMF,SPDR SSGA My2026 Mun Bond ETF,25.0150,,United States and Canada,NasdaqGM,US,24.9409,24.9314,0.0030,0.0034
+TAXX,BondBloxx IR+M Short Duration ETF,50.9600,,United States and Canada,ARCA,US,50.8089,50.7337,0.0030,0.0045
+BYRE,Principal Real Estate ETF,24.9934,,United States and Canada,ARCA,US,24.9192,24.9737,0.0030,0.0008
+BKHY,BNY High Yield ETF,48.4200,,United States and Canada,ARCA,US,48.2762,48.1600,0.0030,0.0054
+RTRE,Rareview Total Return Bond ETF,25.3836,,United States and Canada,BATS,US,25.3080,25.2493,0.0030,0.0053
+MYCM,SPDR My2033 Corp Bond ETF,25.0248,,United States and Canada,NasdaqGM,US,24.9501,24.8010,0.0030,0.0090
+GHYB,Goldman Sachs High Yield Bond ETF,45.5699,,United States and Canada,ARCA,US,45.4337,45.2530,0.0030,0.0070
+VETZ,Tidal Academy Veteran ETF,20.0998,,United States and Canada,ARCA,US,20.0396,19.9913,0.0030,0.0054
+PHB,Invesco High Yield Bond ETF,18.6300,,United States and Canada,ARCA,US,18.5739,18.4786,0.0030,0.0082
+VPU,Vanguard Utilities ETF,187.9900,,United States and Canada,ARCA,US,187.4220,183.5968,0.0030,0.0239
+GGUS,Goldman Sachs MarketBeta Russell 1000 Growth ETF,62.9300,,United States and Canada,ARCA,US,62.7378,60.4383,0.0031,0.0412
+JSCP,JPM Short Duration ETF,47.6950,,United States and Canada,ARCA,US,47.5487,47.4032,0.0031,0.0062
+AGRW,Allspring Exchange-Traded Funds Trust - Allspring LT Large Growth ETF,29.8400,,United States and Canada,ARCA,US,29.7480,28.4947,0.0031,0.0472
+BINC,iShares Flex Income ETF,53.1300,,United States and Canada,ARCA,US,52.9660,52.8408,0.0031,0.0055
+VUSB,Vanguard Ultra-Short Bond ETF,50.0300,,United States and Canada,BATS,US,49.8755,49.8301,0.0031,0.0040
+FTSD,Franklin Core Dividend ETF,91.2328,,United States and Canada,ARCA,US,90.9493,90.8382,0.0031,0.0043
+IBDS,iShares iBonds Dec 2027 ETF,24.3600,,United States and Canada,ARCA,US,24.2842,24.2353,0.0031,0.0051
+HYSD,Columbia Short Duration High Yield ETF,20.3600,,United States and Canada,ARCA,US,20.2966,20.2441,0.0031,0.0057
+RZB,Reinsurance America,25.0200,,United States and Canada,NYSE,US,24.9420,24.9101,0.0031,0.0044
+IMTB,iShares Core 5-10 Year Bond ETF,44.2700,,United States and Canada,ARCA,US,44.1317,43.8664,0.0031,0.0092
+XISE,FT Vest U.S. Equity Buffer ETF,30.3744,,United States and Canada,BATS,US,30.2793,30.2514,0.0031,0.0041
+OWNS,Quaker Affordable Housing ETF,17.5599,,United States and Canada,ARCA,US,17.5048,17.3968,0.0031,0.0094
+SMB,VanEck Short Muni ETF,17.4190,,United States and Canada,BATS,US,17.3641,17.3108,0.0032,0.0063
+HYSA,BondBloxx High Yield ETF,15.2400,,United States and Canada,ARCA,US,15.1918,15.1550,0.0032,0.0056
+DEED,First Trust TCW Securitized ETF,21.5794,,United States and Canada,ARCA,US,21.5110,21.3648,0.0032,0.0100
+FSMB,First Trust Short Duration Municipal ETF,20.1150,,United States and Canada,ARCA,US,20.0512,20.0089,0.0032,0.0053
+MEAR,iShares Short Muni Bond ETF,50.5300,,United States and Canada,BATS,US,50.3689,50.3191,0.0032,0.0042
+IBMP,iShares Dec 2027 Muni Bond ETF,25.4900,,United States and Canada,BATS,US,25.4087,25.3709,0.0032,0.0047
+REZ,iShares Residential Real Estate ETF,84.0300,,United States and Canada,ARCA,US,83.7595,83.4025,0.0032,0.0075
+SUSB,iShares ESG 1-5 Year Corp Bond ETF,25.3150,,United States and Canada,NasdaqGM,US,25.2332,25.1511,0.0032,0.0065
+NUHY,Nuveen ESG High Yield ETF,21.7050,,United States and Canada,ARCA,US,21.6345,21.5515,0.0033,0.0071
+SPIB,SPDR Intermediate Corporate Bond ETF,33.9100,,United States and Canada,ARCA,US,33.7991,33.6335,0.0033,0.0082
+SHYG,iShares 0-5Y High Yield Bond ETF,43.1000,,United States and Canada,ARCA,US,42.9586,42.8904,0.0033,0.0049
+BRTR,iShares Total Return ETF,51.0444,,United States and Canada,NasdaqGM,US,50.8768,50.6874,0.0033,0.0070
+SKOR,FlexShares Credit Bond ETF,49.2600,,United States and Canada,NasdaqGM,US,49.0976,48.8730,0.0033,0.0079
+SPSB,SPDR Short Term Corp Bond ETF,30.3100,,United States and Canada,ARCA,US,30.2097,30.1550,0.0033,0.0051
+MYCJ,SPDR My2030 Corp Bond ETF,25.0642,,United States and Canada,NasdaqGM,US,24.9811,24.8758,0.0033,0.0076
+MFSG,MFS Active Exchange Traded Funds Trust - MFS Active Growth ETF,28.1100,,United States and Canada,NYSE,US,28.0164,27.0326,0.0033,0.0399
+FSGS,First Trust Small Cap US Equity ETF,31.0101,,United States and Canada,NasdaqGM,US,30.9068,30.4737,0.0033,0.0176
+JPIE,JPM Income ETF,46.4850,,United States and Canada,ARCA,US,46.3300,46.2174,0.0033,0.0058
+SPMB,SPDR Mortgage Bond ETF,22.5000,,United States and Canada,ARCA,US,22.4250,22.2752,0.0033,0.0101
+MORT,VanEck Mortgage REIT ETF,10.8200,,United States and Canada,ARCA,US,10.7835,10.7587,0.0034,0.0057
+IBDT,iShares iBonds Dec 2028 ETF,25.5400,,United States and Canada,ARCA,US,25.4534,25.3824,0.0034,0.0062
+PWZ,Invesco CA AMT-Free Munis ETF,24.1600,,United States and Canada,ARCA,US,24.0777,23.9943,0.0034,0.0069
+IBDV,iShares Dec 2030 Corp ETF,22.1450,,United States and Canada,ARCA,US,22.0695,21.9706,0.0034,0.0079
+FMF,First Trust Managed Futures ETF,48.1600,,United States and Canada,ARCA,US,47.9955,47.6950,0.0034,0.0097
+LODI,ETF Series Solutions - AAM SLC Low Duration Income ETF,25.3850,,United States and Canada,ARCA,US,25.2982,25.2334,0.0034,0.0060
+MYCG,SPDR SSGA My2027 Bond ETF,25.1267,,United States and Canada,NasdaqGM,US,25.0406,24.9923,0.0034,0.0054
+BOND,PIMCO Active Bond ETF,93.5800,,United States and Canada,NYSE,US,93.2592,92.7995,0.0034,0.0084
+PAAA,PGIM AAA ETF,51.5400,,United States and Canada,ARCA,US,51.3609,51.3244,0.0035,0.0042
+PREF,Principal Spectrum Preferred ETF,19.1300,,United States and Canada,ARCA,US,19.0634,18.9533,0.0035,0.0093
+BGRO,iShares Large Cap Growth ETF,38.2749,,United States and Canada,NasdaqGM,US,38.1417,37.0133,0.0035,0.0341
+NCLO,Nushares ETF Trust - Nuveen AA-BBB CLO ETF,25.1500,,United States and Canada,ARCA,US,25.0610,25.0508,0.0036,0.0040
+IHSFF,iShares TIPS ETF,255.1679,,United States and Canada,OTCPK,US,254.2584,251.6182,0.0036,0.0141
+PHYD,Putnam ESG High Yield ETF,52.3994,,United States and Canada,ARCA,US,52.2125,51.9905,0.0036,0.0079
+IBDX,iShares Dec 2032 Corp ETF,25.6100,,United States and Canada,ARCA,US,25.5173,25.3736,0.0036,0.0093
+PSDM,PGIM Short Duration Bond ETF,51.6685,,United States and Canada,BATS,US,51.4806,51.3527,0.0037,0.0061
+ZTOP,The RBB Fund Inc. - F/m High Yield 100 ETF,52.4100,,United States and Canada,NasdaqGM,US,52.2192,52.0462,0.0037,0.0070
+RVNU,Xtrackers Mun Infra Bond ETF,24.7110,,United States and Canada,ARCA,US,24.6206,24.5751,0.0037,0.0055
+JHPI,John Hancock Preferred Income ETF,23.0815,,United States and Canada,ARCA,US,22.9970,22.8961,0.0037,0.0081
+MYMG,SPDR SSGA My2027 Mun Bond ETF,24.8000,,United States and Canada,NasdaqGM,US,24.7091,24.7141,0.0037,0.0035
+IBDW,iShares iBonds Dec 2031 ETF,21.2200,,United States and Canada,ARCA,US,21.1422,21.0313,0.0037,0.0090
+EMTL,SSGA SPDR DoubleLine EM Fixed Income ETF,43.5750,,United States and Canada,BATS,US,43.4151,43.2501,0.0037,0.0075
+FELG,Fidelity Enhanced Large Cap ETF,40.9800,,United States and Canada,ARCA,US,40.8285,39.1806,0.0037,0.0459
+SCHJ,Schwab 1-5 Yr Corp Bond ETF,24.9800,,United States and Canada,ARCA,US,24.8873,24.8045,0.0037,0.0071
+QQQG,Pacer Nasdaq 100 Cash Cows ETF,24.1882,,United States and Canada,NasdaqGM,US,24.0973,23.3998,0.0038,0.0337
+VSDB,Vanguard Malvern Funds - Vanguard Short Duration Bond ETF,76.7600,,United States and Canada,BATS,US,76.4707,76.1426,0.0038,0.0081
+SYFI,AB Short Duration ETF,36.0900,,United States and Canada,ARCA,US,35.9525,35.8692,0.0038,0.0062
+HYGV,FlexShares High Yield Bond Fund,41.0000,,United States and Canada,ARCA,US,40.8436,40.7809,0.0038,0.0054
+BAFE,Brown Advisory Flexible Equity ETF,27.1841,,United States and Canada,NasdaqGM,US,27.0803,26.5090,0.0038,0.0255
+SLQD,iShares 0-5Y Inv Grade Corp Bond ETF,50.9000,,United States and Canada,NasdaqGM,US,50.7056,50.5485,0.0038,0.0070
+NPFI,Nuveen Preferred Income ETF,26.3600,,United States and Canada,NasdaqGM,US,26.2588,26.1283,0.0039,0.0089
+FPE,First Trust Preferred ETF,18.3000,,United States and Canada,ARCA,US,18.2297,18.0872,0.0039,0.0118
+TAFL,AB Tax-Aware Municipal ETF,25.0850,,United States and Canada,ARCA,US,24.9886,24.9037,0.0039,0.0073
+TAFI,AB Tax-Aware Short Municipal ETF,25.3600,,United States and Canada,ARCA,US,25.2622,25.2114,0.0039,0.0059
+MUSE,TCW Multisector ETF,50.5800,,United States and Canada,NYSE,US,50.3847,50.2888,0.0039,0.0058
+PUSH,PGIM Ultra Short Muni ETF,50.6582,,United States and Canada,ARCA,US,50.4620,50.4133,0.0039,0.0049
+MYCH,SPDR SSGA My2028 Corporate Bond ETF,25.1684,,United States and Canada,NasdaqGM,US,25.0698,24.9965,0.0039,0.0069
+LDRC,iShares 1-5 Year Corp Ladder ETF,25.4350,,United States and Canada,ARCA,US,25.3349,25.2542,0.0040,0.0072
+SPHY,SPDR High Yield Bond ETF,23.8200,,United States and Canada,ARCA,US,23.7261,23.6721,0.0040,0.0062
+XHYI,BondBloxx High Yield Industrial ETF,38.4043,,United States and Canada,ARCA,US,38.2526,38.1521,0.0040,0.0066
+YALL,Tidal ETF - God Bless America,43.8654,,United States and Canada,ARCA,US,43.6912,42.4639,0.0040,0.0330
+HYZD,WisdomTree High Yield Bond ETF,22.6100,,United States and Canada,NasdaqGM,US,22.5197,22.4263,0.0040,0.0082
+RYLG,Global X Russell 2000 Covered Call ETF,22.8064,,United States and Canada,ARCA,US,22.7152,22.5876,0.0040,0.0097
+AGZD,WisdomTree Hedged Bond ETF,22.5800,,United States and Canada,NasdaqGM,US,22.4895,22.4424,0.0040,0.0061
+HYD,VanEck High Yield Muni ETF,51.1100,,United States and Canada,BATS,US,50.9045,50.7888,0.0040,0.0063
+CLOA,iShares AAA CLO ETF,52.0450,,United States and Canada,NasdaqGM,US,51.8355,51.8132,0.0040,0.0045
+XB,BondBloxx B Rated High Yield ETF,39.7145,,United States and Canada,ARCA,US,39.5544,39.4908,0.0040,0.0057
+VCSH,Vanguard Short-Term Corp Bond ETF,80.0500,,United States and Canada,NasdaqGM,US,79.7266,79.4559,0.0041,0.0075
+NFLT,Virtus Multi-Sector Bond ETF,23.1500,,United States and Canada,ARCA,US,23.0564,22.9433,0.0041,0.0090
+IBHH,iShares 2028 High Yield ETF,23.7900,,United States and Canada,BATS,US,23.6933,23.6320,0.0041,0.0067
+IGSB,iShares 1-5 Year Corp Bond ETF,53.1100,,United States and Canada,NasdaqGM,US,52.8937,52.7107,0.0041,0.0076
+BYLD,iShares Yield Bond ETF,22.9100,,United States and Canada,ARCA,US,22.8163,22.7064,0.0041,0.0090
+PYLD,PIMCO Multisector Bond ETF,26.8500,,United States and Canada,ARCA,US,26.7397,26.5908,0.0041,0.0097
+FCFY,First Trust S&P 500 Free Cash Flow ETF,27.1624,,United States and Canada,ARCA,US,27.0499,26.2368,0.0042,0.0353
+IGHG,ProShares IG Rate Hedge,78.8907,,United States and Canada,BATS,US,78.5637,78.2961,0.0042,0.0076
+BCLO,BlackRock ETF Trust II - iShares BBB-B CLO Active ETF,50.0100,,United States and Canada,NasdaqGM,US,49.8027,49.7624,0.0042,0.0050
+GMMA,Tidal Trust III - GammaRoad ETF,21.3506,,United States and Canada,ARCA,US,21.2619,21.0626,0.0042,0.0137
+ACLO,TCW AAA ETF,50.5914,,United States and Canada,NYSE,US,50.3799,50.3221,0.0042,0.0054
+BEEZ,Honeytree U.S. Equity ETF,33.4169,,United States and Canada,NasdaqGM,US,33.2770,32.8379,0.0042,0.0176
+CGHM,Capital Group Munic. High-Income ETF,25.5200,,United States and Canada,ARCA,US,25.4130,25.2855,0.0042,0.0093
+SBND,Columbia Short Bond ETF,19.0000,,United States and Canada,ARCA,US,18.9194,18.8395,0.0043,0.0085
+DMX,Doubleline ETF Trust - Multi-Sector Income ETF,50.7300,,United States and Canada,ARCA,US,50.5146,50.3513,0.0043,0.0075
+HIMU,BlackRock ETF Trust II - iShares High Yield Muni Income Active ETF,49.0900,,United States and Canada,BATS,US,48.8810,48.7468,0.0043,0.0070
+FMUB,Fidelity Merrimack Street Trust - Municipal Bond Opportunities ETF,51.1350,,United States and Canada,NasdaqGM,US,50.9114,50.3456,0.0044,0.0157
+MBNE,SPDR Nuveen ESG Municipal Bond ETF,29.2300,,United States and Canada,BATS,US,29.1017,29.0816,0.0044,0.0051
+IBHI,iShares 2029 High Yield ETF,23.7500,,United States and Canada,BATS,US,23.6456,23.5775,0.0044,0.0073
+EVYM,Morgan Stanley ETF Trust - Eaton Vance High Yield Municipal Income ETF,49.9733,,United States and Canada,NasdaqGM,US,49.7532,49.2627,0.0044,0.0144
+MYCI,SPDR My2029 Corp Bond ETF,25.1274,,United States and Canada,NasdaqGM,US,25.0164,24.9274,0.0044,0.0080
+XHYC,BondBloxx High Yield Cyclicals ETF,37.5485,,United States and Canada,ARCA,US,37.3825,37.3118,0.0044,0.0063
+MLN,VanEck Long Muni ETF,17.5550,,United States and Canada,BATS,US,17.4772,17.4137,0.0045,0.0081
+MYCK,SPDR My2031 Corp Bond ETF,25.1950,,United States and Canada,NasdaqGM,US,25.0826,24.9446,0.0045,0.0100
+THMZ,Lazard Active ETF Trust - Lazard Equity Megatrends ETF,32.3098,,United States and Canada,NasdaqGM,US,32.1646,30.9174,0.0045,0.0450
+BBHY,JPM BetaBuilders High Yield ETF,46.8300,,United States and Canada,BATS,US,46.6195,46.5017,0.0045,0.0071
+MYCL,SPDR My2032 Corp Bond ETF,25.0932,,United States and Canada,NasdaqGM,US,24.9798,24.8299,0.0045,0.0106
+USHY,iShares Broad USD High Yield ETF,37.6400,,United States and Canada,BATS,US,37.4695,37.3394,0.0046,0.0081
+DMBS,DoubleLine Mortgage ETF,49.8900,,United States and Canada,ARCA,US,49.6639,49.4076,0.0046,0.0098
+SDSI,American Century Short Duration ETF,51.8400,,United States and Canada,NasdaqGM,US,51.6028,51.4887,0.0046,0.0068
+RYLD,Global X Russell 2000 Call ETF,15.4400,,United States and Canada,ARCA,US,15.3692,15.3438,0.0046,0.0063
+HYMB,SPDR Nuveen High Yield Muni ETF,25.1000,,United States and Canada,ARCA,US,24.9849,24.9747,0.0046,0.0050
+IHHFF,iShares US Aggregate Bond ETF,94.6926,,United States and Canada,OTCPK,US,94.2555,94.1187,0.0046,0.0061
+GGRW,Gabelli Growth ETF,35.1829,,United States and Canada,ARCA,US,35.0196,33.8797,0.0047,0.0385
+DABS,DoubleLine ETF Trust - DoubleLine Asset-Backed Securities ETF,51.1350,,United States and Canada,ARCA,US,50.8971,50.6474,0.0047,0.0096
+FPEI,First Trust Institutional Preferred ETF,19.4400,,United States and Canada,ARCA,US,19.3489,19.1821,0.0047,0.0134
+DHSB,Strategy Shares - Day Hagan Smart Buffer ETF,26.0149,,United States and Canada,ARCA,US,25.8927,25.4849,0.0047,0.0208
+QTPI,Exchange Place Advisors Trust - North Square RCIM Tax-Advantaged Preferred and Income Securities ETF,25.7760,,United States and Canada,ARCA,US,25.6545,25.4711,0.0047,0.0120
+HYGH,iShares High Yield Bond ETF,86.7400,,United States and Canada,ARCA,US,86.3297,86.1445,0.0048,0.0069
+USMC,Principal Mega-Cap ETF,67.7284,,United States and Canada,NasdaqGM,US,67.4077,65.2597,0.0048,0.0378
+CGSM,Capital Group Short Duration Muni ETF,26.5000,,United States and Canada,ARCA,US,26.3745,26.2841,0.0048,0.0082
+SMBS,Schwab Strategic Trust - Schwab Mortgage-Backed Securities ETF,25.8100,,United States and Canada,ARCA,US,25.6873,25.5413,0.0048,0.0105
+BHYB,Xtrackers USD High Yield BB-B ETF,54.8198,,United States and Canada,BATS,US,54.5588,54.3725,0.0048,0.0082
+VUG,Vanguard Growth ETF,481.5500,,United States and Canada,ARCA,US,479.2577,460.0450,0.0048,0.0467
+IBDU,iShares Dec 2029 Corp ETF,23.5200,,United States and Canada,ARCA,US,23.4080,23.3231,0.0048,0.0084
+HYLB,Xtrackers USD High Yield Bond ETF,37.0500,,United States and Canada,ARCA,US,36.8735,36.7221,0.0048,0.0089
+CZAR,Themes Natural Monopoly ETF,32.1713,,United States and Canada,NasdaqGM,US,32.0165,31.5239,0.0048,0.0205
+ISCXF,iShares $ Corp Bond ETF,6.2966,,United States and Canada,OTCPK,US,6.2661,6.1818,0.0049,0.0186
+XHB,SPDR Homebuilders ETF,108.4000,,United States and Canada,ARCA,US,107.8756,106.7602,0.0049,0.0154
+SCYB,Schwab High Yield ETF,26.6200,,United States and Canada,ARCA,US,26.4896,26.4147,0.0049,0.0078
+BEMB,iShares J.P. Morgan EM Bond ETF,54.1416,,United States and Canada,BATS,US,53.8753,53.4990,0.0049,0.0120
+LMBS,First Trust Low Duration ETF,50.1700,,United States and Canada,NasdaqGM,US,49.9232,49.6592,0.0049,0.0103
+LSGR,Natixis Focused Growth ETF,44.2000,,United States and Canada,ARCA,US,43.9818,42.4746,0.0050,0.0406
+IBMQ,iShares Dec 2028 Muni Bond ETF,25.7000,,United States and Canada,BATS,US,25.5725,25.5039,0.0050,0.0077
+OVM,Overlay Municipal Bond ETF,21.6339,,United States and Canada,BATS,US,21.5265,21.4711,0.0050,0.0076
+SMMU,PIMCO Short Term Municipal Bond ETF,50.7550,,United States and Canada,ARCA,US,50.5026,50.3753,0.0050,0.0075
+XBB,BondBloxx BB High Yield ETF,41.3850,,United States and Canada,ARCA,US,41.1791,40.9862,0.0050,0.0097
+MYMH,SPDR SSGA My2028 Mun Bond ETF,24.7698,,United States and Canada,NasdaqGM,US,24.6456,24.6241,0.0050,0.0059
+CLOZ,Panagram BBB-B CLO ETF,26.7800,,United States and Canada,ARCA,US,26.6449,26.6712,0.0051,0.0041
+DIAL,Columbia Diversified Fixed Income ETF,18.4600,,United States and Canada,ARCA,US,18.3665,18.2493,0.0051,0.0115
+MGK,Vanguard Mega Growth ETF,405.8500,,United States and Canada,ARCA,US,403.7677,386.6869,0.0052,0.0496
+SCLZ,Swan Enhanced Dividend ETF,54.6608,,United States and Canada,BATS,US,54.3787,53.9268,0.0052,0.0136
+DUKZ,Ocean Park Income ETF,25.5200,,United States and Canada,ARCA,US,25.3883,25.3251,0.0052,0.0077
+CAOS,Alpha Architect Tail Risk ETF,90.3200,,United States and Canada,BATS,US,89.8536,89.3238,0.0052,0.0112
+XVOL,Acruence Active Hedge ETF,23.2877,,United States and Canada,BATS,US,23.1674,22.6910,0.0052,0.0263
+VMBS,Vanguard MBS ETF,47.2400,,United States and Canada,NasdaqGM,US,46.9959,46.6988,0.0052,0.0116
+MBCC,Monarch Blue Chips ETF,36.9500,,United States and Canada,BATS,US,36.7571,36.2277,0.0052,0.0199
+IYG,iShares U.S. Financial ETF,90.2800,,United States and Canada,ARCA,US,89.8066,86.8981,0.0053,0.0389
+SPUT,Innovator ETFs Trust - Innovator Equity Premium Income Strategy ETF,27.1900,,United States and Canada,ARCA,US,27.0467,26.3928,0.0053,0.0302
+JPLD,JPM Limited Duration Bond ETF,52.6500,,United States and Canada,BATS,US,52.3722,52.2198,0.0053,0.0082
+FSYD,Fidelity Sustainable High Yield ETF,48.7500,,United States and Canada,ARCA,US,48.4913,48.1965,0.0053,0.0115
+JPMB,JPM USD EM Sovereign Bond ETF,40.4388,,United States and Canada,ARCA,US,40.2228,39.8141,0.0054,0.0157
+PHYL,PGIM Active High Yield ETF,35.7000,,United States and Canada,ARCA,US,35.5089,35.3716,0.0054,0.0093
+BSMS,Invesco BulletShares 2028 Muni ETF,23.5846,,United States and Canada,NasdaqGM,US,23.4583,23.3937,0.0054,0.0082
+FTGC,First Trust Global Tactical Commodity ETF,25.3800,,United States and Canada,NasdaqGM,US,25.2439,25.1964,0.0054,0.0073
+IYC,iShares U.S. Consumer ETF,103.8300,,United States and Canada,ARCA,US,103.2713,100.7490,0.0054,0.0306
+SUB,iShares Short-Term Muni ETF,107.3100,,United States and Canada,ARCA,US,106.7326,106.4830,0.0054,0.0078
+FMNY,First Trust NY Municipal High Income ETF,26.7800,,United States and Canada,ARCA,US,26.6357,26.5262,0.0054,0.0096
+CMBS,iShares CMBS ETF,49.3100,,United States and Canada,ARCA,US,49.0430,48.7601,0.0054,0.0113
+GENM,Genter Municipal Quality ETF,10.3600,,United States and Canada,ARCA,US,10.3038,10.2630,0.0055,0.0095
+CEMB,iShares EM Corp Bond ETF,46.1608,,United States and Canada,BATS,US,45.9102,45.6620,0.0055,0.0109
+JEMB,Janus Detroit Emerging Markets Debt ETF,53.6300,,United States and Canada,ARCA,US,53.3379,52.7388,0.0055,0.0169
+HYG,iShares High Yield Bond ETF,81.1200,,United States and Canada,ARCA,US,80.6767,80.2881,0.0055,0.0104
+HFND,Tidal Unlimited Multi-Strategy ETF,23.4383,,United States and Canada,NYSE,US,23.3096,22.9737,0.0055,0.0202
+GPRF,Goldman Sachs U.S. Preferred & Hybrid ETF,51.2281,,United States and Canada,NasdaqGM,US,50.9463,50.8971,0.0055,0.0065
+BFIX,Build Bond ETF,25.5000,,United States and Canada,ARCA,US,25.3596,25.1967,0.0055,0.0120
+PEZ,Invesco Dorsey Wright Consumer Cyclicals ETF,102.8650,,United States and Canada,NasdaqGM,US,102.2964,100.0026,0.0056,0.0286
+JPIB,JPM International Bond ETF,49.1500,,United States and Canada,BATS,US,48.8781,48.6512,0.0056,0.0103
+FMHI,First Trust Munic High Income ETF,48.0350,,United States and Canada,NasdaqGM,US,47.7692,47.6226,0.0056,0.0087
+JMHI,JPM High Yield Muni ETF,50.6100,,United States and Canada,ARCA,US,50.3299,50.1854,0.0056,0.0085
+FXL,First Trust Tech AlphaDEX Fund,169.6300,,United States and Canada,ARCA,US,168.6899,162.6701,0.0056,0.0428
+BOXA,EA Series Trust- Alpha Architect Aggregate Bond ETF,105.6707,,United States and Canada,BATS,US,105.0785,103.9762,0.0056,0.0163
+DYTA,RBB SGI Tactical ETF,29.3500,,United States and Canada,NasdaqGM,US,29.1853,28.9386,0.0056,0.0142
+PLDR,Putnam Sustainable ETF,36.7300,,United States and Canada,ARCA,US,36.5232,35.4410,0.0057,0.0364
+HYFI,AB High Yield ETF,37.9100,,United States and Canada,ARCA,US,37.6960,37.5187,0.0057,0.0104
+SHM,SPDR Nuveen Short Term Muni ETF,48.3300,,United States and Canada,ARCA,US,48.0571,47.9573,0.0057,0.0078
+FDHY,Fidelity Enhanced High Yield ETF,49.5500,,United States and Canada,ARCA,US,49.2698,49.0418,0.0057,0.0104
+BIGY,Tidal Trust II - YieldMax Target 12 Big 50 Option Income ETF,52.5000,,United States and Canada,ARCA,US,52.2031,51.2117,0.0057,0.0252
+BUYW,NLFT IV BuyWrite ETF,14.3200,,United States and Canada,BATS,US,14.2388,14.1437,0.0057,0.0125
+JPUHF,JPMorgan USD Ultra-Short Income ETF,101.9360,,United States and Canada,OTCPK,US,101.3528,101.1018,0.0058,0.0083
+XTRXF,Xtrackers Global Bond ETF,13.3550,,United States and Canada,OTCPK,US,13.2786,13.1897,0.0058,0.0125
+JNK,SPDR High Yield Bond ETF,97.8200,,United States and Canada,ARCA,US,97.2586,96.8770,0.0058,0.0097
+ANGL,VanEck Fallen Angel ETF,29.5900,,United States and Canada,NasdaqGM,US,29.4192,29.2593,0.0058,0.0113
+ECNS,iShares MSCI China Small-Cap,35.2100,,United States and Canada,ARCA,US,35.0060,33.7725,0.0058,0.0426
+MBB,iShares MBS ETF,95.6900,,United States and Canada,NasdaqGM,US,95.1337,94.5378,0.0058,0.0122
+HYBB,iShares BB Corp Bond ETF,47.3800,,United States and Canada,ARCA,US,47.0997,46.9012,0.0060,0.0102
+MARB,First Trust Merger ETF,20.7150,,United States and Canada,ARCA,US,20.5920,20.4668,0.0060,0.0121
+SHYM,iShares High Yield Muni ETF,22.4200,,United States and Canada,BATS,US,22.2868,22.3048,0.0060,0.0052
+PRFD,PIMCO Preferred Capital ETF,51.9100,,United States and Canada,ARCA,US,51.5982,51.2616,0.0060,0.0126
+HYDB,iShares High Yield Bond ETF,47.7100,,United States and Canada,BATS,US,47.4225,47.3018,0.0061,0.0086
+MMAX,iShares Trust - iShares Large Cap Max Buffer Mar ETF,26.3500,,United States and Canada,BATS,US,26.1890,25.8833,0.0061,0.0180
+DFAR,Dimensional US Real Estate ETF,23.5200,,United States and Canada,ARCA,US,23.3755,23.4319,0.0062,0.0038
+AHYB,American Century High Yield ETF,46.9599,,United States and Canada,ARCA,US,46.6712,46.4712,0.0062,0.0105
+LQDH,iShares Rate Hedged Corp Bond ETF,93.9100,,United States and Canada,ARCA,US,93.3325,93.0670,0.0062,0.0091
+PBL,PGIM Ballast ETF,31.1800,,United States and Canada,BATS,US,30.9878,30.3757,0.0062,0.0265
+IMCG,iShares Mid-Cap Growth ETF,81.9100,,United States and Canada,ARCA,US,81.4013,79.9421,0.0062,0.0246
+FTHI,First Trust BuyWrite ETF,23.7500,,United States and Canada,NasdaqGM,US,23.6024,23.3352,0.0063,0.0178
+AGRH,iShares Rate Hedged Bond ETF,26.3200,,United States and Canada,ARCA,US,26.1564,26.0709,0.0063,0.0096
+ISRUF,iShares S&P 500 Financials ETF,15.7542,,United States and Canada,OTCPK,US,15.6562,15.1838,0.0063,0.0376
+XHYD,BondBloxx High Yield Non-Cyclicals ETF,38.6318,,United States and Canada,ARCA,US,38.3907,38.2387,0.0063,0.0103
+NHYM,Nushares ETF Trust - Nuveen High Yield Municipal Income ETF,24.9297,,United States and Canada,ARCA,US,24.7737,24.6717,0.0063,0.0105
+MMIT,NYLI Muni Intermediate ETF,24.4700,,United States and Canada,ARCA,US,24.3146,24.2080,0.0064,0.0108
+FALN,iShares Fallen Angels Bond ETF,27.5700,,United States and Canada,NasdaqGM,US,27.3944,27.2329,0.0064,0.0124
+TXUG,Thornburg ETF Trust - Thornburg International Growth ETF,25.2129,,United States and Canada,NasdaqGM,US,25.0521,24.9964,0.0064,0.0087
+TYLG,Global X Tech Covered Call ETF,36.1084,,United States and Canada,ARCA,US,35.8775,34.9279,0.0064,0.0338
+XLRE,Real Estate SPDR ETF,41.4300,,United States and Canada,ARCA,US,41.1648,41.2954,0.0064,0.0033
+NSCR,Nuveen Sustainable Core ETF,31.1634,,United States and Canada,NasdaqGM,US,30.9638,30.1317,0.0064,0.0342
+VTES,Vanguard Short-Term Tax-Exempt ETF,102.3200,,United States and Canada,ARCA,US,101.6636,101.3937,0.0065,0.0091
+SPD,Simplify US Equity PLUS ETF,39.4249,,United States and Canada,ARCA,US,39.1687,38.0658,0.0065,0.0357
+ISHUF,iShares 0-1 Year Treasury ETF,119.0012,,United States and Canada,OTCPK,US,118.2258,117.2214,0.0066,0.0152
+ISZXF,iShares $ Treasury 3-7yr ETF,143.2817,,United States and Canada,OTCPK,US,142.3414,140.6489,0.0066,0.0187
+PFFA,Virtus InfraCap Preferred ETF,21.8000,,United States and Canada,ARCA,US,21.6567,21.5760,0.0066,0.0104
+GNMA,iShares GNMA ETF,44.7500,,United States and Canada,NasdaqGM,US,44.4557,44.1995,0.0066,0.0125
+IBHJ,iShares 2030 High Yield ETF,26.7793,,United States and Canada,BATS,US,26.6028,26.5049,0.0066,0.0104
+RSPF,Invesco S&P 500 Equal Weight Financials ETF,77.8490,,United States and Canada,ARCA,US,77.3354,75.8734,0.0066,0.0260
+IBMR,iShares Dec 2029 Muni Bond ETF,25.6261,,United States and Canada,BATS,US,25.4558,25.3648,0.0067,0.0103
+BSMT,Invesco BulletShares 2029 Muni ETF,23.2700,,United States and Canada,NasdaqGM,US,23.1150,23.0348,0.0067,0.0102
+PZA,Invesco AMT-Free Muni Bond ETF,23.2900,,United States and Canada,ARCA,US,23.1346,23.0600,0.0067,0.0100
+SWAN,Amplify BlackSwan Growth ETF,32.5300,,United States and Canada,ARCA,US,32.3122,31.6044,0.0067,0.0293
+SPYC,Simplify US Equity PLUS ETF,42.9081,,United States and Canada,ARCA,US,42.6192,41.4681,0.0068,0.0347
+PHO,Invesco Water ETF,72.4619,,United States and Canada,NasdaqGM,US,71.9731,70.8890,0.0068,0.0222
+IBHL,iShares Trust - iShares iBonds 2032 Term High Yield and Income ETF,25.8500,,United States and Canada,BATS,US,25.6746,25.4709,0.0068,0.0149
+VSDM,Vanguard Municipal Bond Funds - Vanguard Short Duration Tax-Exempt Bond ETF,77.0150,,United States and Canada,BATS,US,76.4893,76.1285,0.0069,0.0116
+POWR,iShares Global Energy ETF,24.7100,,United States and Canada,ARCA,US,24.5409,24.4849,0.0069,0.0092
+JMUB,JPM Municipal ETF,50.8400,,United States and Canada,BATS,US,50.4903,50.2975,0.0069,0.0108
+MINO,PIMCO Munic. Income ETF,45.6350,,United States and Canada,ARCA,US,45.3181,45.1003,0.0070,0.0119
+SPYI,NEOS High Income ETF,52.7100,,United States and Canada,BATS,US,52.3409,51.6878,0.0071,0.0198
+KBWP,Invesco KBW P&C Insurance ETF,123.6801,,United States and Canada,NasdaqGM,US,122.8097,121.1814,0.0071,0.0206
+WTMY,Wisdomtree Trust - High Income Laddered Mun Fund,25.6150,,United States and Canada,NasdaqGM,US,25.4329,25.1729,0.0072,0.0176
+PQDI,Principal Spectrum Dividend ETF,19.7092,,United States and Canada,ARCA,US,19.5690,19.4267,0.0072,0.0145
+IBHK,iShares iBonds 2031 High Yield ETF,26.0743,,United States and Canada,BATS,US,25.8875,25.7997,0.0072,0.0106
+PEJ,Invesco Leisure ETF,60.2000,,United States and Canada,ARCA,US,59.7673,57.7429,0.0072,0.0426
+EMPB,EA Series Trust - Efficient Market Portfolio Plus ETF,28.9300,,United States and Canada,ARCA,US,28.7205,28.0685,0.0073,0.0307
+MMIN,NYLI Muni ETF,24.0700,,United States and Canada,ARCA,US,23.8956,23.7769,0.0073,0.0123
+BAMY,Brookstone Yield ETF,28.0050,,United States and Canada,BATS,US,27.8021,27.5301,0.0073,0.0173
+VTEB,Vanguard Tax-Exempt ETF,50.5600,,United States and Canada,ARCA,US,50.1925,49.9666,0.0073,0.0119
+HUSV,First Trust Horizon Volatility ETF,39.3975,,United States and Canada,ARCA,US,39.1106,39.0556,0.0073,0.0088
+BCI,abrdn All Commodity ETF,21.7200,,United States and Canada,ARCA,US,21.5612,21.3637,0.0074,0.0167
+CSPF,Cohen & Steers ETF Trust - Preferred and Income Opportunities Active ETF,26.1700,,United States and Canada,ARCA,US,25.9777,25.6924,0.0074,0.0186
+DFCA,Dimensional CA Muni Bond ETF,50.4210,,United States and Canada,ARCA,US,50.0493,49.9109,0.0074,0.0102
+GAEM,Simplify Gamma EM Bond ETF,26.7540,,United States and Canada,ARCA,US,26.5555,26.3116,0.0075,0.0168
+PUI,Invesco Utilities Momentum ETF,44.9042,,United States and Canada,NasdaqGM,US,44.5702,43.6611,0.0075,0.0285
+MFSM,MFS Active Exchange Traded Funds Trust - MFS Active Intermediate Muni Bond ETF,25.1693,,United States and Canada,NYSE,US,24.9818,24.8425,0.0075,0.0132
+VWOB,Vanguard Emerging Markets Bond ETF,67.6600,,United States and Canada,NasdaqGM,US,67.1560,66.3955,0.0075,0.0190
+MFLX,First Trust Flexible Munis ETF,17.0950,,United States and Canada,NasdaqGM,US,16.9675,16.9032,0.0075,0.0113
+ISUDF,iShares Ultrashort Bond ETF,6.2706,,United States and Canada,OTCPK,US,6.2237,6.1604,0.0075,0.0179
+APMU,ProManagers ActivePassive Munis ETF,25.3099,,United States and Canada,ARCA,US,25.1206,25.0122,0.0075,0.0119
+ESMV,iShares ESG USA Min Vol ETF,29.1215,,United States and Canada,NasdaqGM,US,28.9033,28.7314,0.0075,0.0136
+TOAK,Twin Oak Short Horizon ETF,28.4750,,United States and Canada,ARCA,US,28.2615,28.0297,0.0076,0.0159
+EMHC,SPDR EM USD Bond ETF,25.5400,,United States and Canada,ARCA,US,25.3485,25.0525,0.0076,0.0195
+TDVI,FT Vest Tech Dividend ETF,28.1400,,United States and Canada,BATS,US,27.9284,27.1070,0.0076,0.0381
+SCMB,Schwab Municipal ETF,25.9100,,United States and Canada,ARCA,US,25.7152,25.6065,0.0076,0.0119
+JUNZ,TrueShares June ETF,33.0154,,United States and Canada,BATS,US,32.7658,32.0160,0.0076,0.0312
+DFNM,Dimensional National Muni ETF,48.5200,,United States and Canada,ARCA,US,48.1527,47.9833,0.0076,0.0112
+BSMU,Invesco BS 2030 Muni ETF,22.1550,,United States and Canada,NasdaqGM,US,21.9870,21.8872,0.0076,0.0122
+MBND,SPDR Nuveen Muni Bond ETF,27.5750,,United States and Canada,BATS,US,27.3659,27.3035,0.0076,0.0099
+TAXM,BondBloxx ETF Trust - BondBloxx IR+M Tax-Aware ETF for Massachusetts Residents,50.5776,,United States and Canada,ARCA,US,50.1940,49.7318,0.0076,0.0170
+BSSX,Invesco BS 2033 Muni ETF,25.9300,,United States and Canada,NasdaqGM,US,25.7301,25.6011,0.0078,0.0128
+BENJ,Horizon Funds - Landmark Liquidity Etf,52.0300,,United States and Canada,ARCA,US,51.6289,51.2307,0.0078,0.0156
+GEMD,Goldman Sachs Access EM USD Bond ETF,42.6208,,United States and Canada,BATS,US,42.2921,41.8303,0.0078,0.0189
+CVRD,Madison Covered Call ETF,18.8332,,United States and Canada,ARCA,US,18.6878,18.6742,0.0078,0.0085
+HNDL,HANDL NASDAQ ETF,22.2500,,United States and Canada,NasdaqGM,US,22.0779,21.8857,0.0078,0.0166
+VNGBF,Vanguard USD Corp 1-3Y Bond ETF,61.2000,,United States and Canada,OTCPK,US,60.7266,59.9158,0.0078,0.0214
+SMAX,iShares Large Cap Max Buffer ETF,27.0778,,United States and Canada,BATS,US,26.8681,26.4912,0.0078,0.0221
+PMBS,Pimco Mortgage ETF,50.0847,,United States and Canada,NasdaqGM,US,49.6964,49.3991,0.0078,0.0139
+MYMI,SPDR SSGA My2029 Mun Bond ETF,24.8450,,United States and Canada,NasdaqGM,US,24.6523,24.6178,0.0078,0.0092
+DTRE,First Trust Disruptive Tech Real Estate ETF,40.1803,,United States and Canada,ARCA,US,39.8681,39.8666,0.0078,0.0079
+MMCA,NYLI MacKay CA Muni ETF,21.9599,,United States and Canada,ARCA,US,21.7890,21.6550,0.0078,0.0141
+DMAX,iShares Trust - iShares Large Cap Max Buffer Dec ETF,26.7600,,United States and Canada,BATS,US,26.5511,26.1397,0.0079,0.0237
+SHYD,VanEck Short Muni ETF,23.0400,,United States and Canada,BATS,US,22.8599,22.7556,0.0079,0.0125
+REM,iShares Mortgage REIT ETF,22.7600,,United States and Canada,BATS,US,22.5817,22.3849,0.0079,0.0168
+JMSI,JPM Sustainable Mun Income ETF,50.7250,,United States and Canada,ARCA,US,50.3275,50.1211,0.0079,0.0120
+FTQI,First Trust Nasdaq BuyWrite ETF,20.8500,,United States and Canada,NasdaqGM,US,20.6862,20.4322,0.0079,0.0204
+HMOP,Hartford Munic ETF,39.4100,,United States and Canada,ARCA,US,39.0995,38.9019,0.0079,0.0131
+SOVF,Elevation Sovereign Flourish Fund,29.8437,,United States and Canada,ARCA,US,29.6081,29.6983,0.0080,0.0049
+DFGR,Dimensional Global Real Estate ETF,27.1000,,United States and Canada,ARCA,US,26.8851,26.8166,0.0080,0.0106
+TAFM,AB Tax-Aware Municipal ETF,25.6300,,United States and Canada,ARCA,US,25.4266,25.3153,0.0080,0.0124
+FLHY,Franklin High Yield Corporate ETF,24.6000,,United States and Canada,BATS,US,24.4048,24.2834,0.0080,0.0130
+MLPD,Global X MLP & Energy ETF,25.4000,,United States and Canada,ARCA,US,25.1968,25.1490,0.0081,0.0100
+CEFD,ETRACS Monthly Pay 1.5x Leveraged Closed-End Fund Index ETN,19.4762,,United States and Canada,ARCA,US,19.3204,19.3019,0.0081,0.0090
+CA,Xtrackers CA Mun Bond ETF,25.1250,,United States and Canada,NasdaqGM,US,24.9231,24.8195,0.0081,0.0123
+FMB,First Trust Managed Munis ETF,51.4200,,United States and Canada,NasdaqGM,US,51.0065,50.7970,0.0081,0.0123
+PMIO,PGIM Munic. Income ETF,51.3894,,United States and Canada,ARCA,US,50.9745,50.7771,0.0081,0.0121
+TCAF,T. Rowe Price Capital Appreciation ETF,38.2000,,United States and Canada,ARCA,US,37.8910,36.7421,0.0082,0.0397
+MYMJ,SPDR My2030 Municipal Bond ETF,25.0300,,United States and Canada,NasdaqGM,US,24.8260,24.7558,0.0082,0.0111
+GHYG,iShares High Yield Bond ETF,46.5000,,United States and Canada,BATS,US,46.1203,45.8425,0.0082,0.0143
+PPTY,US Diversified Real Estate ETF,30.6528,,United States and Canada,ARCA,US,30.4011,30.5598,0.0083,0.0030
+HOMZ,Hoya Housing ETF,46.7697,,United States and Canada,ARCA,US,46.3857,45.9261,0.0083,0.0184
+BOXX,Alpha Architect 1-3 Month ETF,115.4500,,United States and Canada,BATS,US,114.4968,113.5354,0.0083,0.0169
+NYF,iShares NY Muni ETF,53.8800,,United States and Canada,ARCA,US,53.4346,53.1875,0.0083,0.0130
+FCAL,First Trust California High Income ETF,49.5500,,United States and Canada,NasdaqGM,US,49.1393,48.9526,0.0084,0.0122
+MUNI,PIMCO Intermediate Municipal Bond ETF,52.8300,,United States and Canada,ARCA,US,52.3891,52.1351,0.0084,0.0133
+JCHI,JPMorgan Active China ETF,56.2470,,United States and Canada,ARCA,US,55.7774,53.7095,0.0084,0.0472
+IYR,iShares U.S. Real Estate ETF,96.2100,,United States and Canada,ARCA,US,95.4019,95.2700,0.0085,0.0099
+CGMU,Capital Group Municipal ETF,27.5800,,United States and Canada,ARCA,US,27.3483,27.1922,0.0085,0.0143
+TXXI,BondBloxx ETF Trust - BondBloxx IR+M Tax-Aware Intermediate Duration ETF,50.9277,,United States and Canada,ARCA,US,50.4996,50.0282,0.0085,0.0180
+MNBD,ALPS Int. Mun. Bond ETF,26.1499,,United States and Canada,ARCA,US,25.9298,25.8036,0.0085,0.0134
+HYHG,ProShares High Yield Hedged,65.1000,,United States and Canada,BATS,US,64.5511,64.5365,0.0085,0.0087
+USMV,iShares MSCI USA Min Vol ETF,94.9900,,United States and Canada,BATS,US,94.1881,93.3992,0.0085,0.0170
+FLMB,Franklin Green Bond ETF,23.9100,,United States and Canada,ARCA,US,23.7079,23.5945,0.0085,0.0134
+TFI,SPDR Nuveen Muni Bond ETF,46.0200,,United States and Canada,ARCA,US,45.6298,45.4613,0.0086,0.0123
+MAXJ,iShares Large Cap Buffer ETF,28.3400,,United States and Canada,BATS,US,28.0992,27.6763,0.0086,0.0240
+TAXE,T. Rowe Price Int. Municipal ETF,51.4646,,United States and Canada,NasdaqGM,US,51.0272,50.7321,0.0086,0.0144
+QQA,Invesco QQQ Income ETF,53.2700,,United States and Canada,NasdaqGM,US,52.8163,51.8383,0.0086,0.0276
+EKG,First Trust Nasdaq Digital Health ETF,18.9700,,United States and Canada,NasdaqGM,US,18.8082,18.1830,0.0086,0.0433
+GMNY,Goldman Sachs Dynamic NY Munis ETF,50.3200,,United States and Canada,ARCA,US,49.8893,49.7610,0.0086,0.0112
+ISTXF,iShares 1-3yr Treasury Bond ETF,5.9198,,United States and Canada,OTCPK,US,5.8691,5.8152,0.0086,0.0180
+MCHI,iShares MSCI China ETF,62.4000,,United States and Canada,NasdaqGM,US,61.8648,59.5290,0.0087,0.0482
+VNQ,Vanguard Real Estate ETF,90.8000,,United States and Canada,ARCA,US,90.0159,90.0372,0.0087,0.0085
+BAMG,Brookstone Growth ETF,39.5300,,United States and Canada,BATS,US,39.1882,37.7164,0.0087,0.0481
+MRGR,ProShares Merger ETF,44.8932,,United States and Canada,BATS,US,44.5050,43.7176,0.0087,0.0269
+FMUN,Fidelity Merrimack Street Trust - Systematic Municipal Bond Index ETF,50.5300,,United States and Canada,NasdaqGM,US,50.0929,49.4286,0.0087,0.0223
+BWX,SPDR Int'l Treasury ETF,22.8400,,United States and Canada,ARCA,US,22.6415,22.6286,0.0088,0.0093
+FLQM,Franklin U.S. Mid Cap ETF,57.0100,,United States and Canada,BATS,US,56.5131,55.7458,0.0088,0.0227
+FLCH,Franklin Core Dividend ETF,24.6950,,United States and Canada,ARCA,US,24.4794,23.5202,0.0088,0.0499
+SAWG,AAM Sawgrass U.S. Large Cap ETF,22.1673,,United States and Canada,ARCA,US,21.9733,21.4150,0.0088,0.0351
+FXI,iShares China Large ETF,39.6100,,United States and Canada,ARCA,US,39.2599,37.9683,0.0089,0.0432
+GDOC,Goldman Sachs Future Health ETF,35.2184,,United States and Canada,ARCA,US,34.9071,34.0451,0.0089,0.0345
+OSEA,Harbor Intl Compounders ETF,30.3777,,United States and Canada,ARCA,US,30.1089,29.4707,0.0089,0.0308
+SCHH,Schwab U.S. REIT ETF,21.4100,,United States and Canada,ARCA,US,21.2204,21.2363,0.0089,0.0082
+IGOV,iShares Int'l Treasury ETF,42.4100,,United States and Canada,NasdaqGM,US,42.0331,41.7694,0.0090,0.0153
+ABFL,TrimTabs FCF Quality ETF,72.2985,,United States and Canada,BATS,US,71.6484,70.2945,0.0091,0.0285
+ISUPF,iShares US Property Yield ETF,29.7349,,United States and Canada,OTCPK,US,29.4674,29.4028,0.0091,0.0113
+PHEQ,MS Parametric Hedged Equity ETF,32.5360,,United States and Canada,ARCA,US,32.2431,31.4926,0.0091,0.0331
+ISVQF,iShares Short Duration Corp Bond ETF,6.3258,,United States and Canada,OTCPK,US,6.2689,6.1990,0.0091,0.0205
+ZNOV,Innovator Equity Protection ETF - 1 Yr,26.7600,,United States and Canada,BATS,US,26.5185,26.1739,0.0091,0.0224
+PSR,Invesco Active U.S. Real Estate ETF,92.4950,,United States and Canada,ARCA,US,91.6581,91.6621,0.0091,0.0091
+XHE,SPDR Health Care ETF,86.5700,,United States and Canada,ARCA,US,85.7862,84.4623,0.0091,0.0250
+SPFF,Global X SuperIncome ETF,9.4400,,United States and Canada,ARCA,US,9.3544,9.2740,0.0091,0.0179
+GCAL,Goldman Sachs Dynamic CA Mun ETF,51.2700,,United States and Canada,ARCA,US,50.8045,50.5754,0.0092,0.0137
+IBMS,iShares Dec 2030 Muni Bond ETF,26.2750,,United States and Canada,BATS,US,26.0360,25.8941,0.0092,0.0147
+WTPI,WisdomTree PutWrite Fund,33.5600,,United States and Canada,ARCA,US,33.2542,32.9728,0.0092,0.0178
+ICF,iShares Cohen & Steers REIT ETF,61.2250,,United States and Canada,BATS,US,60.6660,60.7942,0.0092,0.0071
+RSPU,Invesco S&P 500 Equal Weight Utilities ETF,76.3210,,United States and Canada,ARCA,US,75.6214,73.9983,0.0093,0.0314
+FREL,Fidelity MSCI Real Estate ETF,27.5900,,United States and Canada,ARCA,US,27.3367,27.3237,0.0093,0.0097
+MAYZ,TrueShares May ETF,33.8210,,United States and Canada,BATS,US,33.5099,32.6555,0.0093,0.0357
+SSGBF,SPDR 1-3 Month T-Bill ETF,118.0449,,United States and Canada,OTCPK,US,116.9525,115.2176,0.0093,0.0245
+EMB,iShares J.P. Morgan EM Bond ETF,96.5800,,United States and Canada,NasdaqGM,US,95.6846,94.3798,0.0094,0.0233
+BDGS,Bridges Tactical ETF,34.7802,,United States and Canada,NasdaqGM,US,34.4565,33.7235,0.0094,0.0313
+VCRM,Vanguard Municipal Bond Funds - Vanguard Core Tax-Exempt Bond ETF,76.1300,,United States and Canada,BATS,US,75.4203,75.0511,0.0094,0.0144
+EFAD,ProShares MSCI EAFE Div Growers ETF,42.4625,,United States and Canada,BATS,US,42.0661,41.6287,0.0094,0.0200
+TJUL,Innovator Equity Protection ETF,29.7000,,United States and Canada,BATS,US,29.4225,29.0360,0.0094,0.0229
+BSMY,Invesco BS 2034 Muni ETF,24.7474,,United States and Canada,NasdaqGM,US,24.5154,24.4184,0.0095,0.0135
+QQXT,First Trust NASDAQ-100 Ex-Tech ETF,100.2566,,United States and Canada,NasdaqGM,US,99.3152,98.1670,0.0095,0.0213
+MINN,Mairs & Power MN Municipal Bond ETF,22.6189,,United States and Canada,BATS,US,22.4061,22.2484,0.0095,0.0167
+MUB,iShares Muni Bond ETF,107.8500,,United States and Canada,ARCA,US,106.8332,106.3381,0.0095,0.0142
+PFI,Invesco Dorsey Wright Momentum ETF,58.1800,,United States and Canada,NasdaqGM,US,57.6311,56.7796,0.0095,0.0247
+PPIE,Putnam PanAgora ESG Intl Equity ETF,28.0300,,United States and Canada,ARCA,US,27.7649,27.0505,0.0095,0.0362
+LOWV,AB US Low Volatility ETF,78.7600,,United States and Canada,ARCA,US,78.0149,76.2732,0.0096,0.0326
+NFRA,FlexShares Global Infrastructure ETF,62.1841,,United States and Canada,ARCA,US,61.5952,60.9942,0.0096,0.0195
+AMZU,Direxion Daily AMZN 2X,37.0100,,United States and Canada,NasdaqGM,US,36.6587,36.3974,0.0096,0.0168
+FTGS,First Trust Growth ETF,35.8386,,United States and Canada,NasdaqGM,US,35.4965,34.5963,0.0096,0.0359
+VTEC,Vanguard CA Tax-Exempt Bond ETF,100.9600,,United States and Canada,BATS,US,99.9951,99.4772,0.0096,0.0149
+SEPZ,TrueShares Structured Outcome ETF,42.6600,,United States and Canada,BATS,US,42.2501,41.2602,0.0097,0.0339
+ISJMF,iShares JPM EM Corp Bond ETF,6.6973,,United States and Canada,OTCPK,US,6.6329,6.5187,0.0097,0.0274
+HIDE,Alpha Architect Inflation ETF,23.3703,,United States and Canada,NasdaqGM,US,23.1454,23.0588,0.0097,0.0135
+BCDF,Horizon Kinetics Blockchain ETF,31.4921,,United States and Canada,ARCA,US,31.1878,30.6298,0.0098,0.0282
+MKAM,MKAM ETF,30.9686,,United States and Canada,NasdaqGM,US,30.6689,30.2179,0.0098,0.0248
+TAXF,American Century Diversified Munis ETF,50.8100,,United States and Canada,ARCA,US,50.3179,50.0544,0.0098,0.0151
+FIW,First Trust Water ETF,112.7400,,United States and Canada,ARCA,US,111.6479,109.9576,0.0098,0.0253
+BSMV,Invesco BulletShares 2031 Muni ETF,21.3050,,United States and Canada,NasdaqGM,US,21.0972,20.9982,0.0098,0.0146
+SMAP,Amplify Small-Mid ETF,25.3531,,United States and Canada,ARCA,US,25.1055,24.8289,0.0099,0.0211
+GGTL,Gabelli Automation ETF,32.2878,,United States and Canada,ARCA,US,31.9722,30.8512,0.0099,0.0466
+TBF,ProShares Short 20+ Treasury,24.2100,,United States and Canada,ARCA,US,23.9730,24.0160,0.0099,0.0081
+KRMA,Global X Conscious ETF,43.7835,,United States and Canada,NasdaqGM,US,43.3548,42.1469,0.0099,0.0388
+GTR,WisdomTree Target Fund,25.8750,,United States and Canada,NasdaqGM,US,25.6203,25.2286,0.0099,0.0256
+PFFD,Global X U.S. Preferred ETF,19.4200,,United States and Canada,ARCA,US,19.2281,19.2516,0.0100,0.0087
+ACSI,Tidal ETF - Customer Satisfaction,67.0227,,United States and Canada,BATS,US,66.3601,64.7817,0.0100,0.0346
+BSMW,Invesco BS 2032 Muni ETF,25.3400,,United States and Canada,NasdaqGM,US,25.0894,24.9747,0.0100,0.0146
+QNXT,iShares Nasdaq-100 Ex-Top 30 ETF,27.8651,,United States and Canada,NasdaqGM,US,27.5888,26.8888,0.0100,0.0363
+FXD,First Trust Consumer AlphaDEX Fund,68.8300,,United States and Canada,ARCA,US,68.1452,66.4714,0.0100,0.0355
+PSCH,Invesco S&P SmallCap Health ETF,44.2118,,United States and Canada,NasdaqGM,US,43.7715,43.0409,0.0101,0.0272
+LMUB,iShares Trust - iShares Long-Term National Muni Bond ETF,50.7350,,United States and Canada,ARCA,US,50.2296,49.5661,0.0101,0.0236
+NUMI,Nushares ETF Trust - Nuveen Municipal Income ETF,25.2999,,United States and Canada,ARCA,US,25.0476,24.8742,0.0101,0.0171
+BNDS,Series Portfolios Trust - Infrastructure Cap Bond Income ETF,51.1100,,United States and Canada,ARCA,US,50.5996,50.1790,0.0101,0.0186
+ZOCT,Innovator Equity Protection ETF,26.9400,,United States and Canada,BATS,US,26.6709,26.3415,0.0101,0.0227
+KHYB,KraneShares Asia Pacific High Income ETF,24.7450,,United States and Canada,ARCA,US,24.4975,24.4085,0.0101,0.0138
+JHMU,JH Dynamic Munis ETF,26.4095,,United States and Canada,ARCA,US,26.1424,26.0481,0.0102,0.0139
+WTMU,Wisdomtree Trust - Core Laddered Mun Fund,26.0550,,United States and Canada,NasdaqGM,US,25.7900,25.4839,0.0103,0.0224
+GK,AdvisorShares Gerber ETF,25.9287,,United States and Canada,ARCA,US,25.6646,24.7310,0.0103,0.0484
+AREA,Harbor AlphaEdge REITs ETF,18.8682,,United States and Canada,ARCA,US,18.6754,18.7635,0.0103,0.0056
+JPRE,JPM Realty Income ETF,47.9100,,United States and Canada,ARCA,US,47.4192,47.4660,0.0104,0.0094
+CSRE,Cohen & Steers ETF Trust - Real Estate Active ETF,26.1300,,United States and Canada,ARCA,US,25.8615,25.7406,0.0104,0.0151
+MNA,NYLI Merger ETF,36.1700,,United States and Canada,ARCA,US,35.7969,35.3516,0.0104,0.0232
+CATF,American Century CA Mun Bond ETF,50.5034,,United States and Canada,ARCA,US,49.9818,49.7866,0.0104,0.0144
+IBMT,iShares Trust - iShares iBonds Dec 2031 Term Muni Bond ETF,26.1800,,United States and Canada,BATS,US,25.9095,25.6124,0.0104,0.0222
+EVIM,MS Eaton Vance Mun Income ETF,53.4599,,United States and Canada,ARCA,US,52.9048,52.5436,0.0105,0.0174
+IGBH,iShares Rate Hedged Long-Term Corp Bond ETF,24.8700,,United States and Canada,ARCA,US,24.6115,24.4625,0.0105,0.0167
+ZSEP,Innovator Equity Protection ETF,26.8800,,United States and Canada,BATS,US,26.5976,26.2473,0.0106,0.0241
+CPSN,Calamos S&P 500 Alt Protection ETF,27.0186,,United States and Canada,ARCA,US,26.7334,26.3822,0.0107,0.0241
+PBP,Invesco S&P 500 BuyWrite ETF,22.8900,,United States and Canada,BATS,US,22.6478,22.5010,0.0107,0.0173
+VTEI,Vanguard Int-Term Tax-Exempt ETF,101.7200,,United States and Canada,BATS,US,100.6412,100.1051,0.0107,0.0161
+SMOT,VanEck SMID Moat ETF,36.8100,,United States and Canada,BATS,US,36.4193,35.7493,0.0107,0.0297
+GMUN,Goldman Sachs Community Bond ETF,51.1149,,United States and Canada,ARCA,US,50.5695,50.2185,0.0108,0.0178
+CMF,iShares CA Muni ETF,57.9000,,United States and Canada,ARCA,US,57.2809,56.9549,0.0108,0.0166
+FXH,First Trust Health AlphaDEX Fund,114.3250,,United States and Canada,ARCA,US,113.1021,110.3084,0.0108,0.0364
+CPNQ,Calamos ETF Trust - Calamos Nasdaq-100 Structured Alt Protection ETF - December,26.6100,,United States and Canada,ARCA,US,26.3235,25.8777,0.0109,0.0283
+ITPUF,iShares $ TIPS 0-5 ETF,114.7751,,United States and Canada,OTCPK,US,113.5377,111.1805,0.0109,0.0323
+JOJO,Tidal ATAC Credit ETF,15.6966,,United States and Canada,ARCA,US,15.5272,15.3558,0.0109,0.0222
+CPSO,Calamos S&P 500 Alt Protection ETF,27.1950,,United States and Canada,ARCA,US,26.9006,26.5659,0.0109,0.0237
+HYEM,VanEck EM High Yield Bond ETF,20.1900,,United States and Canada,ARCA,US,19.9704,19.8628,0.0110,0.0165
+ITBFF,iShares 1-3yr Treasury Bond ETF,129.6700,,United States and Canada,OTCPK,US,128.2578,128.2751,0.0110,0.0109
+EWS,iShares MSCI Singapore,28.2100,,United States and Canada,ARCA,US,27.9026,26.9467,0.0110,0.0469
+CPSM,Calamos S&P 500 Alt Protection ETF,28.7400,,United States and Canada,ARCA,US,28.4258,28.0458,0.0111,0.0248
+ZAPR,Innovator ETFs Trust - Innovator Equity Defined Protection ETF - 1 Yr April,25.8750,,United States and Canada,BATS,US,25.5920,25.2636,0.0111,0.0242
+CPSL,Calamos Laddered S&P 500 Alt ETF,27.3300,,United States and Canada,BATS,US,27.0308,26.6810,0.0111,0.0243
+JIREF,JPMorgan USD Ultra-Short Income ETF,123.8099,,United States and Canada,OTCPK,US,122.4502,120.9765,0.0111,0.0234
+ISRZF,iShares High Yield Corp Bond ETF,96.4500,,United States and Canada,OTCPK,US,95.3886,94.8105,0.0111,0.0173
+CPNS,Calamos Nasdaq-100 Alt Protection ETF,27.3592,,United States and Canada,ARCA,US,27.0579,26.6748,0.0111,0.0257
+IQSHF,iShares $ Corp Bond Hedged ETF,7.1525,,United States and Canada,OTCPK,US,7.0737,6.9344,0.0111,0.0315
+RXI,iShares Global Consumer ETF,207.0300,,United States and Canada,ARCA,US,204.7409,198.7894,0.0112,0.0415
+BBRE,JPM BetaBuilders US REIT ETF,95.0900,,United States and Canada,BATS,US,94.0364,93.8220,0.0112,0.0135
+GMUB,Goldman Sachs Munic. Income ETF,51.5800,,United States and Canada,ARCA,US,51.0083,50.6979,0.0112,0.0174
+AJAN,Innovator Equity Protection ETF - Jan 2026,27.9807,,United States and Canada,BATS,US,27.6700,27.3186,0.0112,0.0242
+TPZ,Tortoise Power and Energy Infrastructure Fund Inc.,20.9400,,United States and Canada,NYSE,US,20.7065,20.4570,0.0113,0.0236
+CPST,Calamos S&P 500 Alt Protection ETF,27.1492,,United States and Canada,ARCA,US,26.8462,26.4901,0.0113,0.0249
+ACIO,Aptus Collared ETF,43.9400,,United States and Canada,BATS,US,43.4479,42.4946,0.0113,0.0340
+TAPR,Innovator ETFs Trust - Innovator Equity Defined Protection ETF - 2 Yr To April 2027,25.9750,,United States and Canada,BATS,US,25.6836,25.3067,0.0113,0.0264
+PSCD,Invesco S&P SmallCap Consumer ETF,109.1856,,United States and Canada,NasdaqGM,US,107.9594,106.2953,0.0114,0.0272
+CARK,CastleArk Large Growth ETF,44.0523,,United States and Canada,ARCA,US,43.5562,42.3112,0.0114,0.0411
+APOC,Innovator Equity Protection ETF,26.3600,,United States and Canada,BATS,US,26.0632,25.8790,0.0114,0.0186
+EMBD,Global X Emerging Markets Bond ETF,24.1498,,United States and Canada,ARCA,US,23.8771,23.6224,0.0114,0.0223
+ZAUG,Innovator Equity Protection ETF,26.8200,,United States and Canada,BATS,US,26.5163,26.1411,0.0115,0.0260
+BLDG,Cambria Global Real Estate ETF,25.4198,,United States and Canada,BATS,US,25.1316,25.1108,0.0115,0.0123
+ACWV,iShares MSCI Min Vol ETF,120.7500,,United States and Canada,BATS,US,119.3740,118.1137,0.0115,0.0223
+JULM,FT Vest U.S. Equity Max Buffer ETF,33.7350,,United States and Canada,BATS,US,33.3498,32.9077,0.0116,0.0251
+VGRSF,Vanguard Global Bond ETF,26.9558,,United States and Canada,OTCPK,US,26.6480,26.2134,0.0116,0.0283
+CPSP,Calamos ETF Trust - Calamos S&P 500 Structured Alt Protection ETF - November,26.1720,,United States and Canada,ARCA,US,25.8731,25.5333,0.0116,0.0250
+SEPM,FT Vest U.S. Equity Max Buffer ETF,31.9502,,United States and Canada,BATS,US,31.5852,31.1779,0.0116,0.0248
+ITM,VanEck Intermediate Muni ETF,47.4400,,United States and Canada,BATS,US,46.8981,46.5260,0.0116,0.0196
+XHYE,BondBloxx High Yield Energy ETF,39.1303,,United States and Canada,ARCA,US,38.6827,38.6109,0.0116,0.0135
+JANZ,TrueShares Structured Outcome ETF,38.4136,,United States and Canada,BATS,US,37.9716,37.0396,0.0116,0.0371
+ABIG,Ea Series Trust - Argent Large Capital Etf,32.1188,,United States and Canada,NasdaqGM,US,31.7492,30.6865,0.0116,0.0467
+USML,UBS AG London Branch,42.3901,,United States and Canada,ARCA,US,41.9005,41.4599,0.0117,0.0224
+FLMI,Franklin Dynamic Muni Bond ETF,25.1100,,United States and Canada,ARCA,US,24.8194,24.6614,0.0117,0.0182
+MARM,FT Vest U.S. Equity Max Buffer ETF,33.1750,,United States and Canada,BATS,US,32.7896,32.3619,0.0118,0.0251
+ZJUL,Innovator Equity Protection ETF,29.2000,,United States and Canada,BATS,US,28.8605,28.4433,0.0118,0.0266
+XRT,SPDR S&P Retail ETF,86.3300,,United States and Canada,ARCA,US,85.3241,82.7297,0.0118,0.0435
+JUNM,FT Vest U.S. Equity Max Buffer ETF,34.3693,,United States and Canada,BATS,US,33.9688,33.4614,0.0118,0.0271
+PHDG,Invesco S&P 500 Hedge ETF,37.9602,,United States and Canada,ARCA,US,37.5171,37.0959,0.0118,0.0233
+USCL,iShares Climate Transition ETF,79.4622,,United States and Canada,NasdaqGM,US,78.5326,76.2294,0.0118,0.0424
+VCRPF,Vanguard USD Corp Bond ETF,61.5799,,United States and Canada,OTCPK,US,60.8585,60.0245,0.0119,0.0259
+CFIT,Cambria ETF Trust - Cambria Fixed Income Trend ETF,25.5613,,United States and Canada,BATS,US,25.2614,24.9829,0.0119,0.0232
+AUGM,FT Vest U.S. Equity Max Buffer ETF,34.1780,,United States and Canada,BATS,US,33.7763,33.3364,0.0119,0.0252
+EMDV,ProShares MSCI EM Dividend Growers ETF,47.0664,,United States and Canada,BATS,US,46.5132,45.9262,0.0119,0.0248
+PCEF,Invesco CEF Income ETF,20.1100,,United States and Canada,ARCA,US,19.8735,19.6897,0.0119,0.0213
+BKCI,BNY Mellon Int'l ETF,52.5323,,United States and Canada,ARCA,US,51.9123,51.3278,0.0119,0.0235
+EAGL,Eagle Capital Select ETF,32.4300,,United States and Canada,ARCA,US,32.0472,30.9927,0.0119,0.0464
+IVSRF,iShares Floating Rate Bond ETF,6.4679,,United States and Canada,OTCPK,US,6.3914,6.3178,0.0120,0.0238
+PFF,iShares Preferred Income ETF,31.6900,,United States and Canada,NasdaqGM,US,31.3147,31.2727,0.0120,0.0133
+ISHVF,iShares US Aggregate Bond ETF,5.7642,,United States and Canada,OTCPK,US,5.6956,5.6287,0.0120,0.0241
+FLCC,Federated Hermes MDT Large Cap ETF,32.4800,,United States and Canada,ARCA,US,32.0910,31.1496,0.0121,0.0427
+EAOK,iShares ESG Conservative ETF,27.8013,,United States and Canada,BATS,US,27.4682,27.0571,0.0121,0.0275
+GBLD,Invesco MSCI Green ETF,18.3740,,United States and Canada,ARCA,US,18.1536,17.8508,0.0121,0.0293
+OCTM,FT Vest U.S. Equity Max Buffer ETF,32.7900,,United States and Canada,BATS,US,32.3962,31.9341,0.0122,0.0268
+JAJL,Innovator Equity Protection ETF,29.2000,,United States and Canada,BATS,US,28.8480,28.4422,0.0122,0.0266
+CPNJ,Calamos Nasdaq-100 Alt Protection ETF,27.1093,,United States and Canada,ARCA,US,26.7821,26.3538,0.0122,0.0287
+HF,Tidal DGA Core Plus ETF,21.4112,,United States and Canada,NYSE,US,21.1517,21.0526,0.0123,0.0170
+CPSA,Calamos S&P 500 Alt Protection ETF,27.0673,,United States and Canada,ARCA,US,26.7391,26.3586,0.0123,0.0269
+TSPY,TappAlpha SPY Growth ETF,25.6300,,United States and Canada,NasdaqGM,US,25.3185,25.1195,0.0123,0.0203
+SPYH,NEOS ETF Trust - NEOS S&P 500 Hedged Equity Income ETF,55.4100,,United States and Canada,BATS,US,54.7339,53.2742,0.0124,0.0401
+CPSJ,Calamos S&P 500 Alt Protection ETF,27.0250,,United States and Canada,ARCA,US,26.6952,26.3088,0.0124,0.0272
+VRGFF,Vanguard USD Treasury ETF,27.1520,,United States and Canada,OTCPK,US,26.8194,26.4764,0.0124,0.0255
+AOCT,Innovator Equity Protection ETF,26.6850,,United States and Canada,BATS,US,26.3568,26.0184,0.0125,0.0256
+AOK,iShares Core Conservative ETF,40.7300,,United States and Canada,ARCA,US,40.2280,39.6271,0.0125,0.0278
+USCA,Xtrackers USA Climate ETF,41.8500,,United States and Canada,ARCA,US,41.3339,40.1217,0.0125,0.0431
+INMU,iShares Muni Income ETF,24.3200,,United States and Canada,ARCA,US,24.0192,23.8691,0.0125,0.0189
+PY,Principal Value ETF,52.5791,,United States and Canada,NasdaqGM,US,51.9284,51.0722,0.0125,0.0295
+MAMB,Monarch Income ETF,24.2669,,United States and Canada,BATS,US,23.9663,23.6292,0.0125,0.0270
+MSSS,Monarch Subsector ETF,30.8100,,United States and Canada,BATS,US,30.4283,29.7456,0.0125,0.0358
+PMJA,PGIM Rock ETF Trust - PGIM S&P 500 Max Buffer ETF - August,26.8451,,United States and Canada,BATS,US,26.5111,26.0887,0.0126,0.0290
+CPSY,Calamos ETF Trust - Calamos S&P 500 Structured Alt Protection ETF - November,25.1802,,United States and Canada,ARCA,US,24.8668,24.4754,0.0126,0.0288
+IYF,iShares U.S. Financials,127.7000,,United States and Canada,ARCA,US,126.1060,122.3950,0.0126,0.0433
+TJAN,Innovator ETFs Trust - Innovator Equity Defined Protection ETF - 2 Yr to January 2027,27.4495,,United States and Canada,BATS,US,27.1065,26.6541,0.0127,0.0298
+LCR,Leuthold Core ETF,38.4100,,United States and Canada,ARCA,US,37.9287,37.1267,0.0127,0.0346
+MSTB,LHA Tactical Beta ETF,40.1724,,United States and Canada,BATS,US,39.6689,38.4210,0.0127,0.0456
+BEEX,Tidal Trust III - The BeeHive ETF,25.9684,,United States and Canada,NasdaqGM,US,25.6377,24.7736,0.0129,0.0482
+IHY,VanEck Int'l High Yield ETF,22.2900,,United States and Canada,ARCA,US,22.0031,21.8156,0.0130,0.0217
+USAF,The 2023 ETF Series Trust - Atlas America Fund,27.6500,,United States and Canada,NasdaqGM,US,27.2941,26.8757,0.0130,0.0288
+POWA,Invesco Bloomberg Pricing Power ETF,91.8635,,United States and Canada,ARCA,US,90.6749,88.7426,0.0131,0.0352
+ISHFF,iShares Short Duration Corp Bond ETF,101.5119,,United States and Canada,OTCPK,US,100.1943,99.5378,0.0132,0.0198
+XT,iShares Exponential Tech ETF,72.3800,,United States and Canada,NasdaqGM,US,71.4371,68.9368,0.0132,0.0499
+REIT,ALPS Active REIT,26.9458,,United States and Canada,NasdaqGM,US,26.5915,26.6452,0.0133,0.0113
+XMLV,Invesco S&P MidCap Low Vol ETF,63.9200,,United States and Canada,ARCA,US,63.0793,62.4544,0.0133,0.0235
+PWS,Pacer WealthShield ETF,33.0500,,United States and Canada,BATS,US,32.6149,31.9971,0.0133,0.0329
+XHS,SPDR Health Care ETF,106.8600,,United States and Canada,ARCA,US,105.4518,102.2234,0.0134,0.0454
+CEW,WisdomTree Emerging Currency ETF,19.2620,,United States and Canada,ARCA,US,19.0076,18.7539,0.0134,0.0271
+LRGF,iShares U.S. Equity ETF,69.6400,,United States and Canada,ARCA,US,68.7199,66.5591,0.0134,0.0463
+FAAR,First Trust Alt Return ETF,29.4122,,United States and Canada,NasdaqGM,US,29.0224,28.9237,0.0134,0.0169
+XSHQ,Invesco S&P SmallCap ETF,43.4100,,United States and Canada,BATS,US,42.8337,42.3016,0.0135,0.0262
+JANM,First Trust Exchange-Traded Fund VIII - FT Vest U.S. Equity Max Buffer ETF - January,33.1199,,United States and Canada,BATS,US,32.6797,32.1645,0.0135,0.0297
+ESUM,Strategy Shares - Eventide US Market ETF,27.4758,,United States and Canada,ARCA,US,27.1098,26.3429,0.0135,0.0430
+FTC,First Trust Large Cap Growth ETF,162.2660,,United States and Canada,NasdaqGM,US,160.0984,154.6924,0.0135,0.0490
+ZMAR,Innovator ETFs Trust - Innovator Equity Defined Protection ETF - 1 Yr March,27.6200,,United States and Canada,BATS,US,27.2510,26.8132,0.0135,0.0301
+SMRI,Bushido US Equity ETF,35.9708,,United States and Canada,NasdaqGM,US,35.4890,34.2823,0.0136,0.0493
+GFGF,Guru Stocks ETF,35.1282,,United States and Canada,NasdaqGM,US,34.6577,33.6540,0.0136,0.0438
+AVRE,Avantis Real Estate ETF,44.7300,,United States and Canada,ARCA,US,44.1282,44.0051,0.0136,0.0165
+ZDEK,Innovator ETFs Trust - Innovator Equity Defined Protection ETF - 1 Yr December,25.8300,,United States and Canada,BATS,US,25.4810,25.0450,0.0137,0.0313
+PMMR,PGIM Rock ETF Trust - PGIM S&P 500 Max Buffer ETF - August,26.5132,,United States and Canada,BATS,US,26.1539,25.7470,0.0137,0.0298
+NNOV,Innovator Growth-100 ETF,28.9253,,United States and Canada,BATS,US,28.5327,27.8435,0.0138,0.0389
+BKF,iShares BIC ETF,44.8802,,United States and Canada,ARCA,US,44.2709,43.0438,0.0138,0.0427
+FOXY,Simplify Exchange Traded Funds - Simplify Currency Strategy ETF,28.0155,,United States and Canada,ARCA,US,27.6347,27.0092,0.0138,0.0373
+ISJPF,iShares J.P. Morgan EM Bond ETF,6.4685,,United States and Canada,OTCPK,US,6.3804,6.2249,0.0138,0.0391
+ZJAN,Innovator ETFs Trust - Innovator Equity Defined Protection ETF - 1 Yr January,27.4800,,United States and Canada,BATS,US,27.1055,26.6852,0.0138,0.0298
+ISMF,Blackrock ETF Trust - Ishares Managed Futures Active ETF,27.0563,,United States and Canada,BATS,US,26.6873,25.8879,0.0138,0.0451
+QSIX,Pacer Nasdaq 100 Dividend ETF,37.8016,,United States and Canada,NasdaqGM,US,37.2828,36.1739,0.0139,0.0450
+DECM,First Trust Exchange-Traded Fund VIII - FT Vest U.S. Equity Max Buffer ETF - December,32.9900,,United States and Canada,BATS,US,32.5368,32.0242,0.0139,0.0302
+XYLD,Global X S&P 500 Call ETF,40.7400,,United States and Canada,ARCA,US,40.1786,39.9654,0.0140,0.0194
+RSPA,Invesco S&P 500 Equal Weight ETF,51.8400,,United States and Canada,ARCA,US,51.1234,50.8138,0.0140,0.0202
+SEIQ,SEI Enhanced U.S. Large Cap ETF,39.0100,,United States and Canada,BATS,US,38.4690,37.6568,0.0141,0.0359
+AJUL,Innovator Equity Protection ETF,29.1954,,United States and Canada,BATS,US,28.7897,28.3468,0.0141,0.0299
+RWR,SPDR Dow REIT ETF,100.9200,,United States and Canada,ARCA,US,99.5171,99.0971,0.0141,0.0184
+CPNM,Calamos ETF Trust - Cap Protected Nasdaq 100 ETF,26.1391,,United States and Canada,ARCA,US,25.7748,25.3475,0.0141,0.0312
+FRI,First Trust S&P REIT ETF,28.1100,,United States and Canada,ARCA,US,27.7160,27.6117,0.0142,0.0180
+CPSR,Calamos ETF Trust - Calamos S&P 500 Structured Alt Protection ETF - November,25.3299,,United States and Canada,ARCA,US,24.9742,24.5766,0.0142,0.0307
+NOVM,FT Vest U.S. Equity Max Buffer ETF - Nov,32.9991,,United States and Canada,BATS,US,32.5351,32.0154,0.0143,0.0307
+CPSD,Calamos ETF Trust - Calamos S&P 500 Structured Alt Protection ETF - December,26.1300,,United States and Canada,ARCA,US,25.7619,25.3121,0.0143,0.0323
+EUDV,ProShares MSCI Europe Div Growers ETF,53.3138,,United States and Canada,BATS,US,52.5609,52.0892,0.0143,0.0235
+VO,Vanguard Mid-Cap ETF,296.0900,,United States and Canada,ARCA,US,291.8902,285.2377,0.0144,0.0380
+USRT,iShares Core REIT ETF,58.6700,,United States and Canada,ARCA,US,57.8373,57.6268,0.0144,0.0181
+IRET,Tidal iREIT ETF,19.3710,,United States and Canada,ARCA,US,19.0958,19.2193,0.0144,0.0079
+KONG,Fortress ETF,30.9541,,United States and Canada,BATS,US,30.5127,30.0788,0.0145,0.0291
+XAPR,Cboe Vest U.S. Equity Buffer ETF - April,36.5850,,United States and Canada,BATS,US,36.0627,35.3311,0.0145,0.0355
+DAPR,FT Vest U.S. Equity Deep Buffer ETF,39.5000,,United States and Canada,BATS,US,38.9329,38.3361,0.0146,0.0304
+TLCI,Touchstone ETF Trust - Touchstone International Equity ETF,26.6520,,United States and Canada,ARCA,US,26.2680,25.9946,0.0146,0.0253
+FMDE,Fidelity Enhanced Mid Cap ETF,36.8100,,United States and Canada,ARCA,US,36.2796,35.3067,0.0146,0.0426
+EAOM,iShares ESG Moderate ETF,30.4127,,United States and Canada,BATS,US,29.9739,29.4255,0.0146,0.0335
+HYKE,Vest 2Y Rate Hedge ETF,25.5770,,United States and Canada,BATS,US,25.2062,25.3251,0.0147,0.0099
+FEBM,First Trust Exchange-Traded Fund VIII - FT Vest U.S. Equity Max Buffer ETF - February,30.5500,,United States and Canada,BATS,US,30.1057,29.6376,0.0148,0.0308
+ISHG,iShares 1-3 Year Intl Treasury ETF,76.5581,,United States and Canada,NasdaqGM,US,75.4435,74.7414,0.0148,0.0243
+QCAP,FT Vest Nasdaq-100 Buffer ETF - April,23.8185,,United States and Canada,BATS,US,23.4714,23.0873,0.0148,0.0317
+ITDB,iShares LifePath 2030 ETF,33.4870,,United States and Canada,ARCA,US,32.9974,32.2634,0.0148,0.0379
+GBXB,Goldman Sachs ETF Trust - Goldman Sachs U.S. Large Cap Buffer 2 ETF,26.6687,,United States and Canada,BATS,US,26.2783,25.6262,0.0149,0.0407
+GRPM,Invesco S&P MidCap 400 ETF,121.5800,,United States and Canada,ARCA,US,119.7957,117.0755,0.0149,0.0385
+DDX,EA Discipline ETF,24.5900,,United States and Canada,BATS,US,24.2271,23.8955,0.0150,0.0291
+CPRJ,Calamos Russell 2000 Alt Protection ETF,26.9941,,United States and Canada,ARCA,US,26.5943,26.2403,0.0150,0.0287
+BAMO,Brookstone Opportunities ETF,32.8700,,United States and Canada,BATS,US,32.3824,31.7699,0.0151,0.0346
+BUFT,FT Vest Buffered Defensive ETF,24.7048,,United States and Canada,BATS,US,24.3380,23.8951,0.0151,0.0339
+GAPR,FT Vest U.S. Equity Moderate Buffer ETF,40.1553,,United States and Canada,BATS,US,39.5582,38.9140,0.0151,0.0319
+ISDDF,iShares Short Duration High Yield Bond ETF,7.1543,,United States and Canada,OTCPK,US,7.0475,6.8987,0.0152,0.0371
+MUST,Columbia Multi-Sector Muni ETF,20.9100,,United States and Canada,ARCA,US,20.5974,20.4727,0.0152,0.0214
+UJB,ProShares Ultra High Yield,79.6419,,United States and Canada,ARCA,US,78.4512,77.1703,0.0152,0.0320
+TRND,Pacer Trendpilot ETF,34.4400,,United States and Canada,ARCA,US,33.9237,33.3745,0.0152,0.0319
+WOMN,YWCA Women's Empowerment ETF,41.6415,,United States and Canada,ARCA,US,41.0172,40.2716,0.0152,0.0340
+FSCS,First Trust SMID Capital ETF,36.7596,,United States and Canada,NasdaqGM,US,36.2082,35.9058,0.0152,0.0238
+EBND,SPDR EM Local Bond ETF,21.6600,,United States and Canada,ARCA,US,21.3350,21.1344,0.0152,0.0249
+AAPR,Innovator Equity Protection ETF,28.5499,,United States and Canada,BATS,US,28.1209,27.6616,0.0153,0.0321
+APRW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,35.0200,,United States and Canada,BATS,US,34.4936,33.9529,0.0153,0.0314
+CPRA,Calamos ETF Trust - Russell 2000 Structured Alt Protection ETF - April,26.6991,,United States and Canada,ARCA,US,26.2974,25.8353,0.0153,0.0334
+SDG,iShares Global SDG ETF,84.9523,,United States and Canada,NasdaqGM,US,83.6687,81.6077,0.0153,0.0410
+CPSF,Calamos ETF Trust - Calamos S&P 500 Structured Alt Protection ETF - November,25.7400,,United States and Canada,ARCA,US,25.3495,24.9268,0.0154,0.0326
+BUFC,AB Conservative Buffer ETF,41.5900,,United States and Canada,NasdaqGM,US,40.9582,40.3586,0.0154,0.0305
+JQUA,JPM U.S. Quality ETF,63.9000,,United States and Canada,ARCA,US,62.9288,61.4692,0.0154,0.0395
+IVVB,iShares Large Cap Buffer ETF,33.4600,,United States and Canada,BATS,US,32.9504,32.2046,0.0155,0.0390
+CTA,Simplify Managed Futures ETF,28.0500,,United States and Canada,ARCA,US,27.6220,27.6255,0.0155,0.0154
+HDG,ProShares Hedge ETF,52.3650,,United States and Canada,ARCA,US,51.5655,50.9532,0.0155,0.0277
+XMPT,VanEck Muni Income ETF,22.1600,,United States and Canada,BATS,US,21.8214,21.6690,0.0155,0.0227
+PBMY,PGIM US Large-Cap Buffer ETF,30.1493,,United States and Canada,BATS,US,29.6886,29.1256,0.0155,0.0351
+PTNQ,Pacer Trendpilot 100 ETF,79.5510,,United States and Canada,NasdaqGM,US,78.3352,76.3441,0.0155,0.0420
+MSLC,Morgan Stanley Pathway Funds - Large Cap Equity ETF,55.1400,,United States and Canada,ARCA,US,54.2962,52.5384,0.0155,0.0495
+XEMD,BondBloxx EM 1-10 Year ETF,45.0450,,United States and Canada,BATS,US,44.3536,43.7754,0.0156,0.0290
+VEMY,Virtus Stone Harbor EM High Yield ETF,28.4400,,United States and Canada,ARCA,US,28.0015,27.6812,0.0157,0.0274
+MAYW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,33.7083,,United States and Canada,BATS,US,33.1885,32.5560,0.0157,0.0354
+PMFB,PGIM Rock ETF Trust - PGIM S&P 500 Max Buffer ETF - August,26.7250,,United States and Canada,BATS,US,26.3119,25.8650,0.0157,0.0332
+ACVF,ACV ETF,49.9200,,United States and Canada,ARCA,US,49.1480,47.8939,0.0157,0.0423
+FDIS,Fidelity MSCI Consumer ETF,103.5600,,United States and Canada,ARCA,US,101.9521,98.9535,0.0158,0.0466
+FTKI,First Trust Exchange-Traded Fund VI - First Trust Small Cap BuyWrite Income ETF,19.2342,,United States and Canada,ARCA,US,18.9348,18.8226,0.0158,0.0219
+FLAO,AIM AllianzIM U.S. Equity 6M Floor ETF,28.6740,,United States and Canada,BATS,US,28.2273,27.8473,0.0158,0.0297
+MVRL,ETRACS Monthly Pay 1.5x Leveraged Mortgage REIT ETN,15.4636,,United States and Canada,ARCA,US,15.2209,15.2550,0.0159,0.0137
+AVMU,Advantis Int'l Small Cap Value ETF,46.6700,,United States and Canada,ARCA,US,45.9364,45.6771,0.0160,0.0217
+XMAR,FT Vest U.S. Equity Buffer ETF,40.1401,,United States and Canada,BATS,US,39.5088,38.7583,0.0160,0.0357
+CBON,VanEck China Bond ETF,22.9900,,United States and Canada,ARCA,US,22.6283,22.4699,0.0160,0.0231
+VIGI,Vanguard Intl Div Appreciation ETF,92.4600,,United States and Canada,NasdaqGM,US,91.0027,89.3785,0.0160,0.0345
+NBOS,Neuberger Berman Option ETF,27.4900,,United States and Canada,ARCA,US,27.0558,26.7276,0.0160,0.0285
+QAI,NYLI Hedge Multi-Strategy ETF,34.2910,,United States and Canada,ARCA,US,33.7489,33.2176,0.0161,0.0323
+VCR,Vanguard Consumer ETF,399.1900,,United States and Canada,ARCA,US,392.8734,381.2994,0.0161,0.0469
+NUDM,Nuveen ESG Intl Dev Mkts ETF,37.8150,,United States and Canada,BATS,US,37.2155,36.2274,0.0161,0.0438
+AOM,iShares Core Moderate ETF,48.4300,,United States and Canada,ARCA,US,47.6595,46.7801,0.0162,0.0353
+QQQE,Direxion NASDAQ-100 Equal Weight ETF,103.8700,,United States and Canada,NasdaqGM,US,102.2151,99.4944,0.0162,0.0440
+IRTR,iShares LifePath Retirement ETF,31.2300,,United States and Canada,ARCA,US,30.7317,30.2017,0.0162,0.0340
+PBAP,PGIM US Large-Cap Buffer ETF,29.1180,,United States and Canada,BATS,US,28.6523,28.1814,0.0163,0.0332
+QCOC,FT Vest Nasdaq-100 Buffer ETF,22.5700,,United States and Canada,BATS,US,22.2090,21.6874,0.0163,0.0407
+UMAY,Innovator U.S. Equity Ultra Buffer ETF - May,36.7397,,United States and Canada,BATS,US,36.1498,35.4686,0.0163,0.0358
+XSEP,FT Vest U.S. Equity Buffer ETF,42.6166,,United States and Canada,BATS,US,41.9321,41.1839,0.0163,0.0348
+XMAY,FT Vest U.S. Equity Buffer ETF,35.0444,,United States and Canada,BATS,US,34.4801,33.7951,0.0164,0.0370
+RDOG,ALPS REIT Dogs ETF,37.0534,,United States and Canada,ARCA,US,36.4555,36.5798,0.0164,0.0129
+QDPL,Pacer Metaurus Large Cap Dividend ETF,42.8500,,United States and Canada,ARCA,US,42.1554,41.0665,0.0165,0.0434
+BSR,Beacon Selective Risk ETF,30.2593,,United States and Canada,ARCA,US,29.7682,29.4273,0.0165,0.0283
+XJAN,FT Vest U.S. Equity Buffer ETF,36.9394,,United States and Canada,BATS,US,36.3397,35.6266,0.0165,0.0368
+ZFEB,Innovator ETFs Trust - Innovator Equity Defined Protection ETF - 1 Yr February,25.5600,,United States and Canada,BATS,US,25.1415,24.7202,0.0166,0.0340
+FLSP,Franklin Core Dividend ETF,27.0100,,United States and Canada,ARCA,US,26.5677,25.8974,0.0166,0.0430
+RUNN,Running Oak Growth ETF,34.5300,,United States and Canada,NasdaqGM,US,33.9630,33.6683,0.0167,0.0256
+FXE,Invesco Euro Trust,109.4700,,United States and Canada,ARCA,US,107.6711,106.3604,0.0167,0.0292
+RSSY,Tidal Trust II - U.S. Yield ETF,20.0400,,United States and Canada,BATS,US,19.7107,19.5372,0.0167,0.0257
+OCTW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,39.2400,,United States and Canada,BATS,US,38.5945,37.8267,0.0167,0.0374
+GPIQ,Goldman Sachs Nasdaq-100 Income ETF,53.2700,,United States and Canada,NasdaqGM,US,52.3921,51.1412,0.0168,0.0416
+RITA,ETFB Green REITs ETF,19.8157,,United States and Canada,ARCA,US,19.4887,19.4445,0.0168,0.0191
+BALT,Innovator Wealth Shield ETF,33.6950,,United States and Canada,BATS,US,33.1384,32.6502,0.0168,0.0320
+DVOL,First Trust Dorsey Wright Momentum ETF,35.8023,,United States and Canada,NasdaqGM,US,35.2108,34.8787,0.0168,0.0265
+EMHY,iShares EM High Yield Bond ETF,40.7700,,United States and Canada,BATS,US,40.0954,39.5785,0.0168,0.0301
+JUNW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,33.5590,,United States and Canada,BATS,US,33.0033,32.2951,0.0168,0.0391
+XJUN,FT Vest U.S. Equity Buffer ETF,43.1847,,United States and Canada,BATS,US,42.4688,41.5724,0.0169,0.0388
+NVBW,AIM Allianz U.S. Large Cap Buffer20 ETF,34.0740,,United States and Canada,BATS,US,33.5070,32.8550,0.0169,0.0371
+REET,iShares Global REIT,25.6700,,United States and Canada,ARCA,US,25.2426,25.0727,0.0169,0.0238
+PBJL,PGIM US Large-Cap Buffer 20 ETF,30.0842,,United States and Canada,BATS,US,29.5830,28.8979,0.0169,0.0411
+TYO,Direxion 7-10Y Treasury Bear 3X ETF,13.4802,,United States and Canada,ARCA,US,13.2556,13.4064,0.0169,0.0055
+FAPR,FT Vest U.S. Equity Buffer April ETF,44.6100,,United States and Canada,BATS,US,43.8645,43.0339,0.0170,0.0366
+XAUG,FT Vest U.S. Equity Buffer ETF,37.6342,,United States and Canada,BATS,US,37.0043,36.3028,0.0170,0.0367
+RDFI,Rareview Dynamic Income ETF,24.3700,,United States and Canada,BATS,US,23.9620,23.8641,0.0170,0.0212
+FXC,Invesco CAD Trust,71.7900,,United States and Canada,ARCA,US,70.5841,70.4603,0.0171,0.0189
+PBNV,PGIM US Large-Cap Buffer ETF,29.5868,,United States and Canada,BATS,US,29.0897,28.4967,0.0171,0.0383
+BWZ,SPDR Short Term Int'l Treasury ETF,27.9000,,United States and Canada,ARCA,US,27.4298,27.3037,0.0171,0.0218
+SPGP,Invesco S&P 500 GARP ETF,115.2600,,United States and Canada,ARCA,US,113.3169,110.7939,0.0171,0.0403
+QBUF,Innovator Nasdaq-100 10 Buffer ETF,29.5303,,United States and Canada,NasdaqGM,US,29.0317,28.3634,0.0172,0.0411
+XBAP,Innovator U.S. Equity 9 Buffer ETF,38.8000,,United States and Canada,BATS,US,38.1445,37.2626,0.0172,0.0413
+PSMR,Pacer Swan SOS Moderate ETF,29.9850,,United States and Canada,BATS,US,29.4781,28.9653,0.0172,0.0352
+JSTC,Adasina Social Justice ETF,20.6810,,United States and Canada,ARCA,US,20.3307,19.9192,0.0172,0.0382
+GMAR,FT Vest U.S. Equity Moderate Buffer ETF,41.1400,,United States and Canada,BATS,US,40.4427,39.6497,0.0172,0.0376
+UAPR,Innovator U.S. Equity Ultra Buffer ETF - April,32.9800,,United States and Canada,BATS,US,32.4189,31.8752,0.0173,0.0347
+VGSR,MDP Vert Global Sustainable RE ETF,10.6950,,United States and Canada,NasdaqGM,US,10.5130,10.4618,0.0173,0.0223
+XJUL,FT Vest U.S. Equity Buffer ETF,39.2997,,United States and Canada,BATS,US,38.6301,37.8485,0.0173,0.0383
+IDGT,iShares U.S. Digital Infra ETF,87.5900,,United States and Canada,ARCA,US,86.0976,84.2142,0.0173,0.0401
+PMAY,Innovator U.S. Equity Power Buffer ETF,39.8100,,United States and Canada,BATS,US,39.1310,38.3237,0.0174,0.0388
+SIXZ,AIM AllianzIM U.S. Large Cap Buffer ETF,29.8841,,United States and Canada,BATS,US,29.3699,28.8476,0.0175,0.0359
+GVLU,Gotham 1000 Value ETF,25.6763,,United States and Canada,ARCA,US,25.2342,24.8327,0.0175,0.0340
+CEFS,Saba CEF ETF,23.2000,,United States and Canada,BATS,US,22.7994,22.4942,0.0176,0.0314
+INKM,SSGA Income Allocation ETF,33.8510,,United States and Canada,ARCA,US,33.2657,32.9233,0.0176,0.0282
+FPRO,Fidelity Real Estate ETF,22.9904,,United States and Canada,BATS,US,22.5927,22.5762,0.0176,0.0183
+PSTP,Innovator Power Buffer ETF,35.5700,,United States and Canada,ARCA,US,34.9545,34.1773,0.0176,0.0408
+SEPW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,32.1043,,United States and Canada,BATS,US,31.5476,30.8739,0.0176,0.0399
+ISHYF,iShares High Yield Corp Bond ETF,7.4300,,United States and Canada,OTCPK,US,7.3008,7.1725,0.0177,0.0359
+DJUN,FT Vest U.S. Equity Deep Buffer ETF,47.6149,,United States and Canada,BATS,US,46.7849,45.8064,0.0177,0.0395
+SWP,SWP Growth Income ETF,28.5800,,United States and Canada,NasdaqGM,US,28.0813,27.4026,0.0178,0.0430
+HSMV,First Trust Horizon Managed Volatility ETF,36.7499,,United States and Canada,ARCA,US,36.1067,35.9561,0.0178,0.0221
+UNOV,Innovator U.S. Equity Ultra Buffer ETF - Nov,38.3800,,United States and Canada,BATS,US,37.7065,36.9136,0.0179,0.0397
+JSMD,Janus Small/Mid Cap Growth ETF,84.8822,,United States and Canada,NasdaqGM,US,83.3924,80.8942,0.0179,0.0493
+XDEC,FT Vest U.S. Equity Buffer ETF,41.1956,,United States and Canada,BATS,US,40.4726,39.6436,0.0179,0.0391
+PBJN,PGIM US Large-Cap Buffer ETF,30.0851,,United States and Canada,BATS,US,29.5564,28.9038,0.0179,0.0409
+UJUN,Innovator U.S. Equity Ultra Buffer ETF - June,37.6148,,United States and Canada,BATS,US,36.9526,36.1481,0.0179,0.0406
+RSPD,Invesco S&P 500 Equal Weight Consumer ETF,58.1400,,United States and Canada,ARCA,US,57.1135,55.7928,0.0180,0.0421
+PBSE,PGIM US Large-Cap Buffer 20 ETF,29.6200,,United States and Canada,BATS,US,29.0967,28.4625,0.0180,0.0407
+AUGW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,32.7100,,United States and Canada,BATS,US,32.1321,31.4036,0.0180,0.0416
+UOCT,Innovator U.S. Equity Ultra Buffer ETF,39.3185,,United States and Canada,BATS,US,38.6234,37.7766,0.0180,0.0408
+DIVO,Amplify Enhanced Dividend ETF,45.6100,,United States and Canada,ARCA,US,44.8035,43.7953,0.0180,0.0414
+IMBXF,iShares US Mortgage ETF,5.6077,,United States and Canada,OTCPK,US,5.5084,5.4309,0.0180,0.0326
+JULW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,39.3300,,United States and Canada,BATS,US,38.6321,37.7424,0.0181,0.0421
+DMAR,FT Vest U.S. Equity Deep Buffer ETF,41.8643,,United States and Canada,BATS,US,41.1214,40.3052,0.0181,0.0387
+NAPR,Innovator Growth 100 ETF,54.0461,,United States and Canada,BATS,US,53.0835,52.0893,0.0181,0.0376
+PBOC,PGIM US Large-Cap Buffer ETF,29.3692,,United States and Canada,BATS,US,28.8456,28.2518,0.0182,0.0396
+OVLH,Overlay Hedged Large Cap ETF,39.7900,,United States and Canada,BATS,US,39.0793,37.9289,0.0182,0.0491
+SRVR,Pacer Data & Infra ETF,30.8350,,United States and Canada,ARCA,US,30.2834,30.5014,0.0182,0.0109
+USEP,Innovator U.S. Equity Ultra Buffer ETF - Sep,39.5600,,United States and Canada,BATS,US,38.8514,37.9094,0.0182,0.0435
+SIXD,AIM AllianzIM U.S. Large Cap Buffer ETF,29.1584,,United States and Canada,BATS,US,28.6345,28.0825,0.0183,0.0383
+PJUN,Innovator U.S. Equity Power Buffer ETF - June,42.1400,,United States and Canada,BATS,US,41.3817,40.4279,0.0183,0.0424
+HEGD,Swan Hedged Equity ETF,25.5100,,United States and Canada,BATS,US,25.0508,24.3797,0.0183,0.0464
+DSEP,FT Vest U.S. Equity Deep Buffer ETF,45.2416,,United States and Canada,BATS,US,44.4270,43.4339,0.0183,0.0416
+SPBW,AIM ETF Products Trust - AllianzIM Buffer20 Allocation ETF,27.5982,,United States and Canada,BATS,US,27.1011,26.4484,0.0183,0.0435
+NDVG,Nuveen Dividend ETF,36.0402,,United States and Canada,ARCA,US,35.3897,34.6546,0.0184,0.0400
+PNOV,Innovator U.S. Equity Power Buffer ETF - Nov,42.1300,,United States and Canada,BATS,US,41.3689,40.4616,0.0184,0.0412
+PSCW,Pacer Swan SOS Conservative ETF,28.0949,,United States and Canada,BATS,US,27.5870,27.1031,0.0184,0.0366
+ZALT,Innovator U.S. Equity 10 ETF,32.8200,,United States and Canada,BATS,US,32.2265,31.5902,0.0184,0.0389
+IIXFF,iShares Global Gov Bond ETF,4.8100,,United States and Canada,OTCPK,US,4.7228,4.6785,0.0185,0.0281
+GSEP,FT Vest U.S. Equity Moderate Buffer ETF,39.0500,,United States and Canada,BATS,US,38.3422,37.5018,0.0185,0.0413
+PSFF,Pacer Swan SOS ETF,32.4952,,United States and Canada,BATS,US,31.9053,31.1730,0.0185,0.0424
+STXD,Strive 1000 Dividend ETF,37.5491,,United States and Canada,NYSE,US,36.8644,35.8556,0.0186,0.0472
+IVVM,iShares Large Cap Buffer ETF,35.0900,,United States and Canada,BATS,US,34.4489,33.5306,0.0186,0.0465
+SQMX,First Trust Exchange Traded Fund VIII - First Trust US Equity Quarterly Max Buffered ETF,33.5902,,United States and Canada,BATS,US,32.9764,32.3460,0.0186,0.0385
+QCJL,FT Vest Nasdaq-100 Buffer ETF - July,23.8647,,United States and Canada,BATS,US,23.4279,22.8491,0.0186,0.0444
+EUSA,iShares MSCI USA Equal Weight ETF,105.5000,,United States and Canada,ARCA,US,103.5645,101.3284,0.0187,0.0412
+XOCT,FT Vest U.S. Equity Buffer ETF,37.9689,,United States and Canada,BATS,US,37.2716,36.5086,0.0187,0.0400
+TBFC,Brinsmere Conservative ETF,28.7796,,United States and Canada,ARCA,US,28.2509,27.7558,0.0187,0.0369
+XFEB,FT Vest U.S. Equity Buffer ETF,35.9263,,United States and Canada,BATS,US,35.2645,34.5610,0.0188,0.0395
+SPMV,Invesco S&P 500 Min Var ETF,50.8980,,United States and Canada,BATS,US,49.9602,49.0430,0.0188,0.0378
+APRP,PGIM US Large-Cap Buffer 12 ETF,29.8750,,United States and Canada,BATS,US,29.3238,28.7397,0.0188,0.0395
+IQQQ,ProShares Nasdaq-100 High Income ETF,45.0732,,United States and Canada,NasdaqGM,US,44.2409,43.1933,0.0188,0.0435
+GJUN,FT Vest U.S. Equity Moderate Buffer ETF,39.8500,,United States and Canada,BATS,US,39.1133,38.2806,0.0188,0.0410
+EWQ,iShares MSCI France,45.3500,,United States and Canada,ARCA,US,44.5101,43.4014,0.0189,0.0449
+MDPL,Monarch Dividend ETF,27.3300,,United States and Canada,BATS,US,26.8218,26.5064,0.0189,0.0311
+SMMV,iShares MSCI USA Small-Cap Min Vol ETF,44.1250,,United States and Canada,BATS,US,43.3043,42.6585,0.0190,0.0344
+PAPR,Innovator U.S. Equity Power Buffer ETF - April,39.4200,,United States and Canada,BATS,US,38.6866,38.0172,0.0190,0.0369
+CPRO,Calamos Russell 2000 Alt Protection ETF,27.2551,,United States and Canada,ARCA,US,26.7475,26.2287,0.0190,0.0391
+PSTR,PeakShares Sector ETF,29.3501,,United States and Canada,NasdaqGM,US,28.8033,28.3528,0.0190,0.0352
+FHEQ,Fidelity Hedged Equity Fund,31.1900,,United States and Canada,BATS,US,30.6089,29.7745,0.0190,0.0475
+MAYP,PGIM US Large-Cap Buffer 12 ETF,31.0752,,United States and Canada,BATS,US,30.4954,29.8164,0.0190,0.0422
+GMAY,FT Vest U.S. Equity Moderate Buffer ETF,41.5400,,United States and Canada,BATS,US,40.7641,39.8048,0.0190,0.0436
+QYLD,Global X NASDAQ 100 Call ETF,17.7900,,United States and Canada,NasdaqGM,US,17.4576,17.3156,0.0190,0.0274
+PBAU,PGIM US Large-Cap Buffer ETF,30.1448,,United States and Canada,BATS,US,29.5813,28.8925,0.0190,0.0433
+DMAY,FT Vest U.S. Equity Deep Buffer ETF,45.4843,,United States and Canada,BATS,US,44.6331,43.6061,0.0191,0.0431
+JPEF,JPM Equity ETF,75.5985,,United States and Canada,NasdaqGM,US,74.1827,72.1388,0.0191,0.0480
+PBFR,PGIM Laddered Buffer 20 ETF,29.3900,,United States and Canada,BATS,US,28.8394,28.2303,0.0191,0.0411
+ADIV,SmartETFs Asia Pacific Dividend ETF,18.5817,,United States and Canada,ARCA,US,18.2333,17.7217,0.0191,0.0485
+POCT,Innovator U.S. Equity Power Buffer ETF,44.2150,,United States and Canada,BATS,US,43.3830,42.4055,0.0192,0.0427
+PSFM,Pacer Swan SOS ETF,32.0508,,United States and Canada,BATS,US,31.4474,30.8424,0.0192,0.0392
+PICB,Invesco Int'l Corp Bond ETF,24.2500,,United States and Canada,ARCA,US,23.7926,23.5560,0.0192,0.0295
+UJUL,Innovator U.S. Equity Ultra Buffer ETF - July,39.0343,,United States and Canada,BATS,US,38.2979,37.3308,0.0192,0.0456
+IEDI,iShares U.S. Consumer ETF,57.0543,,United States and Canada,BATS,US,55.9755,55.1116,0.0193,0.0352
+JANW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,37.2357,,United States and Canada,BATS,US,36.5306,35.7449,0.0193,0.0417
+GPIX,Goldman Sachs S&P 500 Income ETF,53.2300,,United States and Canada,NasdaqGM,US,52.2220,51.1556,0.0193,0.0406
+JEPI,JPM Equity Premium ETF,58.5600,,United States and Canada,ARCA,US,57.4508,57.2088,0.0193,0.0236
+HEJD,Victory Hedged Equity ETF,27.4224,,United States and Canada,NasdaqGM,US,26.9027,26.8032,0.0193,0.0231
+GAUG,FT Vest U.S. Equity Moderate Buffer ETF,39.5600,,United States and Canada,BATS,US,38.8079,37.9037,0.0194,0.0437
+XBOC,Innovator U.S. Equity 9 Buffer ETF,33.7700,,United States and Canada,BATS,US,33.1276,32.4001,0.0194,0.0423
+UAUG,Innovator U.S. Equity Ultra Buffer ETF - Aug,40.2200,,United States and Canada,BATS,US,39.4539,38.4425,0.0194,0.0462
+IWMI,NEOS Russell 2000 High Income ETF,50.0700,,United States and Canada,BATS,US,49.1142,48.5444,0.0195,0.0314
+QMAG,FT Vest Nasdaq-100 Moderate Buffer ETF,23.8100,,United States and Canada,BATS,US,23.3553,22.7594,0.0195,0.0462
+ITDC,iShares LifePath 2035 ETF,34.7100,,United States and Canada,ARCA,US,34.0472,33.1682,0.0195,0.0465
+EPHE,iShares MSCI PH ETF,25.9700,,United States and Canada,ARCA,US,25.4732,25.6289,0.0195,0.0133
+SPLV,Invesco S&P 500 Low Vol ETF,73.6500,,United States and Canada,ARCA,US,72.2379,72.1027,0.0195,0.0215
+XTCKF,X-Trackers USD High Yield Bond ETF,10.5992,,United States and Canada,OTCPK,US,10.3957,10.1867,0.0196,0.0405
+MDIV,First Trust Multi-Asset Income ETF,16.2268,,United States and Canada,NasdaqGM,US,15.9149,15.9449,0.0196,0.0177
+HELO,JPM Hedged Equity ETF,66.9700,,United States and Canada,ARCA,US,65.6820,64.3878,0.0196,0.0401
+BCUS,Bancreek U.S. Large Cap ETF,33.0300,,United States and Canada,ARCA,US,32.3947,31.8732,0.0196,0.0363
+GBXA,Goldman Sachs ETF Trust - Goldman Sachs U.S. Large Cap Buffer 1 ETF,27.4900,,United States and Canada,BATS,US,26.9611,26.2259,0.0196,0.0482
+MARW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,34.5631,,United States and Canada,BATS,US,33.8970,33.1799,0.0197,0.0417
+BUFD,FT Vest Laddered Buffer ETF,28.4300,,United States and Canada,BATS,US,27.8813,27.2276,0.0197,0.0442
+PSCQ,Pacer Swan SOS Conservative ETF,29.7404,,United States and Canada,BATS,US,29.1661,28.4812,0.0197,0.0442
+XRLV,Invesco S&P 500 Low Volatility ETF,55.6847,,United States and Canada,ARCA,US,54.6075,54.5236,0.0197,0.0213
+ADME,Aptus Drawdown Equity ETF,52.0600,,United States and Canada,BATS,US,51.0523,49.7421,0.0197,0.0466
+ONOF,Global X Adaptive Risk ETF,38.0400,,United States and Canada,ARCA,US,37.3023,36.3129,0.0198,0.0476
+SIXO,AIM AllianzIM U.S. Large Cap Buffer ETF,35.0350,,United States and Canada,BATS,US,34.3555,33.7265,0.0198,0.0388
+DAUG,FT Vest U.S. Equity Deep Buffer ETF,44.6900,,United States and Canada,BATS,US,43.8223,42.7589,0.0198,0.0452
+IMPPF,Invesco Preferred UCITS ETF,47.5436,,United States and Canada,OTCPK,US,46.6182,46.0982,0.0199,0.0314
+APRT,AIM AllianzIM U.S. Large Cap Buffer10 ETF,41.8799,,United States and Canada,BATS,US,41.0639,40.2151,0.0199,0.0414
+PSMO,Pacer Swan SOS Moderate ETF,30.9761,,United States and Canada,BATS,US,30.3724,29.6679,0.0199,0.0441
+XBJL,Innovator U.S. Equity 9 Buffer ETF,38.4800,,United States and Canada,BATS,US,37.7264,36.8383,0.0200,0.0446
+PBMR,PGIM US Large-Cap Buffer ETF,30.6843,,United States and Canada,BATS,US,30.0830,29.4306,0.0200,0.0426
+LEMB,iShares EM Local Currency Bond ETF,42.3400,,United States and Canada,ARCA,US,41.5095,40.6484,0.0200,0.0416
+PSEP,Innovator U.S. Equity Power Buffer ETF - Sept,44.0200,,United States and Canada,BATS,US,43.1554,42.1036,0.0200,0.0455
+NOCT,Innovator Growth 100 ETF,58.3800,,United States and Canada,BATS,US,57.2321,55.7527,0.0201,0.0471
+GQRE,FlexShares Global Real Estate ETF,61.2535,,United States and Canada,ARCA,US,60.0484,59.6656,0.0201,0.0266
+FTLS,First Trust Long/Short ETF,71.7200,,United States and Canada,ARCA,US,70.3023,68.7597,0.0202,0.0431
+RISN,Inspire Tactical ETF,29.9589,,United States and Canada,ARCA,US,29.3666,28.6654,0.0202,0.0451
+PTLC,Pacer Trendpilot Large Cap ETF,56.3700,,United States and Canada,BATS,US,55.2555,54.0149,0.0202,0.0436
+MAYT,AIM AllianzIM U.S. Large Cap Buffer10 ETF,37.1639,,United States and Canada,BATS,US,36.4288,35.5611,0.0202,0.0451
+DECU,AIM ETF Products Trust - AllianzIM U.S. Equity Buffer15 Uncapped Dec ETF,27.6100,,United States and Canada,BATS,US,27.0636,26.3471,0.0202,0.0479
+INDS,Pacer Industrial ETF,38.5600,,United States and Canada,ARCA,US,37.7965,37.5746,0.0202,0.0262
+IBND,SPDR Int'l Corp Bond ETF,32.6800,,United States and Canada,ARCA,US,32.0316,31.6297,0.0202,0.0332
+PTMC,Pacer Trendpilot Mid Cap ETF,37.1000,,United States and Canada,BATS,US,36.3621,36.0033,0.0203,0.0305
+BELT,iShares Long-Term U.S. Equity ETF,34.4276,,United States and Canada,NasdaqGM,US,33.7426,32.8489,0.0203,0.0481
+FMAR,FT Vest U.S. Equity Buffer ETF,47.7702,,United States and Canada,BATS,US,46.8182,45.7759,0.0203,0.0436
+TBLU,Tortoise Global Water ETF,53.9434,,United States and Canada,NYSE,US,52.8681,52.1005,0.0203,0.0354
+BAPR,Innovator U.S. Equity Buffer ETF - April,48.3148,,United States and Canada,BATS,US,47.3504,46.3297,0.0204,0.0428
+GGM,GGM Macro ETF,28.0032,,United States and Canada,ARCA,US,27.4438,27.2010,0.0204,0.0295
+PAUG,Innovator U.S. Equity Power Buffer ETF,43.5800,,United States and Canada,BATS,US,42.7094,41.6210,0.0204,0.0471
+GYLD,Arrow Global Yield ETF,13.6300,,United States and Canada,NYSE,US,13.3577,13.2472,0.0204,0.0289
+NAUG,Innovator Growth 100 ETF,29.7300,,United States and Canada,BATS,US,29.1354,28.3218,0.0204,0.0497
+FLRG,Fidelity U.S. Multifactor ETF,38.6450,,United States and Canada,ARCA,US,37.8719,36.9111,0.0204,0.0470
+RYSE,Vest 10Y Rate Hedge ETF,23.6297,,United States and Canada,BATS,US,23.1566,23.2560,0.0204,0.0161
+EAPR,Innovator Emerging Markets ETF,29.9642,,United States and Canada,ARCA,US,29.3640,28.6951,0.0204,0.0442
+RTAI,Rareview Tax Advantaged ETF,21.6578,,United States and Canada,BATS,US,21.2235,21.1153,0.0205,0.0257
+CSMD,Congress SMid Growth ETF,33.4100,,United States and Canada,ARCA,US,32.7397,31.9995,0.0205,0.0441
+NSEP,Innovator Growth 100 ETF,29.4642,,United States and Canada,BATS,US,28.8723,28.0952,0.0205,0.0487
+OCTU,AIM AllianzIM U.S. Equity Buffer15 ETF,28.7222,,United States and Canada,BATS,US,28.1447,27.4329,0.0205,0.0470
+FJUN,FT Vest U.S. Equity Buffer ETF,57.4900,,United States and Canada,BATS,US,56.3324,54.9592,0.0205,0.0460
+PBJA,PGIM US Large-Cap Buffer 20 ETF,31.0800,,United States and Canada,BATS,US,30.4539,29.7852,0.0206,0.0435
+PSMD,Pacer Swan SOS Moderate ETF,32.6800,,United States and Canada,BATS,US,32.0207,31.2427,0.0206,0.0460
+JUNP,PGIM US Large-Cap Buffer 12 ETF,30.7445,,United States and Canada,BATS,US,30.1224,29.3689,0.0207,0.0468
+XMHQ,Invesco S&P MidCap ETF,106.4500,,United States and Canada,ARCA,US,104.2932,102.5297,0.0207,0.0382
+BUFZ,FT Vest Moderate Buffer ETF,26.7000,,United States and Canada,BATS,US,26.1587,25.5567,0.0207,0.0447
+AUGU,AIM AllianzIM U.S. Equity Buffer 15 ETF,29.7486,,United States and Canada,BATS,US,29.1451,28.3920,0.0207,0.0478
+RBUF,Innovator U.S. Small Cap 10 ETF,29.6200,,United States and Canada,BATS,US,29.0183,28.3459,0.0207,0.0449
+DOCT,FT Vest U.S. Equity Deep Buffer ETF,44.5800,,United States and Canada,BATS,US,43.6738,42.5496,0.0207,0.0477
+DJUL,FT Vest U.S. Equity Deep Buffer ETF,47.9140,,United States and Canada,BATS,US,46.9389,45.6826,0.0208,0.0488
+PSCU,Invesco S&P SmallCap Utilities ETF,59.1449,,United States and Canada,NasdaqGM,US,57.9396,57.5115,0.0208,0.0284
+PJUL,Innovator U.S. Equity Power Buffer ETF - July,46.7900,,United States and Canada,BATS,US,45.8361,44.6450,0.0208,0.0480
+JULU,AIM AllianzIM U.S. Equity Buffer15 ETF,29.9800,,United States and Canada,BATS,US,29.3686,28.6007,0.0208,0.0482
+REAI,Tidal Intelligent Real Estate ETF,19.9121,,United States and Canada,NasdaqGM,US,19.5057,19.6771,0.0208,0.0119
+PSCJ,Pacer Swan SOS Conservative ETF,30.2948,,United States and Canada,BATS,US,29.6750,28.8963,0.0209,0.0484
+BUFF,Innovator Power Buffer ETF,50.3100,,United States and Canada,BATS,US,49.2793,48.1312,0.0209,0.0453
+BMAY,Innovator U.S. Equity Buffer May ETF,45.1333,,United States and Canada,BATS,US,44.2084,43.1355,0.0209,0.0463
+MOTI,VanEck Intl Moat ETF,38.1700,,United States and Canada,BATS,US,37.3847,36.3687,0.0210,0.0495
+GJAN,FT Vest U.S. Equity Moderate Buffer ETF,43.0200,,United States and Canada,BATS,US,42.1344,41.1237,0.0210,0.0461
+FXB,Invesco GBP Trust,131.6400,,United States and Canada,ARCA,US,128.9246,128.0951,0.0211,0.0277
+SPRE,Tidal SP Global REIT Sharia ETF,20.0200,,United States and Canada,ARCA,US,19.6068,19.5864,0.0211,0.0221
+QSML,WisdomTree U.S. SmallCap Growth ETF,29.3694,,United States and Canada,NasdaqGM,US,28.7619,27.9799,0.0211,0.0497
+VNQI,Vanguard Global Real Estate ETF,47.9400,,United States and Canada,NasdaqGM,US,46.9476,46.0662,0.0211,0.0407
+KMID,Virtus Mid-Cap ETF,25.2500,,United States and Canada,ARCA,US,24.7272,24.6430,0.0211,0.0246
+XBJA,Innovator U.S. Equity 9 Buffer ETF,32.2600,,United States and Canada,BATS,US,31.5919,30.8577,0.0211,0.0454
+PSMJ,Pacer Swan SOS Moderate ETF,32.4141,,United States and Canada,BATS,US,31.7426,30.9032,0.0212,0.0489
+EWX,SPDR S&P EM Small Cap ETF,67.6500,,United States and Canada,ARCA,US,66.2482,64.5880,0.0212,0.0474
+FLJJ,AIM AllianzIM U.S. Equity 6M Floor ETF,32.2494,,United States and Canada,BATS,US,31.5790,30.8045,0.0212,0.0469
+ERET,iShares Eco Real Estate ETF,27.7022,,United States and Canada,NasdaqGM,US,27.1262,26.8958,0.0212,0.0300
+WBIL,WBI BullBear 3000 ETF,35.4970,,United States and Canada,ARCA,US,34.7581,34.1213,0.0213,0.0403
+TBT,ProShares UltraShort 20+ Treasury,35.1100,,United States and Canada,ARCA,US,34.3782,34.5618,0.0213,0.0159
+GJUL,FT Vest U.S. Equity Moderate Buffer ETF,41.6400,,United States and Canada,BATS,US,40.7716,39.7230,0.0213,0.0483
+NOVP,PGIM US Large-Cap Buffer ETF,30.7048,,United States and Canada,BATS,US,30.0633,29.2946,0.0213,0.0481
+MCDS,JPMorgan Data Science Mid Core ETF,59.9191,,United States and Canada,NasdaqGM,US,58.6649,57.7024,0.0214,0.0384
+SNOV,FT Vest U.S. Small Cap Buffer ETF,25.2600,,United States and Canada,BATS,US,24.7311,24.1844,0.0214,0.0445
+SEPU,AIM AllianzIM U.S. Equity Buffer15 ETF,29.2500,,United States and Canada,BATS,US,28.6359,27.9210,0.0214,0.0476
+SRHQ,Elevation U.S. Quality ETF,40.3013,,United States and Canada,ARCA,US,39.4549,38.5415,0.0215,0.0457
+UMAR,Innovator U.S. Equity Ultra Buffer ETF,40.2392,,United States and Canada,BATS,US,39.3929,38.4647,0.0215,0.0461
+QMAR,FT Vest Nasdaq-100 Buffer ETF,33.2000,,United States and Canada,BATS,US,32.5007,31.6781,0.0215,0.0480
+GOCT,FT Vest U.S. Equity Moderate Buffer ETF,39.6300,,United States and Canada,BATS,US,38.7949,37.8180,0.0215,0.0479
+OUSM,ALPS O'Shares Small-Cap Dividend ETF,45.3400,,United States and Canada,ARCA,US,44.3828,43.9747,0.0216,0.0310
+PMAR,Innovator U.S. Equity Power Buffer ETF,45.2700,,United States and Canada,BATS,US,44.3126,43.2485,0.0216,0.0467
+JDIV,JPM Dividend Leaders ETF,54.9092,,United States and Canada,ARCA,US,53.7442,52.3819,0.0217,0.0482
+ALIL,Ea Series Trust - Argent Focused Small Capital Etf,30.0364,,United States and Canada,NasdaqGM,US,29.3991,28.8375,0.0217,0.0416
+BKN,BlackRock Quality Munis ETF,11.4500,,United States and Canada,NYSE,US,11.2068,11.2072,0.0217,0.0217
+SIZE,iShares USA Size ETF,165.4300,,United States and Canada,ARCA,US,161.9164,158.2185,0.0217,0.0456
+ABCS,Alpha Blue US Small-Mid Cap ETF,30.9725,,United States and Canada,NasdaqGM,US,30.3141,29.6924,0.0217,0.0431
+MPRO,Monarch ProCap ETF,31.4100,,United States and Canada,BATS,US,30.7411,30.2854,0.0218,0.0371
+FMAY,FT Vest U.S. Equity Buffer May,53.7800,,United States and Canada,BATS,US,52.6338,51.2541,0.0218,0.0493
+LGCF,Themes US Cash Flow ETF,34.4903,,United States and Canada,NasdaqGM,US,33.7530,32.8894,0.0218,0.0487
+PSCX,Pacer Swan SOS Conservative ETF,31.2100,,United States and Canada,BATS,US,30.5404,29.7632,0.0219,0.0486
+SIXL,ETC Meridian Low Beta ETF,37.8322,,United States and Canada,ARCA,US,37.0205,36.8647,0.0219,0.0262
+UJAN,Innovator U.S. Equity Ultra Buffer ETF - Jan,43.5500,,United States and Canada,BATS,US,42.6128,41.5848,0.0220,0.0473
+CAPE,DoubleLine Shiller CAPE ETF,32.9500,,United States and Canada,ARCA,US,32.2408,31.7565,0.0220,0.0376
+JUNT,AIM AllianzIM U.S. Large Cap Buffer10 ETF,36.6170,,United States and Canada,BATS,US,35.8288,34.8951,0.0220,0.0493
+IVRA,Invesco Real Assets ETF,16.7850,,United States and Canada,BATS,US,16.4231,16.2851,0.0220,0.0307
+RWO,SPDR Global Real Estate ETF,46.5600,,United States and Canada,ARCA,US,45.5552,45.1053,0.0221,0.0323
+EALT,Innovator U.S. Equity Buffer ETF,35.7100,,United States and Canada,BATS,US,34.9324,34.0441,0.0223,0.0489
+XNOV,FT Vest U.S. Equity Buffer ETF,38.1094,,United States and Canada,BATS,US,37.2777,36.4297,0.0223,0.0461
+DECW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,34.2000,,United States and Canada,BATS,US,33.4525,32.6471,0.0223,0.0476
+PSFO,Pacer Swan SOS ETF,32.6899,,United States and Canada,BATS,US,31.9753,31.1379,0.0223,0.0498
+JFLI,J.P. Morgan Exchange-Traded Fund Trust - JPMorgan Flexible Income ETF,52.0903,,United States and Canada,ARCA,US,50.9516,49.9504,0.0223,0.0428
+BAMA,Brookstone Active ETF,34.4800,,United States and Canada,BATS,US,33.7235,32.8957,0.0224,0.0482
+QAT,iShares Qatar ETF,19.7100,,United States and Canada,NasdaqGM,US,19.2774,19.0650,0.0224,0.0338
+GDEC,FT Vest U.S. Equity Moderate Buffer ETF,38.0400,,United States and Canada,BATS,US,37.2027,36.2575,0.0225,0.0492
+WBIG,WBI BullBear 3000 ETF,23.9557,,United States and Canada,ARCA,US,23.4275,23.1964,0.0225,0.0327
+SPBX,AIM ETF Products Trust - AllianzIM 6 Month Buffer10 Allocation ETF,27.7481,,United States and Canada,BATS,US,27.1361,26.4390,0.0226,0.0495
+EAOR,iShares ESG Growth ETF,35.9746,,United States and Canada,BATS,US,35.1810,34.3051,0.0226,0.0487
+SCAP,InfraCap Small Cap ETF,36.9749,,United States and Canada,ARCA,US,36.1585,35.3397,0.0226,0.0463
+DMXF,iShares ESG MSCI EAFE ETF,78.0200,,United States and Canada,NasdaqGM,US,76.2969,74.6060,0.0226,0.0458
+DUKQ,Ocean Park ETF,28.3654,,United States and Canada,ARCA,US,27.7375,27.1712,0.0226,0.0440
+PBDE,PGIM US Large-Cap Buffer ETF,29.6800,,United States and Canada,BATS,US,29.0155,28.3135,0.0229,0.0483
+RNEM,First Trust Emerging Markets ETF,56.7703,,United States and Canada,NasdaqGM,US,55.4974,54.6869,0.0229,0.0381
+GFEB,FT Vest U.S. Equity Moderate Buffer ETF,41.9048,,United States and Canada,BATS,US,40.9638,39.9796,0.0230,0.0482
+IRSIF,iShares Fallen Angels High Yield ETF,7.5216,,United States and Canada,OTCPK,US,7.3519,7.1920,0.0231,0.0458
+GSEW,Goldman Sachs Equal Weight Large Cap ETF,87.3270,,United States and Canada,BATS,US,85.3566,83.3006,0.0231,0.0483
+IWR,iShares Mid-Cap ETF,99.1800,,United States and Canada,ARCA,US,96.9314,94.5480,0.0232,0.0490
+FLQS,Franklin U.S. Core Dividend ETF - Franklin U.S. Small Cap Multifactor ETF,44.5334,,United States and Canada,BATS,US,43.5235,42.7576,0.0232,0.0415
+FEBW,AIM AllianzIM U.S. Large Cap Buffer20 ETF,34.2650,,United States and Canada,BATS,US,33.4829,32.7579,0.0234,0.0460
+NBSM,Neuberger Berman Small-Mid ETF,26.3400,,United States and Canada,ARCA,US,25.7386,25.4966,0.0234,0.0331
+BAMD,Brookstone Dividend ETF,31.2772,,United States and Canada,BATS,US,30.5627,30.7223,0.0234,0.0181
+BOUT,Innovator Breakout ETF,38.6300,,United States and Canada,ARCA,US,37.7475,37.4384,0.0234,0.0318
+TPLC,Timothy Plan US Large/Mid ETF,47.1400,,United States and Canada,ARCA,US,46.0595,45.3089,0.0235,0.0404
+RSSE,FT Vest U.S. Equity Buffer ETF,21.8053,,United States and Canada,ARCA,US,21.3044,20.9583,0.0235,0.0404
+PJAN,Innovator U.S. Equity Power Buffer ETF - Jan,47.4100,,United States and Canada,BATS,US,46.3207,45.1859,0.0235,0.0492
+JGLO,JPM Global Select ETF,69.2100,,United States and Canada,NasdaqGM,US,67.6117,65.9718,0.0236,0.0491
+ONEV,SPDR Russell 1000 Low Vol ETF,137.2927,,United States and Canada,ARCA,US,134.1205,131.9574,0.0237,0.0404
+ABLG,TrimTabs FCF Quality ETF,32.3635,,United States and Canada,BATS,US,31.6156,31.0269,0.0237,0.0431
+HEQT,Simplify Hedged Equity ETF,32.4499,,United States and Canada,ARCA,US,31.6984,30.9994,0.0237,0.0468
+ISPY,ProShares S&P 500 High Income ETF,46.3800,,United States and Canada,BATS,US,45.3050,44.4804,0.0237,0.0427
+KDEC,Innovator ETFs Trust - Innovator U.S. Small Cap Power Buffer ETF - December,26.2300,,United States and Canada,BATS,US,25.6177,25.0108,0.0239,0.0487
+FHDG,FT Vest U.S. Equity Buffer ETF,34.2447,,United States and Canada,BATS,US,33.4450,32.6505,0.0239,0.0488
+IMCB,iShares Mid-Cap ETF,85.1800,,United States and Canada,ARCA,US,83.1848,81.2959,0.0240,0.0478
+PFXF,VanEck Preferred Securities ETF,18.2800,,United States and Canada,ARCA,US,17.8518,17.6648,0.0240,0.0348
+MAGA,Point Bridge America ETF,53.4798,,United States and Canada,BATS,US,52.2268,51.2452,0.0240,0.0436
+EMLC,VanEck EM Local Currency Bond ETF,26.3000,,United States and Canada,ARCA,US,25.6833,25.3230,0.0240,0.0386
+WOOD,iShares Global Timber ETF,74.6816,,United States and Canada,NasdaqGM,US,72.9284,73.5315,0.0240,0.0156
+IFEB,Innovator Int'l Developed Power Buffer ETF,30.5000,,United States and Canada,ARCA,US,29.7832,29.0781,0.0241,0.0489
+BAMV,Brookstone Value ETF,33.3100,,United States and Canada,BATS,US,32.5261,32.0742,0.0241,0.0385
+OEFA,ALPS O'Shares Europe Dividend ETF,34.1326,,United States and Canada,ARCA,US,33.3234,32.6463,0.0243,0.0455
+ISGAF,iShares Global Bond ETF,5.8190,,United States and Canada,OTCPK,US,5.6804,5.5832,0.0244,0.0422
+CGW,Invesco S&P Global Water ETF,65.5000,,United States and Canada,ARCA,US,63.9389,62.5766,0.0244,0.0467
+WBIF,WBI BullBear 3000 ETF,31.7785,,United States and Canada,ARCA,US,31.0195,30.3742,0.0245,0.0462
+SPIN,SPDR SSGA US Equity Income ETF,32.8200,,United States and Canada,BATS,US,32.0345,31.5206,0.0245,0.0412
+UPGD,Invesco Bloomberg Rating Improvers ETF,76.6911,,United States and Canada,ARCA,US,74.8524,73.4883,0.0246,0.0436
+SRET,Global X SuperDividend REIT ETF,22.4539,,United States and Canada,NasdaqGM,US,21.9152,21.5948,0.0246,0.0398
+RSDE,First Trust Exchange-Traded Fund VIII - FT Vest U.S. Equity Equal Weight Buffer ETF - December,22.2348,,United States and Canada,ARCA,US,21.7005,21.2139,0.0246,0.0481
+QLV,FlexShares US Quality Low Volatility ETF,73.5337,,United States and Canada,ARCA,US,71.7610,70.2255,0.0247,0.0471
+QMOM,Alpha Architect U.S. Momentum ETF,67.8800,,United States and Canada,NasdaqGM,US,66.2397,64.7495,0.0248,0.0483
+ALTY,Global X Alt Income ETF,12.2786,,United States and Canada,NasdaqGM,US,11.9798,11.8623,0.0249,0.0351
+DSTL,Distillate U.S. Stability ETF,59.9300,,United States and Canada,ARCA,US,58.4697,57.3022,0.0250,0.0459
+LPRE,Exchange Listed Funds Trust - Long Pond Real Estate Select ETF,27.0008,,United States and Canada,ARCA,US,26.3424,25.7365,0.0250,0.0491
+KJUN,Innovator U.S. Small Cap Power Buffer ETF,28.3475,,United States and Canada,BATS,US,27.6522,27.1641,0.0251,0.0436
+EBUF,Innovator EM 10 Buffer ETF,29.1460,,United States and Canada,ARCA,US,28.4290,27.8668,0.0252,0.0459
+TDSB,Cabana Target Beta ETF,24.4643,,United States and Canada,NasdaqGM,US,23.8611,23.3570,0.0253,0.0474
+RSJN,FT Vest U.S. Equity Buffer ETF,34.9698,,United States and Canada,ARCA,US,34.1041,33.5143,0.0254,0.0434
+GAL,SPDR SSGA Global ETF,50.8500,,United States and Canada,ARCA,US,49.5891,48.4320,0.0254,0.0499
+IBUF,Innovator Intl Dev 10 Buffer ETF,29.5500,,United States and Canada,ARCA,US,28.8141,28.1961,0.0255,0.0480
+ENZL,iShares NZ ETF,46.9408,,United States and Canada,NasdaqGM,US,45.7704,45.5990,0.0256,0.0294
+ELD,WisdomTree EM Local Debt ETF,29.6700,,United States and Canada,ARCA,US,28.9290,28.4026,0.0256,0.0446
+SMAY,FT Vest U.S. Small Cap Buffer ETF,26.3400,,United States and Canada,BATS,US,25.6820,25.1652,0.0256,0.0467
+NETL,NETLease Real Estate ETF,24.9500,,United States and Canada,ARCA,US,24.3263,24.3414,0.0256,0.0250
+QIDX,Spinnaker ETF Series - Indexperts Quality Earnings Focused ETF,11.1300,,United States and Canada,ARCA,US,10.8511,10.6439,0.0257,0.0457
+TACK,Fairlead Tactical ETF,30.7100,,United States and Canada,ARCA,US,29.9368,29.2876,0.0258,0.0486
+CCOR,Core Alt ETF,27.2010,,United States and Canada,ARCA,US,26.5151,26.5256,0.0259,0.0255
+BALI,iShares Large Cap Income ETF,32.4000,,United States and Canada,BATS,US,31.5808,31.0147,0.0259,0.0447
+DON,WisdomTree U.S. MidCap Dividend,53.5700,,United States and Canada,ARCA,US,52.2147,51.4995,0.0260,0.0402
+CPRY,Calamos ETF Trust - Russell 2000 Structured Alt Protection ETF - January,27.2152,,United States and Canada,ARCA,US,26.5257,25.9275,0.0260,0.0497
+KAUG,Innovator U.S. Small Cap Power Buffer ETF,27.0600,,United States and Canada,BATS,US,26.3715,25.9042,0.0261,0.0446
+JEPQ,JPM Nasdaq Equity ETF,59.4300,,United States and Canada,NasdaqGM,US,57.9168,56.7346,0.0261,0.0475
+CZA,Invesco Zacks Mid-Cap ETF,114.0500,,United States and Canada,ARCA,US,111.1347,109.1041,0.0262,0.0453
+PBFB,PGIM US Large-Cap Buffer ETF,30.7999,,United States and Canada,BATS,US,30.0085,29.3485,0.0264,0.0495
+IAPR,Innovator Int'l Developed Power Buffer ETF,31.2599,,United States and Canada,ARCA,US,30.4536,29.7768,0.0265,0.0498
+FICS,First Trust Int'l Developed Capital ETF,40.4653,,United States and Canada,NasdaqGM,US,39.4107,38.7258,0.0268,0.0449
+ULE,ProShares Ultra Euro,13.3700,,United States and Canada,ARCA,US,13.0207,12.7560,0.0268,0.0481
+ICAP,InfraCap Equity Income ETF,28.5700,,United States and Canada,ARCA,US,27.8191,27.2188,0.0270,0.0496
+GQI,Natixis Gateway Quality ETF,58.0600,,United States and Canada,ARCA,US,56.5312,55.4988,0.0270,0.0461
+NIXT,EA Research Affiliates ETF,27.2774,,United States and Canada,NasdaqGM,US,26.5574,26.1348,0.0271,0.0437
+CFO,VictoryShares US 500 Volatility ETF,75.9433,,United States and Canada,NasdaqGM,US,73.9280,72.5568,0.0273,0.0467
+IQRA,NYLI Real Assets ETF,28.9822,,United States and Canada,ARCA,US,28.2127,27.8081,0.0273,0.0422
+XSHD,Invesco S&P SmallCap High Div Low Vol ETF,13.5724,,United States and Canada,BATS,US,13.2104,13.3897,0.0274,0.0136
+CALF,Pacer US Small Cap ETF,45.3800,,United States and Canada,BATS,US,44.1685,43.2674,0.0274,0.0488
+CFA,VictoryShares US 500 Volatility ETF,93.6929,,United States and Canada,NasdaqGM,US,91.1822,89.4754,0.0275,0.0471
+FEMB,First Trust Emerging Markets Bond ETF,30.4300,,United States and Canada,NasdaqGM,US,29.6076,29.1047,0.0278,0.0455
+FCEF,First Trust Income ETF,23.5102,,United States and Canada,NasdaqGM,US,22.8727,22.5596,0.0279,0.0421
+VFMV,Vanguard Min Vol ETF,134.9350,,United States and Canada,BATS,US,131.1777,129.1096,0.0286,0.0451
+SMIG,Bahl & Gaynor Small/Mid Cap ETF,30.0300,,United States and Canada,ARCA,US,29.1865,29.0328,0.0289,0.0343
+LGLV,SPDR SSGA US Low Vol ETF,182.1900,,United States and Canada,ARCA,US,177.0682,174.9288,0.0289,0.0415
+DIVS,SmartETFs Dividend Builder,32.0426,,United States and Canada,ARCA,US,31.1399,30.7292,0.0290,0.0427
+BTR,Beacon Tactical ETF,26.2372,,United States and Canada,ARCA,US,25.4893,25.2694,0.0293,0.0383
+KNG,FT S&P 500 Dividend Aristocrats ETF,51.1800,,United States and Canada,BATS,US,49.7153,49.7660,0.0295,0.0284
+CCEF,Calamos Income & Arbitrage ETF,29.7200,,United States and Canada,ARCA,US,28.8612,28.5279,0.0298,0.0418
+TDSC,Cabana Target Drawdown 10 ETF,26.1487,,United States and Canada,NasdaqGM,US,25.3896,25.0681,0.0299,0.0431
+MEMS,Matthews Emerging Markets ETF,27.0900,,United States and Canada,NasdaqGM,US,26.2912,25.9657,0.0304,0.0433
+AQWA,Global X Clean Water ETF,19.9006,,United States and Canada,NasdaqGM,US,19.3107,18.9836,0.0305,0.0483
+SHRY,First Trust Shareholder Yield ETF,43.5288,,United States and Canada,NasdaqGM,US,42.2337,41.8109,0.0307,0.0411
+BRKD,Direxion Shares ETF Trust - Direxion Daily BRKB Bear 1X Shares,24.2388,,United States and Canada,NasdaqGM,US,23.5141,23.5390,0.0308,0.0297
+FXF,Invesco Swiss Franc ETF,114.4000,,United States and Canada,ARCA,US,110.9793,109.3822,0.0308,0.0459
+INCM,Franklin Income ETF,28.9000,,United States and Canada,ARCA,US,28.0354,27.6203,0.0308,0.0463
+SDVD,FT Vest SMID Dividend Achievers ETF,22.3500,,United States and Canada,BATS,US,21.6813,21.4060,0.0308,0.0441
+ZIG,Acquirers Fund ETF,38.5609,,United States and Canada,ARCA,US,37.4050,37.1265,0.0309,0.0386
+EFRA,iShares Environmental ETF,35.1090,,United States and Canada,NasdaqGM,US,34.0460,33.5131,0.0312,0.0476
+YLDE,ClearBridge ESG Dividend ETF,55.8602,,United States and Canada,NasdaqGM,US,54.1572,53.2736,0.0314,0.0486
+XSLV,Invesco S&P SmallCap Low Vol ETF,48.3198,,United States and Canada,ARCA,US,46.7850,46.4839,0.0328,0.0395
+WIP,SPDR FTSE Int'l Gov Inflation Bond ETF,40.7000,,United States and Canada,ARCA,US,39.3956,39.0454,0.0331,0.0424
+OSCV,Opus Small Cap Value ETF,39.0600,,United States and Canada,BATS,US,37.8071,37.3183,0.0331,0.0467
+JPSV,JPMorgan Active Small Cap ETF,60.8024,,United States and Canada,ARCA,US,58.8475,58.1759,0.0332,0.0451
+PSCC,Invesco S&P SmallCap Staples ETF,33.5716,,United States and Canada,NasdaqGM,US,32.4873,33.3470,0.0334,0.0067
+LBAY,Leatherback Long/Short Yield ETF,25.5414,,United States and Canada,ARCA,US,24.7154,24.7868,0.0334,0.0304
+SPYD,SPDR S&P 500 High Div ETF,45.2800,,United States and Canada,ARCA,US,43.8154,43.5552,0.0334,0.0396
+CMDY,iShares Commodity Roll ETF,53.9300,,United States and Canada,ARCA,US,52.1792,51.7347,0.0336,0.0424
+STHH,Precidian ETFs Trust - STMicroelectronics NV ADRhedged,54.9184,,United States and Canada,ARCA,US,53.1259,53.0048,0.0337,0.0361
+FTXG,First Trust Nasdaq Food ETF,22.3565,,United States and Canada,NasdaqGM,US,21.6167,21.9926,0.0342,0.0165
+PSL,Invesco Consumer Staples Momentum ETF,108.8644,,United States and Canada,NasdaqGM,US,105.2438,105.9129,0.0344,0.0279
+DIVP,Cullen Enhanced Equity ETF,26.3188,,United States and Canada,ARCA,US,25.4395,25.3756,0.0346,0.0372
+DVAL,Franklin Templeton BrandywineGLOBAL US Large Cap Value ETF,14.9838,,United States and Canada,NasdaqGM,US,14.4782,14.2764,0.0349,0.0496
+FVD,First Trust Value Line Dividend ETF,47.8800,,United States and Canada,ARCA,US,46.2633,45.6844,0.0349,0.0481
+AMZA,InfraCap MLP ETF,42.0400,,United States and Canada,ARCA,US,40.6153,41.1674,0.0351,0.0212
+FCTE,SMI 3F Trend ETF,26.6364,,United States and Canada,NasdaqGM,US,25.7209,25.8339,0.0356,0.0311
+LVHD,Franklin U.S. Low Volatility Dividend ETF,42.0800,,United States and Canada,NasdaqGM,US,40.6215,40.3455,0.0359,0.0430
+SPHD,Invesco S&P 500 High Div Low Vol ETF,50.2800,,United States and Canada,ARCA,US,48.5338,48.3706,0.0360,0.0395
+MDST,Westwood Midstream Income ETF,27.3600,,United States and Canada,NYSE,US,26.3972,26.4125,0.0365,0.0359
+PEY,Invesco High Yield Dividend ETF,21.6300,,United States and Canada,NasdaqGM,US,20.8583,20.8568,0.0370,0.0371
+FDIV,MarketDesk U.S. Dividend ETF,28.1450,,United States and Canada,NasdaqGM,US,27.1318,26.9364,0.0373,0.0449
+SZNE,Pacer Seasonal Rotation ETF,36.6442,,United States and Canada,ARCA,US,35.3155,35.1862,0.0376,0.0414
+TMV,Direxion 20+ Year Treasury Bear 3X ETF,37.4800,,United States and Canada,ARCA,US,36.0958,36.2810,0.0383,0.0330
+TMDV,ProShares Russell Dividend Growers ETF,49.6663,,United States and Canada,BATS,US,47.8111,47.6194,0.0388,0.0430
+ISRWF,iShares J.P. Morgan EM Bond ETF,93.2933,,United States and Canada,OTCPK,US,89.7999,90.1420,0.0389,0.0350
+PAPI,MS Parametric Equity ETF,27.2360,,United States and Canada,ARCA,US,26.1858,26.0706,0.0401,0.0447
+KXI,iShares Global Staples ETF,68.0800,,United States and Canada,ARCA,US,65.4398,64.9716,0.0403,0.0478
+FXG,First Trust Consumer Staples ETF,65.2600,,United States and Canada,ARCA,US,62.7151,63.1747,0.0406,0.0330
+KSA,iShares MSCI Saudi ETF,39.8600,,United States and Canada,ARCA,US,38.2688,38.7529,0.0416,0.0286
+VRAI,Virtus Real Asset ETF,24.8264,,United States and Canada,ARCA,US,23.8278,23.6532,0.0419,0.0496
+FLSA,Franklin Core Dividend ETF,34.3410,,United States and Canada,ARCA,US,32.9396,33.3347,0.0425,0.0302
+IYK,iShares U.S. Staples ETF,71.4700,,United States and Canada,ARCA,US,68.5070,68.6742,0.0433,0.0407
+RSPS,Invesco S&P 500 Equal Weight Staples ETF,31.0600,,United States and Canada,ARCA,US,29.7634,29.9030,0.0436,0.0387
+COMT,iShares GSCI Commodity ETF,27.4241,,United States and Canada,NasdaqGM,US,26.2493,26.2311,0.0448,0.0455
+AMLP,Alerian MLP ETF,50.0300,,United States and Canada,ARCA,US,47.8502,47.9347,0.0456,0.0437
+MLPA,Global X MLP ETF,51.4900,,United States and Canada,ARCA,US,49.2290,49.2887,0.0459,0.0447
+PBJ,Invesco Food & Beverage ETF,47.8701,,United States and Canada,ARCA,US,45.7418,46.0423,0.0465,0.0397
+FSTA,Fidelity MSCI Consumer Staples ETF,52.8600,,United States and Canada,ARCA,US,50.4696,50.4004,0.0474,0.0488
+DIV,Global X SuperDividend U.S. ETF,18.5600,,United States and Canada,ARCA,US,17.6871,17.7102,0.0494,0.0480
+XLP,Consumer Staples SPDR ETF,83.5100,,United States and Canada,ARCA,US,79.5796,79.6204,0.0494,0.0489
