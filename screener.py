@@ -159,6 +159,7 @@ class CSVResults:
     display_name: str
     bullish: List[CrossoverResult] = field(default_factory=list)
     bearish: List[CrossoverResult] = field(default_factory=list)
+    failed: List[CrossoverResult] = field(default_factory=list)
     total_symbols: int = 0
     errors: int = 0
 
@@ -545,7 +546,17 @@ def process_single_stock(symbol_data: Dict, use_cache: bool = True) -> Crossover
         return CrossoverResult(
             symbol=symbol, company=company, crossover_type=None,
             date=None, price=None, current_price=None, pct_change=None,
-            short_ema=None, long_ema=None, df=None, error="No data"
+            short_ema=None, long_ema=None, df=None, 
+            error="Symbol not found on Yahoo Finance"
+        )
+    
+    # Check if we have enough data for reliable EMA calculation
+    if len(df) < LONG_EMA:
+        return CrossoverResult(
+            symbol=symbol, company=company, crossover_type=None,
+            date=None, price=None, current_price=None, pct_change=None,
+            short_ema=None, long_ema=None, df=None,
+            error=f"Insufficient data ({len(df)} days) - need {LONG_EMA} days for EMA"
         )
     
     df[f'EMA_{SHORT_EMA}'] = calculate_ema(df, SHORT_EMA)
@@ -709,6 +720,14 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
         leftIndent=10
     )
     
+    failed_style = ParagraphStyle(
+        'Failed',
+        parent=styles['Normal'],
+        fontSize=9,
+        textColor=HexColor('#6c757d'),
+        leftIndent=10
+    )
+    
     normal_style = ParagraphStyle(
         'CustomNormal',
         parent=styles['Normal'],
@@ -825,6 +844,18 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
             story.append(Spacer(1, 10))
         else:
             story.append(Paragraph("🔴 Bearish Crossovers: None", subsection_style))
+        
+        # Failed symbols section
+        if csv_result.failed:
+            story.append(Spacer(1, 10))
+            story.append(Paragraph("⚠️ Failed Symbols", subsection_style))
+            for i, result in enumerate(csv_result.failed, 1):
+                error_text = (
+                    f"{i}. <b>{result.symbol}</b> - {result.company[:30]} | "
+                    f"<i>{result.error}</i>"
+                )
+                story.append(Paragraph(error_text, failed_style))
+            story.append(Spacer(1, 10))
     
     # Charts section
     story.append(PageBreak())
@@ -902,6 +933,7 @@ def process_csv_file(csv_path: Path, use_cache: bool = True) -> CSVResults:
                 
                 if result.error:
                     results.errors += 1
+                    results.failed.append(result)
                     status = "❌"
                 elif result.crossover_type == 'bullish':
                     # Generate chart
@@ -920,9 +952,15 @@ def process_csv_file(csv_path: Path, use_cache: bool = True) -> CSVResults:
                 
             except Exception as e:
                 results.errors += 1
+                error_result = CrossoverResult(
+                    symbol=sym_data['symbol'], company=sym_data['name'], crossover_type=None,
+                    date=None, price=None, current_price=None, pct_change=None,
+                    short_ema=None, long_ema=None, df=None, error=f"Processing error: {str(e)}"
+                )
+                results.failed.append(error_result)
                 print(f"[{processed:4}/{len(symbols)}] {sym_data['symbol']:8} ❌ Error")
     
-    print(f"\n  ✅ {display_name}: {len(results.bullish)} bullish, {len(results.bearish)} bearish")
+    print(f"\n  ✅ {display_name}: {len(results.bullish)} bullish, {len(results.bearish)} bearish, {len(results.failed)} failed")
     
     return results
 
