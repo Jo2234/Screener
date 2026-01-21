@@ -1,0 +1,794 @@
+Ticker,Name,Last Price,Market Cap,Trading Region,Exchange
+RELIANCE,Reliance Industries Limited,1395.4000,N/A for download,Asia / Pacific,NSEI
+HDFCBANK,HDFC Bank Limited,929.2500,N/A for download,Asia / Pacific,NSEI
+AIRTELPP,Bharti Airtel Limited,1564.1000,N/A for download,Asia / Pacific,NSEI
+BHARTIARTL,Bharti Airtel Limited,1968.7000,N/A for download,Asia / Pacific,NSEI
+TCS,Tata Consultancy Services Limited,3123.9000,N/A for download,Asia / Pacific,NSEI
+SBIN,State Bank of India,1077.1500,N/A for download,Asia / Pacific,NSEI
+ICICIBANK,ICICI Bank Limited,1355.0000,N/A for download,Asia / Pacific,NSEI
+INFY,Infosys Limited,1641.0000,N/A for download,Asia / Pacific,NSEI
+HINDUNILVR,Hindustan Unilever Limited,2373.0000,N/A for download,Asia / Pacific,NSEI
+BAJFINANCE,Bajaj Finance Limited,929.8500,N/A for download,Asia / Pacific,NSEI
+LT,Larsen & Toubro Limited,3932.3000,N/A for download,Asia / Pacific,NSEI
+LICI,Life Insurance Corporation of India,824.5000,N/A for download,Asia / Pacific,NSEI
+MARUTI,Maruti Suzuki India Limited,14599.0000,N/A for download,Asia / Pacific,NSEI
+HCLTECH,HCL Technologies Limited,1695.6000,N/A for download,Asia / Pacific,NSEI
+AXISBANK,Axis Bank Limited,1370.4000,N/A for download,Asia / Pacific,NSEI
+KOTAKBANK,Kotak Mahindra Bank Limited,408.0000,N/A for download,Asia / Pacific,NSEI
+ITC,ITC Limited,322.1500,N/A for download,Asia / Pacific,NSEI
+MM,Mahindra & Mahindra Limited,3431.8000,N/A for download,Asia / Pacific,NSEI
+SUNPHARMA,Sun Pharmaceutical Industries Limited,1595.3000,N/A for download,Asia / Pacific,NSEI
+ULTRACEMCO,UltraTech Cement Limited,12694.0000,N/A for download,Asia / Pacific,NSEI
+TITAN,Titan Company Limited,3977.4000,N/A for download,Asia / Pacific,NSEI
+NTPC,NTPC Limited,356.0000,N/A for download,Asia / Pacific,NSEI
+ONGC,Oil and Natural Gas Corporation Limited,268.9600,N/A for download,Asia / Pacific,NSEI
+BEL,Bharat Electronics Limited,449.0000,N/A for download,Asia / Pacific,NSEI
+ADANIPORTS,Adani Ports and Special Economic Zone Limited,1419.8000,N/A for download,Asia / Pacific,NSEI
+BAJAJFINSV,Bajaj Finserv Ltd.,1952.6000,N/A for download,Asia / Pacific,NSEI
+HAL,Hindustan Aeronautics Limited,4619.4000,N/A for download,Asia / Pacific,NSEI
+JSWSTEEL,JSW Steel Limited,1214.4000,N/A for download,Asia / Pacific,NSEI
+COALINDIA,Coal India Limited,440.7500,N/A for download,Asia / Pacific,NSEI
+BAJAJAUTO,Bajaj Auto Limited,9597.5000,N/A for download,Asia / Pacific,NSEI
+VEDL,Vedanta Limited,681.5500,N/A for download,Asia / Pacific,NSEI
+HINDZINC,Hindustan Zinc Limited,628.5000,N/A for download,Asia / Pacific,NSEI
+ADANIPOWER,Adani Power Limited,135.3800,N/A for download,Asia / Pacific,NSEI
+ADANIENT,Adani Enterprises Limited,2020.4000,N/A for download,Asia / Pacific,NSEI
+ADANIENPP,Adani Enterprises Limited,1341.6000,N/A for download,Asia / Pacific,NSEI
+NESTLEIND,Nestlé India Limited,1332.4000,N/A for download,Asia / Pacific,NSEI
+ETERNAL,Eternal Limited,273.6000,N/A for download,Asia / Pacific,NSEI
+WIPRO,Wipro Limited,236.9000,N/A for download,Asia / Pacific,NSEI
+TATASTEEL,Tata Steel Limited,193.1300,N/A for download,Asia / Pacific,NSEI
+DMART,Avenue Supermarts Limited,3689.5000,N/A for download,Asia / Pacific,NSEI
+POWERGRID,Power Grid Corporation of India Limited,256.5000,N/A for download,Asia / Pacific,NSEI
+ASIANPAINT,Asian Paints Limited,2428.3000,N/A for download,Asia / Pacific,NSEI
+IOC,Indian Oil Corporation Limited,163.2400,N/A for download,Asia / Pacific,NSEI
+HINDALCO,Hindalco Industries Limited,962.6000,N/A for download,Asia / Pacific,NSEI
+SBILIFE,SBI Life Insurance Company Limited,1998.5000,N/A for download,Asia / Pacific,NSEI
+EICHERMOT,Eicher Motors Limited,7122.5000,N/A for download,Asia / Pacific,NSEI
+SHRIRAMFIN,Shriram Finance Limited,1020.0000,N/A for download,Asia / Pacific,NSEI
+GRASIM,Grasim Industries Limited,2819.0000,N/A for download,Asia / Pacific,NSEI
+HYUNDAI,Hyundai Motor India Limited,2196.2000,N/A for download,Asia / Pacific,NSEI
+INDIGO,InterGlobe Aviation Limited,4596.5000,N/A for download,Asia / Pacific,NSEI
+LTIM,LTIMindtree Limited,5974.5000,N/A for download,Asia / Pacific,NSEI
+TVSMOTOR,TVS Motor Company Limited,3677.4000,N/A for download,Asia / Pacific,NSEI
+TMCV,Tata Motors Limited,458.5000,N/A for download,Asia / Pacific,NSEI
+JIOFIN,Jio Financial Services Limited,254.5000,N/A for download,Asia / Pacific,NSEI
+DIVISLAB,Divi's Laboratories Limited,6051.0000,N/A for download,Asia / Pacific,NSEI
+VBL,Varun Beverages Limited,471.2500,N/A for download,Asia / Pacific,NSEI
+BPCL,Bharat Petroleum Corporation Limited,364.5000,N/A for download,Asia / Pacific,NSEI
+HDFCLIFE,HDFC Life Insurance Company Limited,731.0000,N/A for download,Asia / Pacific,NSEI
+DLF,DLF Limited,635.7500,N/A for download,Asia / Pacific,NSEI
+IRFC,Indian Railway Finance Corporation Limited,120.1000,N/A for download,Asia / Pacific,NSEI
+BANKBARODA,Bank of Baroda Limited,299.4000,N/A for download,Asia / Pacific,NSEI
+TECHM,Tech Mahindra Limited,1743.1000,N/A for download,Asia / Pacific,NSEI
+MUTHOOTFIN,Muthoot Finance Limited,3829.6000,N/A for download,Asia / Pacific,NSEI
+ICICIAMC,ICICI Prudential Asset Management Company Limited,2972.6000,N/A for download,Asia / Pacific,NSEI
+PIDILITIND,Pidilite Industries Limited,1431.1000,N/A for download,Asia / Pacific,NSEI
+TATACAP,Tata Capital Limited,342.1000,N/A for download,Asia / Pacific,NSEI
+PNB,Punjab National Bank,125.1900,N/A for download,Asia / Pacific,NSEI
+BRITANNIA,Britannia Industries Limited,5860.5000,N/A for download,Asia / Pacific,NSEI
+ADANIGREEN,Adani Green Energy Limited,852.3000,N/A for download,Asia / Pacific,NSEI
+CHOLAFIN,Cholamandalam Investment and Finance Company Limited,1631.6000,N/A for download,Asia / Pacific,NSEI
+UNIONBANK,Union Bank of India,180.7600,N/A for download,Asia / Pacific,NSEI
+TRENT,Trent Limited,3785.5000,N/A for download,Asia / Pacific,NSEI
+TORNTPHARM,Torrent Pharmaceuticals Limited,3960.8000,N/A for download,Asia / Pacific,NSEI
+CANBK,Canara Bank,147.4200,N/A for download,Asia / Pacific,NSEI
+TMPV,Tata Motors Passenger Vehicles Limited,350.0500,N/A for download,Asia / Pacific,NSEI
+AMBUJACEM,Ambuja Cements Limited,510.1500,N/A for download,Asia / Pacific,NSEI
+PFC,Power Finance Corporation Limited,379.3500,N/A for download,Asia / Pacific,NSEI
+INDIANB,Indian Bank,911.7000,N/A for download,Asia / Pacific,NSEI
+SOLARINDS,Solar Industries India Limited,13480.0000,N/A for download,Asia / Pacific,NSEI
+IDEA,Vodafone Idea Limited,11.1700,N/A for download,Asia / Pacific,NSEI
+BAJAJHLDNG,Bajaj Holdings & Investment Limited,10800.0000,N/A for download,Asia / Pacific,NSEI
+MOTHERSON,Samvardhana Motherson International Limited,112.9000,N/A for download,Asia / Pacific,NSEI
+ABB,ABB India Limited,5578.5000,N/A for download,Asia / Pacific,NSEI
+GODREJCP,Godrej Consumer Products Limited,1154.1000,N/A for download,Asia / Pacific,NSEI
+INDUSTOWER,Indus Towers Limited,444.3000,N/A for download,Asia / Pacific,NSEI
+TATAPOWER,Tata Power Company Limited,366.3000,N/A for download,Asia / Pacific,NSEI
+ASHOKLEY,Ashok Leyland Limited,196.6900,N/A for download,Asia / Pacific,NSEI
+JINDALSTEL,Jindal Steel Limited,1132.0000,N/A for download,Asia / Pacific,NSEI
+BSE,BSE Limited,2797.0000,N/A for download,Asia / Pacific,NSEI
+CUMMINSIND,Cummins India Limited,4112.5000,N/A for download,Asia / Pacific,NSEI
+TATACONSUM,Tata Consumer Products Limited,1133.9000,N/A for download,Asia / Pacific,NSEI
+HEROMOTOCO,Hero MotoCorp Limited,5534.0000,N/A for download,Asia / Pacific,NSEI
+SIEMENS,Siemens Limited,3101.3000,N/A for download,Asia / Pacific,NSEI
+GAIL,GAIL (India) Limited,167.2900,N/A for download,Asia / Pacific,NSEI
+GROWW,Billionbrains Garage Ventures Limited,177.0400,N/A for download,Asia / Pacific,NSEI
+BOSCHLTD,Bosch Limited,36530.0000,N/A for download,Asia / Pacific,NSEI
+HDFCAMC,HDFC Asset Management Company Limited,2515.7000,N/A for download,Asia / Pacific,NSEI
+ADANIENSOL,Adani Energy Solutions Limited,894.8000,N/A for download,Asia / Pacific,NSEI
+IDBI,IDBI Bank Limited,99.5700,N/A for download,Asia / Pacific,NSEI
+CIPLA,Cipla Limited,1324.0000,N/A for download,Asia / Pacific,NSEI
+POLYCAB,Polycab India Limited,7013.5000,N/A for download,Asia / Pacific,NSEI
+MAZDOCK,Mazagon Dock Shipbuilders Limited,2572.9000,N/A for download,Asia / Pacific,NSEI
+DRREDDY,Dr. Reddy's Laboratories Limited,1218.1000,N/A for download,Asia / Pacific,NSEI
+APOLLOHOSP,Apollo Hospitals Enterprise Limited,6960.5000,N/A for download,Asia / Pacific,NSEI
+LGEINDIA,LG Electronics India Limited,1462.6000,N/A for download,Asia / Pacific,NSEI
+GMRAIRPORT,GMR Airports Limited,93.8900,N/A for download,Asia / Pacific,NSEI
+LUPIN,Lupin Limited,2152.8000,N/A for download,Asia / Pacific,NSEI
+SHREECEM,Shree Cement Limited,26985.0000,N/A for download,Asia / Pacific,NSEI
+LODHA,Lodha Developers Limited,971.5000,N/A for download,Asia / Pacific,NSEI
+UNITDSPR,United Spirits Limited,1362.6000,N/A for download,Asia / Pacific,NSEI
+INDHOTEL,The Indian Hotels Company Limited,674.1500,N/A for download,Asia / Pacific,NSEI
+RECLTD,REC Limited,364.1000,N/A for download,Asia / Pacific,NSEI
+MARICO,Marico Limited,729.8000,N/A for download,Asia / Pacific,NSEI
+MAXHEALTH,Max Healthcare Institute Limited,956.8000,N/A for download,Asia / Pacific,NSEI
+ICICIPRULI,ICICI Prudential Life Insurance Company Limited,636.8500,N/A for download,Asia / Pacific,NSEI
+CGPOWER,CG Power and Industrial Solutions Limited,584.0500,N/A for download,Asia / Pacific,NSEI
+BHEL,Bharat Heavy Electricals Limited,262.7000,N/A for download,Asia / Pacific,NSEI
+HINDPETRO,Hindustan Petroleum Corporation Limited,427.0000,N/A for download,Asia / Pacific,NSEI
+ICICIGI,ICICI Lombard General Insurance Company Limited,1814.1000,N/A for download,Asia / Pacific,NSEI
+PERSISTENT,Persistent Systems Limited,6035.0000,N/A for download,Asia / Pacific,NSEI
+DABUR,Dabur India Limited,506.6000,N/A for download,Asia / Pacific,NSEI
+ZYDUSLIFE,Zydus Lifesciences Limited,885.3000,N/A for download,Asia / Pacific,NSEI
+ABCAPITAL,Aditya Birla Capital Limited,339.8000,N/A for download,Asia / Pacific,NSEI
+ENRIN,Siemens Energy India Limited,2487.2000,N/A for download,Asia / Pacific,NSEI
+MANKIND,Mankind Pharma Limited,2124.0000,N/A for download,Asia / Pacific,NSEI
+POWERINDIA,Hitachi Energy India Limited,18862.0000,N/A for download,Asia / Pacific,NSEI
+SRF,SRF Limited,2816.3000,N/A for download,Asia / Pacific,NSEI
+OIL,Oil India Limited,510.0500,N/A for download,Asia / Pacific,NSEI
+GVTD,GE Vernova T&D India Limited,3230.3000,N/A for download,Asia / Pacific,NSEI
+NAUKRI,Info Edge (India) Limited,1249.4000,N/A for download,Asia / Pacific,NSEI
+JSWENERGY,JSW Energy Limited,459.8000,N/A for download,Asia / Pacific,NSEI
+HAVELLS,Havells India Limited,1285.0000,N/A for download,Asia / Pacific,NSEI
+SWIGGY,Swiggy Limited,309.7500,N/A for download,Asia / Pacific,NSEI
+WAAREEENER,Waaree Energies Limited,2787.5000,N/A for download,Asia / Pacific,NSEI
+LENSKART,Lenskart Solutions Limited,457.3500,N/A for download,Asia / Pacific,NSEI
+MEESHO,Meesho Limited,174.1500,N/A for download,Asia / Pacific,NSEI
+NHPC,NHPC Limited,78.2000,N/A for download,Asia / Pacific,NSEI
+BHARTIHEXA,Bharti Hexacom Limited,1544.8000,N/A for download,Asia / Pacific,NSEI
+POLICYBZR,PB Fintech Limited,1654.5000,N/A for download,Asia / Pacific,NSEI
+BAJAJHFL,Bajaj Housing Finance Limited,90.8300,N/A for download,Asia / Pacific,NSEI
+BANKINDIA,Bank of India Limited,164.1000,N/A for download,Asia / Pacific,NSEI
+AUBANK,AU Small Finance Bank Limited,982.3500,N/A for download,Asia / Pacific,NSEI
+PAYTM,One97 Communications Limited,1137.5000,N/A for download,Asia / Pacific,NSEI
+NTPCGREEN,NTPC Green Energy Limited,86.1700,N/A for download,Asia / Pacific,NSEI
+IDFCFIRSTB,IDFC First Bank Limited,83.5800,N/A for download,Asia / Pacific,NSEI
+SBICARD,SBI Cards and Payment Services Limited,753.5500,N/A for download,Asia / Pacific,NSEI
+RVNL,Rail Vikas Nigam Limited,343.4000,N/A for download,Asia / Pacific,NSEI
+NMDC,NMDC Limited,81.2100,N/A for download,Asia / Pacific,NSEI
+LTF,L&T Finance Limited,286.3500,N/A for download,Asia / Pacific,NSEI
+FEDERALBNK,The Federal Bank Limited,287.7500,N/A for download,Asia / Pacific,NSEI
+NATIONALUM,National Aluminium Company Limited,385.4500,N/A for download,Asia / Pacific,NSEI
+AUROPHARMA,Aurobindo Pharma Limited,1207.7000,N/A for download,Asia / Pacific,NSEI
+TORNTPOWER,Torrent Power Limited,1387.6000,N/A for download,Asia / Pacific,NSEI
+INDUSINDBK,IndusInd Bank Limited,896.1000,N/A for download,Asia / Pacific,NSEI
+BHARATFORG,Bharat Forge Limited,1441.4000,N/A for download,Asia / Pacific,NSEI
+IOB,Indian Overseas Bank,35.6300,N/A for download,Asia / Pacific,NSEI
+UNOMINDA,Uno Minda Limited,1182.3000,N/A for download,Asia / Pacific,NSEI
+NYKAA,FSN E-Commerce Ventures Limited,237.5000,N/A for download,Asia / Pacific,NSEI
+ALKEM,Alkem Laboratories Limited,5677.5000,N/A for download,Asia / Pacific,NSEI
+JSL,Jindal Stainless Limited,822.5500,N/A for download,Asia / Pacific,NSEI
+OFSS,Oracle Financial Services Software Limited,7760.0000,N/A for download,Asia / Pacific,NSEI
+COROMANDEL,Coromandel International Limited,2282.6000,N/A for download,Asia / Pacific,NSEI
+YESBANK,Yes Bank Limited,21.4100,N/A for download,Asia / Pacific,NSEI
+HINDCOPPER,Hindustan Copper Limited,685.9000,N/A for download,Asia / Pacific,NSEI
+GICRE,General Insurance Corporation of India,378.0500,N/A for download,Asia / Pacific,NSEI
+SUZLON,Suzlon Energy Limited,47.6700,N/A for download,Asia / Pacific,NSEI
+MCX,Multi Commodity Exchange of India Limited,2528.0000,N/A for download,Asia / Pacific,NSEI
+FORTIS,Fortis Healthcare Limited,851.5000,N/A for download,Asia / Pacific,NSEI
+DIXON,Dixon Technologies (India) Limited,10446.0000,N/A for download,Asia / Pacific,NSEI
+PRESTIGE,Prestige Estates Projects Limited,1461.5000,N/A for download,Asia / Pacific,NSEI
+SAIL,Steel Authority of India Limited,151.1300,N/A for download,Asia / Pacific,NSEI
+PHOENIXLTD,The Phoenix Mills Limited,1670.7000,N/A for download,Asia / Pacific,NSEI
+UPLPP1,UPL Limited,515.8000,N/A for download,Asia / Pacific,NSEI
+UPL,UPL Limited,703.9500,N/A for download,Asia / Pacific,NSEI
+BIOCON,Biocon Limited,366.8000,N/A for download,Asia / Pacific,NSEI
+VMM,Vishal Mega Mart Limited,125.9500,N/A for download,Asia / Pacific,NSEI
+ABBOTINDIA,Abbott India Limited,27565.0000,N/A for download,Asia / Pacific,NSEI
+HDBFS,HDB Financial Services Limited,707.4000,N/A for download,Asia / Pacific,NSEI
+SUNDARMFIN,Sundaram Finance Limited,5278.0000,N/A for download,Asia / Pacific,NSEI
+LLOYDSME,Lloyds Metals and Energy Limited,1103.8000,N/A for download,Asia / Pacific,NSEI
+ATGL,Adani Total Gas Limited,526.9500,N/A for download,Asia / Pacific,NSEI
+COLPAL,Colgate-Palmolive (India) Limited,2114.2000,N/A for download,Asia / Pacific,NSEI
+GLENMARK,Glenmark Pharmaceuticals Limited,2015.9000,N/A for download,Asia / Pacific,NSEI
+APLAPOLLO,APL Apollo Tubes Limited,2045.7000,N/A for download,Asia / Pacific,NSEI
+SCHAEFFLER,Schaeffler India Limited,3622.1000,N/A for download,Asia / Pacific,NSEI
+BDL,Bharat Dynamics Limited,1538.2000,N/A for download,Asia / Pacific,NSEI
+MRF,MRF Limited,132165.0000,N/A for download,Asia / Pacific,NSEI
+NAMINDIA,Nippon Life India Asset Management Limited,878.1000,N/A for download,Asia / Pacific,NSEI
+COFORGE,Coforge Limited,1653.8000,N/A for download,Asia / Pacific,NSEI
+MFSL,Max Financial Services Limited,1613.6000,N/A for download,Asia / Pacific,NSEI
+KRT,Knowledge Realty Trust,122.8000,N/A for download,Asia / Pacific,NSEI
+PATANJALI,Patanjali Foods Limited,500.4000,N/A for download,Asia / Pacific,NSEI
+OBEROIRLTY,Oberoi Realty Limited,1490.9000,N/A for download,Asia / Pacific,NSEI
+BERGEPAINT,Berger Paints India Limited,462.9000,N/A for download,Asia / Pacific,NSEI
+JSWINFRA,JSW Infrastructure Limited,258.5000,N/A for download,Asia / Pacific,NSEI
+FACT,The Fertilisers and Chemicals Travancore Limited,816.7500,N/A for download,Asia / Pacific,NSEI
+MPHASIS,Mphasis Limited,2759.0000,N/A for download,Asia / Pacific,NSEI
+MMFIN,Mahindra & Mahindra Financial Services Limited,375.5500,N/A for download,Asia / Pacific,NSEI
+LAURUSLABS,Laurus Labs Limited,965.0000,N/A for download,Asia / Pacific,NSEI
+LINDEINDIA,Linde India Limited,6007.0000,N/A for download,Asia / Pacific,NSEI
+MAHABANK,Bank of Maharashtra,65.2700,N/A for download,Asia / Pacific,NSEI
+IRCTC,Indian Railway Catering & Tourism Corporation Limited,623.0500,N/A for download,Asia / Pacific,NSEI
+PIIND,PI Industries Limited,3195.4000,N/A for download,Asia / Pacific,NSEI
+GODREJPROP,Godrej Properties Limited,1576.8000,N/A for download,Asia / Pacific,NSEI
+360ONE,360 One Wam Limited,1134.3000,N/A for download,Asia / Pacific,NSEI
+MOTILALOFS,Motilal Oswal Financial Services Limited,753.5500,N/A for download,Asia / Pacific,NSEI
+TIINDIA,Tube Investments of India Limited,2335.1000,N/A for download,Asia / Pacific,NSEI
+TATACOMM,Tata Communications Limited,1570.5000,N/A for download,Asia / Pacific,NSEI
+SUPREMEIND,The Supreme Industries Limited,3513.5000,N/A for download,Asia / Pacific,NSEI
+BALKRISIND,Balkrishna Industries Limited,2305.8000,N/A for download,Asia / Pacific,NSEI
+VOLTAS,Voltas Limited,1327.9000,N/A for download,Asia / Pacific,NSEI
+COCHINSHIP,Cochin Shipyard Limited,1659.9000,N/A for download,Asia / Pacific,NSEI
+PETRONET,Petronet LNG Limited,289.7500,N/A for download,Asia / Pacific,NSEI
+AIIL,Authum Investment & Infrastructure Limited,505.2000,N/A for download,Asia / Pacific,NSEI
+JKCEMENT,J.K. Cement Limited,5523.5000,N/A for download,Asia / Pacific,NSEI
+HEXT,Hexaware Technologies Limited,697.5500,N/A for download,Asia / Pacific,NSEI
+EMBASSY,Embassy Office Parks REIT,434.2600,N/A for download,Asia / Pacific,NSEI
+GLAXO,GlaxoSmithKline Pharmaceuticals Limited,2401.6000,N/A for download,Asia / Pacific,NSEI
+ASTRAL,Astral Limited,1476.6000,N/A for download,Asia / Pacific,NSEI
+PIRAMALFIN,Piramal Finance Limited,1743.5000,N/A for download,Asia / Pacific,NSEI
+LTTS,L&T Technology Services Limited,3722.8000,N/A for download,Asia / Pacific,NSEI
+3MINDIA,3M India Limited,34390.0000,N/A for download,Asia / Pacific,NSEI
+UBL,United Breweries Limited,1468.5000,N/A for download,Asia / Pacific,NSEI
+DALBHARAT,Dalmia Bharat Limited,2065.5000,N/A for download,Asia / Pacific,NSEI
+KEI,KEI Industries Limited,4021.1000,N/A for download,Asia / Pacific,NSEI
+HUDCO,Housing and Urban Development Corporation Limited,191.6500,N/A for download,Asia / Pacific,NSEI
+CONCOR,Container Corporation of India Limited,502.2500,N/A for download,Asia / Pacific,NSEI
+PGHH,Procter & Gamble Hygiene and Health Care Limited,11766.0000,N/A for download,Asia / Pacific,NSEI
+RADICO,Radico Khaitan Limited,2828.1000,N/A for download,Asia / Pacific,NSEI
+ESCORTS,Escorts Kubota Limited,3380.8000,N/A for download,Asia / Pacific,NSEI
+ITCHOTELS,ITC Hotels Limited,180.7600,N/A for download,Asia / Pacific,NSEI
+BLUESTARCO,Blue Star Limited,1816.9000,N/A for download,Asia / Pacific,NSEI
+KALYANKJIL,Kalyan Jewellers India Limited,361.6500,N/A for download,Asia / Pacific,NSEI
+IPCALAB,Ipca Laboratories Limited,1470.8000,N/A for download,Asia / Pacific,NSEI
+AIAENG,AIA Engineering Limited,3989.0000,N/A for download,Asia / Pacific,NSEI
+IREDA,Indian Renewable Energy Development Agency Limited,132.0800,N/A for download,Asia / Pacific,NSEI
+PAGEIND,Page Industries Limited,32995.0000,N/A for download,Asia / Pacific,NSEI
+UCOBANK,UCO Bank,29.2000,N/A for download,Asia / Pacific,NSEI
+NLCINDIA,NLC India Limited,259.1000,N/A for download,Asia / Pacific,NSEI
+NH,Narayana Hrudayalaya Limited,1767.9000,N/A for download,Asia / Pacific,NSEI
+AJANTPHARM,Ajanta Pharma Limited,2781.9000,N/A for download,Asia / Pacific,NSEI
+PWL,Physicswallah Limited,119.4500,N/A for download,Asia / Pacific,NSEI
+ENDURANCE,Endurance Technologies Limited,2426.8000,N/A for download,Asia / Pacific,NSEI
+CRISIL,CRISIL Limited,4664.1000,N/A for download,Asia / Pacific,NSEI
+CENTRALBK,Central Bank of India,37.4300,N/A for download,Asia / Pacific,NSEI
+ANTHEM,Anthem Biosciences Limited,599.3000,N/A for download,Asia / Pacific,NSEI
+FLUOROCHEM,Gujarat Fluorochemicals Limited,3053.5000,N/A for download,Asia / Pacific,NSEI
+TATAELXSI,Tata Elxsi Limited,5323.5000,N/A for download,Asia / Pacific,NSEI
+GODREJIND,Godrej Industries Limited,974.1000,N/A for download,Asia / Pacific,NSEI
+PREMIERENE,Premier Energies Limited,719.9000,N/A for download,Asia / Pacific,NSEI
+JUBLFOOD,Jubilant FoodWorks Limited,497.0500,N/A for download,Asia / Pacific,NSEI
+POONAWALLA,Poonawalla Fincorp Limited,399.0000,N/A for download,Asia / Pacific,NSEI
+THERMAX,Thermax Limited,2878.0000,N/A for download,Asia / Pacific,NSEI
+MINDSPACE,Mindspace Business Parks REIT,498.5000,N/A for download,Asia / Pacific,NSEI
+APARINDS,APAR Industries Limited,7994.0000,N/A for download,Asia / Pacific,NSEI
+GODFRYPHLP,Godfrey Phillips India Limited,2035.5000,N/A for download,Asia / Pacific,NSEI
+GRSE,Garden Reach Shipbuilders & Engineers Limited,2764.2000,N/A for download,Asia / Pacific,NSEI
+DELHIVERY,Delhivery Limited,422.9500,N/A for download,Asia / Pacific,NSEI
+TATAINVEST,Tata Investment Corporation Limited,622.9000,N/A for download,Asia / Pacific,NSEI
+APOLLOTYRE,Apollo Tyres Limited,492.1500,N/A for download,Asia / Pacific,NSEI
+NAVINFLUOR,Navin Fluorine International Limited,6099.0000,N/A for download,Asia / Pacific,NSEI
+CHOLAHLDNG,Cholamandalam Financial Holdings Limited,1654.3000,N/A for download,Asia / Pacific,NSEI
+MRPL,Mangalore Refinery and Petrochemicals Limited,176.5400,N/A for download,Asia / Pacific,NSEI
+SONACOMS,Sona BLW Precision Forgings Limited,495.7500,N/A for download,Asia / Pacific,NSEI
+ACC,ACC Limited,1636.9000,N/A for download,Asia / Pacific,NSEI
+TVSHLTD,TVS Holdings Limited,15058.0000,N/A for download,Asia / Pacific,NSEI
+GLAND,Gland Pharma Limited,1846.6000,N/A for download,Asia / Pacific,NSEI
+JBCHEPHARM,J. B. Chemicals & Pharmaceuticals Limited,1869.5000,N/A for download,Asia / Pacific,NSEI
+GODIGIT,Go Digit General Insurance Limited,324.5500,N/A for download,Asia / Pacific,NSEI
+KPRMILL,K.P.R. Mill Limited,869.5500,N/A for download,Asia / Pacific,NSEI
+HONAUT,Honeywell Automation India Limited,33375.0000,N/A for download,Asia / Pacific,NSEI
+GUJGASLTD,Gujarat Gas Limited,425.3500,N/A for download,Asia / Pacific,NSEI
+NHIT,National Highways Infra Trust,151.0000,N/A for download,Asia / Pacific,NSEI
+KARURVYSYA,The Karur Vysya Bank Limited,301.4000,N/A for download,Asia / Pacific,NSEI
+LICHSGFIN,LIC Housing Finance Limited,526.3000,N/A for download,Asia / Pacific,NSEI
+GILLETTE,Gillette India Limited,8799.5000,N/A for download,Asia / Pacific,NSEI
+MSUMI,Motherson Sumi Wiring India Limited,43.1600,N/A for download,Asia / Pacific,NSEI
+METROBRAND,Metro Brands Limited,1050.5000,N/A for download,Asia / Pacific,NSEI
+ASTERDM,Aster DM Healthcare Limited,552.1500,N/A for download,Asia / Pacific,NSEI
+SJVN,SJVN Limited,72.5000,N/A for download,Asia / Pacific,NSEI
+ZFCVINDIA,ZF Commercial Vehicle Control Systems India Limited,14989.0000,N/A for download,Asia / Pacific,NSEI
+KPITTECH,KPIT Technologies Limited,1041.9000,N/A for download,Asia / Pacific,NSEI
+MEDANTA,Global Health Limited,1053.8000,N/A for download,Asia / Pacific,NSEI
+ITI,ITI Limited,288.9500,N/A for download,Asia / Pacific,NSEI
+EMCURE,Emcure Pharmaceuticals Limited,1463.8000,N/A for download,Asia / Pacific,NSEI
+AWL,AWL Agri Business Limited,213.9700,N/A for download,Asia / Pacific,NSEI
+CDSL,Central Depository Services (India) Limited,1320.2000,N/A for download,Asia / Pacific,NSEI
+STARHEALTH,Star Health and Allied Insurance Company Limited,469.2500,N/A for download,Asia / Pacific,NSEI
+EXIDEIND,Exide Industries Limited,321.6000,N/A for download,Asia / Pacific,NSEI
+PTCIL,PTC Industries Limited,18058.0000,N/A for download,Asia / Pacific,NSEI
+NBCC,NBCC (India) Limited,98.8600,N/A for download,Asia / Pacific,NSEI
+IKS,Inventurus Knowledge Solutions Limited,1551.9000,N/A for download,Asia / Pacific,NSEI
+RAMCOCEM,The Ramco Cements Limited,1121.0000,N/A for download,Asia / Pacific,NSEI
+BIRET,Brookfield India Real Estate Trust,352.9200,N/A for download,Asia / Pacific,NSEI
+TATATECH,Tata Technologies Limited,645.9500,N/A for download,Asia / Pacific,NSEI
+AEGISLOG,Aegis Logistics Limited,730.5000,N/A for download,Asia / Pacific,NSEI
+ASAHIINDIA,Asahi India Glass Limited,1001.8000,N/A for download,Asia / Pacific,NSEI
+FORCEMOT,Force Motors Limited,19195.0000,N/A for download,Asia / Pacific,NSEI
+AEGISVOPAK,Aegis Vopak Terminals Limited,226.8100,N/A for download,Asia / Pacific,NSEI
+IRB,IRB Infrastructure Developers Limited,41.5500,N/A for download,Asia / Pacific,NSEI
+BANDHANBNK,Bandhan Bank Limited,154.6500,N/A for download,Asia / Pacific,NSEI
+IGL,Indraprastha Gas Limited,177.8900,N/A for download,Asia / Pacific,NSEI
+NIACL,The New India Assurance Company Limited,148.9100,N/A for download,Asia / Pacific,NSEI
+NUVAMA,Nuvama Wealth Management Limited,1345.4000,N/A for download,Asia / Pacific,NSEI
+KIMS,Krishna Institute of Medical Sciences Limited,603.7500,N/A for download,Asia / Pacific,NSEI
+MANAPPURAM,Manappuram Finance Limited,284.6500,N/A for download,Asia / Pacific,NSEI
+ANANDRATHI,Anand Rathi Wealth Limited,2885.4000,N/A for download,Asia / Pacific,NSEI
+SHYAMMETL,Shyam Metalics and Energy Limited,856.2500,N/A for download,Asia / Pacific,NSEI
+ATHERENERG,Ather Energy Limited,621.2500,N/A for download,Asia / Pacific,NSEI
+LALPATHLAB,Dr. Lal PathLabs Limited,1409.5000,N/A for download,Asia / Pacific,NSEI
+NXST,Nexus Select Trust,154.3600,N/A for download,Asia / Pacific,NSEI
+SAGILITY,Sagility Limited,49.9300,N/A for download,Asia / Pacific,NSEI
+KAYNES,Kaynes Technology India Limited,3475.4000,N/A for download,Asia / Pacific,NSEI
+HSCL,Himadri Speciality Chemical Limited,460.7500,N/A for download,Asia / Pacific,NSEI
+ANGELONE,Angel One Limited,2540.9000,N/A for download,Asia / Pacific,NSEI
+IIFL,IIFL Finance Limited,528.7000,N/A for download,Asia / Pacific,NSEI
+WOCKPHARMA,Wockhardt Limited,1382.2000,N/A for download,Asia / Pacific,NSEI
+CUB,City Union Bank Limited,301.7500,N/A for download,Asia / Pacific,NSEI
+DEEPAKNTR,Deepak Nitrite Limited,1642.5000,N/A for download,Asia / Pacific,NSEI
+FSL,Firstsource Solutions Limited,319.8500,N/A for download,Asia / Pacific,NSEI
+TIMKEN,Timken India Limited,2941.6000,N/A for download,Asia / Pacific,NSEI
+ABSLAMC,Aditya Birla Sun Life AMC Limited,759.4500,N/A for download,Asia / Pacific,NSEI
+KIOCL,KIOCL Limited,360.8500,N/A for download,Asia / Pacific,NSEI
+SUNTV,Sun TV Network Limited,555.7500,N/A for download,Asia / Pacific,NSEI
+ECLERX,eClerx Services Limited,4651.2000,N/A for download,Asia / Pacific,NSEI
+AFFLE,Affle 3i Limited,1547.2000,N/A for download,Asia / Pacific,NSEI
+HBLENGINE,HBL Engineering Limited,783.6000,N/A for download,Asia / Pacific,NSEI
+PNBHOUSING,PNB Housing Finance Limited,822.4000,N/A for download,Asia / Pacific,NSEI
+ASTRAZEN,AstraZeneca Pharma India Limited,8550.0000,N/A for download,Asia / Pacific,NSEI
+AADHARHFC,Aadhar Housing Finance Limited,491.3000,N/A for download,Asia / Pacific,NSEI
+CREDITACC,CreditAccess Grameen Limited,1326.5000,N/A for download,Asia / Pacific,NSEI
+REDINGTON,Redington Limited,271.4500,N/A for download,Asia / Pacific,NSEI
+EMAMILTD,Emami Limited,483.8000,N/A for download,Asia / Pacific,NSEI
+TENNIND,Tenneco Clean Air India Limited,522.1500,N/A for download,Asia / Pacific,NSEI
+PFIZER,Pfizer Limited,4563.6000,N/A for download,Asia / Pacific,NSEI
+PPLPHARMA,Piramal Pharma Limited,154.6800,N/A for download,Asia / Pacific,NSEI
+SUMICHEM,Sumitomo Chemical India Limited,409.6500,N/A for download,Asia / Pacific,NSEI
+AMBER,Amber Enterprises India Limited,5716.0000,N/A for download,Asia / Pacific,NSEI
+BAYERCROP,Bayer CropScience Limited,4466.2000,N/A for download,Asia / Pacific,NSEI
+SUNDRMFAST,Sundram Fasteners Limited,952.5000,N/A for download,Asia / Pacific,NSEI
+CESC,CESC Limited,150.1600,N/A for download,Asia / Pacific,NSEI
+PSB,Punjab & Sind Bank,27.8500,N/A for download,Asia / Pacific,NSEI
+JSWHL,JSW Holdings Limited,17765.0000,N/A for download,Asia / Pacific,NSEI
+EIHOTEL,EIH Limited,314.5500,N/A for download,Asia / Pacific,NSEI
+HATSUN,Hatsun Agro Product Limited,879.8000,N/A for download,Asia / Pacific,NSEI
+KPIL,Kalpataru Projects International Limited,1144.0000,N/A for download,Asia / Pacific,NSEI
+WELCORP,Welspun Corp Limited,729.2500,N/A for download,Asia / Pacific,NSEI
+CHALET,Chalet Hotels Limited,871.2000,N/A for download,Asia / Pacific,NSEI
+ERIS,Eris Lifesciences Limited,1375.5000,N/A for download,Asia / Pacific,NSEI
+TATACHEM,Tata Chemicals Limited,745.6500,N/A for download,Asia / Pacific,NSEI
+SYNGENE,Syngene International Limited,473.4500,N/A for download,Asia / Pacific,NSEI
+DCMSHRIRAM,DCM Shriram Limited,1177.8000,N/A for download,Asia / Pacific,NSEI
+INOXWIND,Inox Wind Limited,107.9400,N/A for download,Asia / Pacific,NSEI
+KANSAINER,Kansai Nerolac Paints Limited,230.1900,N/A for download,Asia / Pacific,NSEI
+BHARATCOAL,Bharat Coking Coal Limited,39.8200,N/A for download,Asia / Pacific,NSEI
+RBLBANK,RBL Bank Limited,298.7500,N/A for download,Asia / Pacific,NSEI
+BRIGADE,Brigade Enterprises Limited,752.2500,N/A for download,Asia / Pacific,NSEI
+GMDCLTD,Gujarat Mineral Development Corporation Limited,577.7500,N/A for download,Asia / Pacific,NSEI
+JYOTICNC,Jyoti CNC Automation Limited,806.3500,N/A for download,Asia / Pacific,NSEI
+ATUL,Atul Ltd,6212.5000,N/A for download,Asia / Pacific,NSEI
+CASTROLIND,Castrol India Limited,184.1500,N/A for download,Asia / Pacific,NSEI
+URBANCO,Urban Company Limited,124.2800,N/A for download,Asia / Pacific,NSEI
+ANANTRAJ,Anant Raj Limited,504.3000,N/A for download,Asia / Pacific,NSEI
+NETWEB,Netweb Technologies India Limited,3144.7000,N/A for download,Asia / Pacific,NSEI
+CENTURYPLY,Century Plyboards (India) Limited,803.8000,N/A for download,Asia / Pacific,NSEI
+KEC,KEC International Limited,667.1500,N/A for download,Asia / Pacific,NSEI
+CHAMBLFERT,Chambal Fertilisers and Chemicals Limited,441.3000,N/A for download,Asia / Pacific,NSEI
+SAILIFE,Sai Life Sciences Limited,835.1500,N/A for download,Asia / Pacific,NSEI
+PFOCUS,Prime Focus Limited,225.6300,N/A for download,Asia / Pacific,NSEI
+KFINTECH,KFin Technologies Limited,1014.0000,N/A for download,Asia / Pacific,NSEI
+CRAFTSMAN,Craftsman Automation Limited,7317.0000,N/A for download,Asia / Pacific,NSEI
+VENTIVE,Ventive Hospitality Limited,746.0500,N/A for download,Asia / Pacific,NSEI
+SARDAEN,Sarda Energy & Minerals Limited,489.8000,N/A for download,Asia / Pacific,NSEI
+CAMS,Computer Age Management Services Limited,695.0500,N/A for download,Asia / Pacific,NSEI
+GSPL,Gujarat State Petronet Limited,304.6000,N/A for download,Asia / Pacific,NSEI
+GESHIP,The Great Eastern Shipping Company Limited,1202.4000,N/A for download,Asia / Pacific,NSEI
+GRINDWELL,Grindwell Norton Limited,1543.4000,N/A for download,Asia / Pacific,NSEI
+KIRLOSENG,Kirloskar Oil Engines Limited,1174.0000,N/A for download,Asia / Pacific,NSEI
+CHOICEIN,Choice International Limited,765.5500,N/A for download,Asia / Pacific,NSEI
+NEULANDLAB,Neuland Laboratories Limited,13251.0000,N/A for download,Asia / Pacific,NSEI
+CGCL,Capri Global Capital Limited,175.7400,N/A for download,Asia / Pacific,NSEI
+GPIL,Godawari Power & Ispat Limited,248.5000,N/A for download,Asia / Pacific,NSEI
+SCHNEIDER,Schneider Electric Infrastructure Limited,692.8000,N/A for download,Asia / Pacific,NSEI
+BIKAJI,Bikaji Foods International Limited,657.8500,N/A for download,Asia / Pacific,NSEI
+EIDPARRY,E.I.D.- Parry (India) Limited,923.1000,N/A for download,Asia / Pacific,NSEI
+CPPLUS,Aditya Infotech Limited,1382.0000,N/A for download,Asia / Pacific,NSEI
+TRITURBINE,Triveni Turbine Limited,502.4500,N/A for download,Asia / Pacific,NSEI
+NAVA,Nava Limited,563.9000,N/A for download,Asia / Pacific,NSEI
+LMW,LMW Limited,14920.0000,N/A for download,Asia / Pacific,NSEI
+CIEINDIA,CIE Automotive India Limited,418.2000,N/A for download,Asia / Pacific,NSEI
+RATNAMANI,Ratnamani Metals & Tubes Limited,2216.7000,N/A for download,Asia / Pacific,NSEI
+VINATIORGA,Vinati Organics Limited,1526.6000,N/A for download,Asia / Pacific,NSEI
+BASF,BASF India Limited,3646.5000,N/A for download,Asia / Pacific,NSEI
+INDIGRID,Indigrid Infrastructure Trust,164.2800,N/A for download,Asia / Pacific,NSEI
+ACUTAAS,Acutaas Chemicals Limited,1912.5000,N/A for download,Asia / Pacific,NSEI
+PGEL,PG Electroplast Limited,547.7000,N/A for download,Asia / Pacific,NSEI
+JSWCEMENT,JSW Cement Limited,114.2000,N/A for download,Asia / Pacific,NSEI
+RRKABEL,R R Kabel Limited,1373.7000,N/A for download,Asia / Pacific,NSEI
+JUBLPHARMA,Jubilant Pharmova Limited,981.9000,N/A for download,Asia / Pacific,NSEI
+SOBHA,Sobha Limited,1450.2000,N/A for download,Asia / Pacific,NSEI
+IRCON,Ircon International Limited,164.0000,N/A for download,Asia / Pacific,NSEI
+APLLTD,Alembic Pharmaceuticals Limited,783.2000,N/A for download,Asia / Pacific,NSEI
+POLYMED,Poly Medicure Limited,1520.9000,N/A for download,Asia / Pacific,NSEI
+MAHSCOOTER,Maharashtra Scooters Ltd.,13439.0000,N/A for download,Asia / Pacific,NSEI
+AREM,Amara Raja Energy & Mobility Limited,839.4000,N/A for download,Asia / Pacific,NSEI
+VGUARD,V-Guard Industries Limited,351.9500,N/A for download,Asia / Pacific,NSEI
+CEATLTD,CEAT Limited,3761.8000,N/A for download,Asia / Pacific,NSEI
+BELRISE,Belrise Industries Limited,170.8500,N/A for download,Asia / Pacific,NSEI
+CARBORUNIV,Carborundum Universal Limited,788.2500,N/A for download,Asia / Pacific,NSEI
+JKTYRE,JK Tyre & Industries Limited,519.7000,N/A for download,Asia / Pacific,NSEI
+NATCOPHARM,NATCO Pharma Limited,835.9000,N/A for download,Asia / Pacific,NSEI
+DATAPATTNS,Data Patterns (India) Limited,2671.8000,N/A for download,Asia / Pacific,NSEI
+BEML,BEML Limited,1794.9000,N/A for download,Asia / Pacific,NSEI
+IFCI,IFCI Limited,55.0900,N/A for download,Asia / Pacific,NSEI
+TBOTEK,TBO Tek Limited,1392.2000,N/A for download,Asia / Pacific,NSEI
+ZENSARTECH,Zensar Technologies Limited,650.2000,N/A for download,Asia / Pacific,NSEI
+SYRMA,Syrma SGS Technology Limited,761.0000,N/A for download,Asia / Pacific,NSEI
+COHANCE,Cohance Lifesciences Limited,381.3000,N/A for download,Asia / Pacific,NSEI
+NIVABUPA,Niva Bupa Health Insurance Company Limited,78.8700,N/A for download,Asia / Pacific,NSEI
+DOMS,DOMS Industries Limited,2382.0000,N/A for download,Asia / Pacific,NSEI
+FIRSTCRY,Brainbees Solutions Limited,276.6000,N/A for download,Asia / Pacific,NSEI
+PARADEEP,Paradeep Phosphates Limited,138.9900,N/A for download,Asia / Pacific,NSEI
+KAJARIACER,Kajaria Ceramics Limited,902.4000,N/A for download,Asia / Pacific,NSEI
+DEVYANI,Devyani International Limited,116.1800,N/A for download,Asia / Pacific,NSEI
+OLAELEC,Ola Electric Mobility Limited,32.3300,N/A for download,Asia / Pacific,NSEI
+CROMPTON,Crompton Greaves Consumer Electricals Limited,221.4500,N/A for download,Asia / Pacific,NSEI
+INDIACEM,The India Cements Limited,457.7000,N/A for download,Asia / Pacific,NSEI
+ZYDUSWELL,Zydus Wellness Limited,448.3000,N/A for download,Asia / Pacific,NSEI
+JAINREC,Jain Resource Recycling Limited,410.8500,N/A for download,Asia / Pacific,NSEI
+ANURAS,Anupam Rasayan India Ltd,1245.3000,N/A for download,Asia / Pacific,NSEI
+ABREL,Aditya Birla Real Estate Limited,1266.4000,N/A for download,Asia / Pacific,NSEI
+THELEELA,Leela Palaces Hotels & Resorts Limited,421.0000,N/A for download,Asia / Pacific,NSEI
+TRAVELFOOD,Travel Food Services Limited,1067.0000,N/A for download,Asia / Pacific,NSEI
+CANHLIFE,Canara HSBC Life Insurance Company Limited,147.3300,N/A for download,Asia / Pacific,NSEI
+GRANULES,Granules India Limited,570.6000,N/A for download,Asia / Pacific,NSEI
+JWL,Jupiter Wagons Limited,323.4000,N/A for download,Asia / Pacific,NSEI
+APTUS,Aptus Value Housing Finance India Limited,275.4000,N/A for download,Asia / Pacific,NSEI
+AGARWALEYE,Dr. Agarwal's Health Care Limited,432.7500,N/A for download,Asia / Pacific,NSEI
+ONESOURCE,OneSource Specialty Pharma Limited,1194.5000,N/A for download,Asia / Pacific,NSEI
+ACMESOLAR,ACME Solar Holdings Limited,225.7800,N/A for download,Asia / Pacific,NSEI
+ELGIEQUIP,Elgi Equipments Limited,431.2000,N/A for download,Asia / Pacific,NSEI
+ABDL,Allied Blenders and Distillers Limited,486.1500,N/A for download,Asia / Pacific,NSEI
+CAPLIPOINT,Caplin Point Laboratories Limited,1773.9000,N/A for download,Asia / Pacific,NSEI
+AARTIIND,Aarti Industries Limited,371.9500,N/A for download,Asia / Pacific,NSEI
+SKFINDUS,SKF India (Industrial) Limited,2720.9000,N/A for download,Asia / Pacific,NSEI
+IGIL,International Gemmological Institute (India) Limited,310.9000,N/A for download,Asia / Pacific,NSEI
+GABRIEL,Gabriel India Limited,933.4000,N/A for download,Asia / Pacific,NSEI
+FIVESTAR,Five-Star Business Finance Limited,455.9500,N/A for download,Asia / Pacific,NSEI
+JBMA,JBM Auto Limited,564.0500,N/A for download,Asia / Pacific,NSEI
+DEEPAKFERT,Deepak Fertilisers And Petrochemicals Corporation Limited,1055.8000,N/A for download,Asia / Pacific,NSEI
+AETHER,Aether Industries Limited,1002.0000,N/A for download,Asia / Pacific,NSEI
+EMMVEE,Emmvee Photovoltaic Power Limited,191.6700,N/A for download,Asia / Pacific,NSEI
+MINDACORP,Minda Corporation Limited,562.8500,N/A for download,Asia / Pacific,NSEI
+INDIAMART,IndiaMART InterMESH Limited,2201.9000,N/A for download,Asia / Pacific,NSEI
+SWANCORP,Swan Corp Limited,421.6500,N/A for download,Asia / Pacific,NSEI
+TRIDENT,Trident Limited,26.0100,N/A for download,Asia / Pacific,NSEI
+BLUEDART,Blue Dart Express Limited,5492.0000,N/A for download,Asia / Pacific,NSEI
+FINEORG,Fine Organic Industries Limited,4243.3000,N/A for download,Asia / Pacific,NSEI
+LTFOODS,LT Foods Limited,372.8000,N/A for download,Asia / Pacific,NSEI
+CCL,CCL Products (India) Limited,970.5000,N/A for download,Asia / Pacific,NSEI
+CHENNPETRO,Chennai Petroleum Corporation Limited,866.0500,N/A for download,Asia / Pacific,NSEI
+ABLBL,Aditya Birla Lifestyle Brands Limited,105.0300,N/A for download,Asia / Pacific,NSEI
+TEGA,Tega Industries Limited,1702.5000,N/A for download,Asia / Pacific,NSEI
+ZENTEC,Zen Technologies Limited,1415.6000,N/A for download,Asia / Pacific,NSEI
+AKZOINDIA,Akzo Nobel India Limited,2800.0000,N/A for download,Asia / Pacific,NSEI
+INTELLECT,Intellect Design Arena Limited,913.7000,N/A for download,Asia / Pacific,NSEI
+CARTRADE,CarTrade Tech Limited,2649.3000,N/A for download,Asia / Pacific,NSEI
+UJJIVANSFB,Ujjivan Small Finance Bank Limited,65.3700,N/A for download,Asia / Pacific,NSEI
+SIGNATURE,Signatureglobal (India) Limited,901.2000,N/A for download,Asia / Pacific,NSEI
+GALLANTT,Gallantt Ispat Limited,520.1500,N/A for download,Asia / Pacific,NSEI
+CYIENT,Cyient Limited,1138.1000,N/A for download,Asia / Pacific,NSEI
+VTL,Vardhman Textiles Limited,432.3500,N/A for download,Asia / Pacific,NSEI
+UTIAMC,UTI Asset Management Company Limited,972.7000,N/A for download,Asia / Pacific,NSEI
+USHAMART,Usha Martin Limited,409.2500,N/A for download,Asia / Pacific,NSEI
+KIRLOSBROS,Kirloskar Brothers Limited,1566.3000,N/A for download,Asia / Pacific,NSEI
+NSLNISP,NMDC Steel Limited,42.4600,N/A for download,Asia / Pacific,NSEI
+NUVOCO,Nuvoco Vistas Corporation Limited,347.7500,N/A for download,Asia / Pacific,NSEI
+INTERISE,Interise Trust,109.7500,N/A for download,Asia / Pacific,NSEI
+CANFINHOME,Can Fin Homes Limited,932.4500,N/A for download,Asia / Pacific,NSEI
+KSB,KSB Limited,708.2000,N/A for download,Asia / Pacific,NSEI
+JMFINANCIL,JM Financial Limited,128.9500,N/A for download,Asia / Pacific,NSEI
+CONCORDBIO,Concord Biotech Limited,1175.2000,N/A for download,Asia / Pacific,NSEI
+HOMEFIRST,Home First Finance Company India Limited,1178.7000,N/A for download,Asia / Pacific,NSEI
+SAMMAANCAP,Sammaan Capital Limited,150.7100,N/A for download,Asia / Pacific,NSEI
+AFCONS,Afcons Infrastructure Limited,331.6000,N/A for download,Asia / Pacific,NSEI
+SHRIPISTON,Shriram Pistons & Rings Limited,2749.3000,N/A for download,Asia / Pacific,NSEI
+GRAPHITE,Graphite India Limited,617.3000,N/A for download,Asia / Pacific,NSEI
+BBTC,The Bombay Burmah Trading Corporation Limited,1719.3000,N/A for download,Asia / Pacific,NSEI
+WELSPUNLIV,Welspun Living Limited,123.9300,N/A for download,Asia / Pacific,NSEI
+ALIVUS,Alivus Life Sciences Limited,961.0500,N/A for download,Asia / Pacific,NSEI
+MANYAVAR,Vedant Fashions Limited,485.3500,N/A for download,Asia / Pacific,NSEI
+RPOWER,Reliance Power Limited,28.2500,N/A for download,Asia / Pacific,NSEI
+GRAVITA,Gravita India Limited,1604.4000,N/A for download,Asia / Pacific,NSEI
+BSOFT,Birlasoft Limited,418.0500,N/A for download,Asia / Pacific,NSEI
+INDGN,Indegene Limited,482.4000,N/A for download,Asia / Pacific,NSEI
+AAVAS,Aavas Financiers Limited,1461.3000,N/A for download,Asia / Pacific,NSEI
+RAINBOW,Rainbow Children's Medicare Limited,1138.1000,N/A for download,Asia / Pacific,NSEI
+JKBANK,Jammu and Kashmir Bank Limited,104.7100,N/A for download,Asia / Pacific,NSEI
+TDPOWERSYS,TD Power Systems Limited,729.5000,N/A for download,Asia / Pacific,NSEI
+RAILTEL,RailTel Corporation of India Limited,353.4000,N/A for download,Asia / Pacific,NSEI
+TECHNOE,Techno Electric & Engineering Company Limited,974.5000,N/A for download,Asia / Pacific,NSEI
+IEX,Indian Energy Exchange Limited,126.7900,N/A for download,Asia / Pacific,NSEI
+RUBICON,Rubicon Research Limited,684.2500,N/A for download,Asia / Pacific,NSEI
+JINDALSAW,Jindal Saw Limited,175.7700,N/A for download,Asia / Pacific,NSEI
+TITAGARH,Titagarh Rail Systems Limited,821.0000,N/A for download,Asia / Pacific,NSEI
+BATAINDIA,Bata India Limited,860.1000,N/A for download,Asia / Pacific,NSEI
+FINCABLES,Finolex Cables Limited,722.2500,N/A for download,Asia / Pacific,NSEI
+CELLO,Cello World Limited,498.8500,N/A for download,Asia / Pacific,NSEI
+CEMPRO,Cemindia Projects Limited,639.4500,N/A for download,Asia / Pacific,NSEI
+PRIVISCL,Privi Speciality Chemicals Limited,2812.7000,N/A for download,Asia / Pacific,NSEI
+RITES,RITES Limited,228.4200,N/A for download,Asia / Pacific,NSEI
+FINPIPE,Finolex Industries Limited,176.4300,N/A for download,Asia / Pacific,NSEI
+AVANTIFEED,Avanti Feeds Limited,797.1000,N/A for download,Asia / Pacific,NSEI
+SANSERA,Sansera Engineering Limited,1735.2000,N/A for download,Asia / Pacific,NSEI
+SANDUMA,The Sandur Manganese & Iron Ores Limited,221.8800,N/A for download,Asia / Pacific,NSEI
+SPLPETRO,Supreme Petrochem Limited,570.0000,N/A for download,Asia / Pacific,NSEI
+CUPID,Cupid Limited,401.0000,N/A for download,Asia / Pacific,NSEI
+TI,Tilaknagar Industries Ltd.,431.9500,N/A for download,Asia / Pacific,NSEI
+BLS,BLS International Services Limited,257.4500,N/A for download,Asia / Pacific,NSEI
+INGERRAND,Ingersoll-Rand (India) Limited,3343.2000,N/A for download,Asia / Pacific,NSEI
+NAZARA,Nazara Technologies Limited,284.4000,N/A for download,Asia / Pacific,NSEI
+EUREKAFORB,Eureka Forbes Limited,544.3000,N/A for download,Asia / Pacific,NSEI
+HFCL,HFCL Limited,68.6100,N/A for download,Asia / Pacific,NSEI
+SCI,The Shipping Corporation of India Limited,225.3700,N/A for download,Asia / Pacific,NSEI
+PCBL,PCBL Chemical Limited,266.0000,N/A for download,Asia / Pacific,NSEI
+HEG,HEG Limited,542.0000,N/A for download,Asia / Pacific,NSEI
+JPPOWER,Jaiprakash Power Ventures Limited,15.1900,N/A for download,Asia / Pacific,NSEI
+MGL,Mahanagar Gas Limited,1052.8000,N/A for download,Asia / Pacific,NSEI
+THANGAMAYL,Thangamayil Jewellery Limited,3320.6000,N/A for download,Asia / Pacific,NSEI
+IIFLCAPS,IIFL Capital Services Limited,330.5500,N/A for download,Asia / Pacific,NSEI
+GODREJAGRO,Godrej Agrovet Limited,533.5500,N/A for download,Asia / Pacific,NSEI
+VESUVIUS,Vesuvius India Limited,495.3500,N/A for download,Asia / Pacific,NSEI
+LEMONTREE,Lemon Tree Hotels Limited,129.0900,N/A for download,Asia / Pacific,NSEI
+BLACKBUCK,BlackBuck Limited,560.0500,N/A for download,Asia / Pacific,NSEI
+INOXINDIA,INOX India Limited,1115.8000,N/A for download,Asia / Pacific,NSEI
+ACE,Action Construction Equipment Limited,849.5000,N/A for download,Asia / Pacific,NSEI
+SAFARI,Safari Industries (India) Limited,2031.9000,N/A for download,Asia / Pacific,NSEI
+JUBLINGREA,Jubilant Ingrevia Limited,635.2500,N/A for download,Asia / Pacific,NSEI
+HAPPYFORGE,Happy Forgings Limited,1063.8000,N/A for download,Asia / Pacific,NSEI
+PRUDENT,Prudent Corporate Advisory Services Limited,2396.9000,N/A for download,Asia / Pacific,NSEI
+VIJAYA,Vijaya Diagnostic Centre Limited,958.7000,N/A for download,Asia / Pacific,NSEI
+WHIRLPOOL,Whirlpool of India Limited,777.7500,N/A for download,Asia / Pacific,NSEI
+EDELWEISS,Edelweiss Financial Services Limited,106.7900,N/A for download,Asia / Pacific,NSEI
+SOUTHBANK,The South Indian Bank Limited,37.5800,N/A for download,Asia / Pacific,NSEI
+RELAXO,Relaxo Footwears Limited,391.2000,N/A for download,Asia / Pacific,NSEI
+SANOFICONR,Sanofi Consumer Healthcare India Limited,4246.8000,N/A for download,Asia / Pacific,NSEI
+MMTC,MMTC Limited,65.1000,N/A for download,Asia / Pacific,NSEI
+METROPOLIS,Metropolis Healthcare Limited,1873.0000,N/A for download,Asia / Pacific,NSEI
+ENGINERSIN,Engineers India Limited,172.4700,N/A for download,Asia / Pacific,NSEI
+TSFINV,TSF Investments Limited,434.5500,N/A for download,Asia / Pacific,NSEI
+TMB,Tamilnad Mercantile Bank Limited,609.2500,N/A for download,Asia / Pacific,NSEI
+JKLAKSHMI,JK Lakshmi Cement Limited,776.1000,N/A for download,Asia / Pacific,NSEI
+MEDPLUS,MedPlus Health Services Limited,798.9500,N/A for download,Asia / Pacific,NSEI
+PVRINOX,PVR INOX Limited,974.8000,N/A for download,Asia / Pacific,NSEI
+SWANDEF,Swan Defence and Heavy Industries Limited,1818.6000,N/A for download,Asia / Pacific,NSEI
+ASTRAMICRO,Astra Microwave Products Limited,982.6000,N/A for download,Asia / Pacific,NSEI
+AZAD,Azad Engineering Limited,1473.9000,N/A for download,Asia / Pacific,NSEI
+WAAREERTL,Waaree Renewable Technologies Limited,905.4000,N/A for download,Asia / Pacific,NSEI
+SBFC,SBFC Finance Limited,85.4200,N/A for download,Asia / Pacific,NSEI
+SHARDACROP,Sharda Cropchem Limited,1035.8500,N/A for download,Asia / Pacific,NSEI
+GRINFRA,G R Infraprojects Limited,964.3500,N/A for download,Asia / Pacific,NSEI
+RKFORGE,Ramkrishna Forgings Limited,511.1000,N/A for download,Asia / Pacific,NSEI
+SANOFI,Sanofi India Limited,4017.7000,N/A for download,Asia / Pacific,NSEI
+APOLLO,Apollo Micro Systems Limited,260.7500,N/A for download,Asia / Pacific,NSEI
+NCC,NCC Limited,146.4300,N/A for download,Asia / Pacific,NSEI
+EMBDL,Embassy Developments Limited,66.2300,N/A for download,Asia / Pacific,NSEI
+RHIM,RHI Magnesita India Limited,445.1000,N/A for download,Asia / Pacific,NSEI
+LUMAXTECH,Lumax Auto Technologies Limited,1348.1000,N/A for download,Asia / Pacific,NSEI
+ELECON,Elecon Engineering Company Limited,408.1000,N/A for download,Asia / Pacific,NSEI
+CLEAN,Clean Science and Technology Limited,861.0000,N/A for download,Asia / Pacific,NSEI
+JYOTHYLAB,Jyothy Labs Limited,248.7000,N/A for download,Asia / Pacific,NSEI
+AEQUS,Aequs Limited,135.3800,N/A for download,Asia / Pacific,NSEI
+CORONA,CORONA Remedies Limited,1479.2000,N/A for download,Asia / Pacific,NSEI
+IXIGO,Le Travenues Technology Limited,207.0000,N/A for download,Asia / Pacific,NSEI
+MTARTECH,MTAR Technologies Limited,2931.5000,N/A for download,Asia / Pacific,NSEI
+HONASA,Honasa Consumer Limited,276.3500,N/A for download,Asia / Pacific,NSEI
+TTML,Tata Teleservices (Maharashtra) Limited,45.6600,N/A for download,Asia / Pacific,NSEI
+VIYASH,Viyash Scientific Limited,203.6100,N/A for download,Asia / Pacific,NSEI
+OLECTRA,Olectra Greentech Limited,1084.6000,N/A for download,Asia / Pacific,NSEI
+TIMETECHNO,Time Technoplast Limited,179.9700,N/A for download,Asia / Pacific,NSEI
+STARCEMENT,Star Cement Limited,219.9800,N/A for download,Asia / Pacific,NSEI
+JLHL,Jupiter Life Line Hospitals Limited,1351.2000,N/A for download,Asia / Pacific,NSEI
+VARROC,Varroc Engineering Limited,576.9000,N/A for download,Asia / Pacific,NSEI
+SONATSOFTW,Sonata Software Limited,317.3000,N/A for download,Asia / Pacific,NSEI
+PGHL,Procter & Gamble Health Limited,5303.0000,N/A for download,Asia / Pacific,NSEI
+ASKAUTOLTD,ASK Automotive Limited,445.9500,N/A for download,Asia / Pacific,NSEI
+SHAILY,Shaily Engineering Plastics Limited,1913.7000,N/A for download,Asia / Pacific,NSEI
+BBOX,Black Box Limited,515.2000,N/A for download,Asia / Pacific,NSEI
+INDIASHLTR,India Shelter Finance Corporation Limited,802.5500,N/A for download,Asia / Pacific,NSEI
+ESABINDIA,ESAB India Limited,5572.5000,N/A for download,Asia / Pacific,NSEI
+BANCOINDIA,Banco Products (India) Limited,593.6000,N/A for download,Asia / Pacific,NSEI
+BALRAMCHIN,Balrampur Chini Mills Limited,420.3500,N/A for download,Asia / Pacific,NSEI
+LATENTVIEW,Latent View Analytics Limited,407.1000,N/A for download,Asia / Pacific,NSEI
+HCG,HealthCare Global Enterprises Limited,592.0500,N/A for download,Asia / Pacific,NSEI
+SKFINDIA,SKF India Limited,1690.0000,N/A for download,Asia / Pacific,NSEI
+PGINVIT,Powergrid Infrastructure Investment Trust,91.4100,N/A for download,Asia / Pacific,NSEI
+JSLL,Jeena Sikho Lifecare Limited,664.3500,N/A for download,Asia / Pacific,NSEI
+TRIVENI,Triveni Engineering & Industries Limited,375.4000,N/A for download,Asia / Pacific,NSEI
+ARVIND,Arvind Limited,312.3500,N/A for download,Asia / Pacific,NSEI
+NEWGEN,Newgen Software Technologies Limited,582.0000,N/A for download,Asia / Pacific,NSEI
+TCI,Transport Corporation of India Limited,1064.0000,N/A for download,Asia / Pacific,NSEI
+BIRLACORPN,Birla Corporation Limited,1055.8000,N/A for download,Asia / Pacific,NSEI
+LLOYDPP,Lloyds Enterprises Limited,37.0100,N/A for download,Asia / Pacific,NSEI
+LLOYDSENT,Lloyds Enterprises Limited,58.1500,N/A for download,Asia / Pacific,NSEI
+ZEEL,Zee Entertainment Enterprises Limited,84.3800,N/A for download,Asia / Pacific,NSEI
+STAR,Strides Pharma Science Limited,877.0000,N/A for download,Asia / Pacific,NSEI
+ABFRL,Aditya Birla Fashion and Retail Limited,66.4100,N/A for download,Asia / Pacific,NSEI
+GPPL,Gujarat Pipavav Port Limited,167.0400,N/A for download,Asia / Pacific,NSEI
+TTKPRESTIG,TTK Prestige Limited,589.6000,N/A for download,Asia / Pacific,NSEI
+MANORAMA,Manorama Industries Limited,1350.7000,N/A for download,Asia / Pacific,NSEI
+ORKLAINDIA,Orkla India Limited,588.0000,N/A for download,Asia / Pacific,NSEI
+MAHLIFE,Mahindra Lifespace Developers Limited,367.2500,N/A for download,Asia / Pacific,NSEI
+ALKYLAMINE,Alkyl Amines Chemicals Limited,1570.6000,N/A for download,Asia / Pacific,NSEI
+NESCO,Nesco Limited,1139.6000,N/A for download,Asia / Pacific,NSEI
+EQUITASBNK,Equitas Small Finance Bank Limited,70.1100,N/A for download,Asia / Pacific,NSEI
+IRBINVIT,IRB InvIT Fund,61.9700,N/A for download,Asia / Pacific,NSEI
+AMAGI,Amagi Media Labs Limited,366.7000,N/A for download,Asia / Pacific,NSEI
+RELIGARE,Religare Enterprises Limited,238.1300,N/A for download,Asia / Pacific,NSEI
+PCJEWELLER,PC Jeweller Limited,10.6300,N/A for download,Asia / Pacific,NSEI
+GMRPUI,GMR Power And Urban Infra Limited,100.6700,N/A for download,Asia / Pacific,NSEI
+KRBL,KRBL Limited,342.3500,N/A for download,Asia / Pacific,NSEI
+GENUSPOWER,Genus Power Infrastructures Limited,282.7000,N/A for download,Asia / Pacific,NSEI
+KPIGREEN,KPI Green Energy Limited,395.7500,N/A for download,Asia / Pacific,NSEI
+WESTLIFE,Westlife Foodworld Limited,493.1500,N/A for download,Asia / Pacific,NSEI
+CAMPUS,Campus Activewear Limited,253.1500,N/A for download,Asia / Pacific,NSEI
+SHAKTIPUMP,Shakti Pumps (India) Limited,621.4000,N/A for download,Asia / Pacific,NSEI
+WEWORK,WeWork India Management Limited,570.5000,N/A for download,Asia / Pacific,NSEI
+CSBBANK,CSB Bank Limited,438.0500,N/A for download,Asia / Pacific,NSEI
+RCF,Rashtriya Chemicals and Fertilizers Limited,137.2900,N/A for download,Asia / Pacific,NSEI
+ALOKINDS,Alok Industries Limited,15.1000,N/A for download,Asia / Pacific,NSEI
+PNGJL,P N Gadgil Jewellers Limited,549.8000,N/A for download,Asia / Pacific,NSEI
+VOLTAMP,Voltamp Transformers Limited,7374.5000,N/A for download,Asia / Pacific,NSEI
+DBL,Dilip Buildcon Limited,458.2500,N/A for download,Asia / Pacific,NSEI
+MOIL,MOIL Limited,365.8500,N/A for download,Asia / Pacific,NSEI
+MARKSANS,Marksans Pharma Limited,163.8500,N/A for download,Asia / Pacific,NSEI
+KIRLPNU,Kirloskar Pneumatic Company Limited,1141.0000,N/A for download,Asia / Pacific,NSEI
+VIKRAMSOLR,Vikram Solar Limited,204.0200,N/A for download,Asia / Pacific,NSEI
+KIRLFER,Kirloskar Ferrous Industries Limited,452.2000,N/A for download,Asia / Pacific,NSEI
+GSFC,Gujarat State Fertilizers & Chemicals Limited,184.4900,N/A for download,Asia / Pacific,NSEI
+LOTUSDEV,Sri Lotus Developers and Realty Limited,149.9400,N/A for download,Asia / Pacific,NSEI
+V2RETAIL,V2 Retail Limited,1995.6000,N/A for download,Asia / Pacific,NSEI
+BLUEJET,Blue Jet Healthcare Limited,417.7500,N/A for download,Asia / Pacific,NSEI
+MAPMYINDIA,C. E. Info Systems Limited,1320.9000,N/A for download,Asia / Pacific,NSEI
+RATEGAIN,RateGain Travel Technologies Limited,612.1000,N/A for download,Asia / Pacific,NSEI
+PGIL,Pearl Global Industries Limited,1557.5000,N/A for download,Asia / Pacific,NSEI
+DODLA,Dodla Dairy Limited,1185.3000,N/A for download,Asia / Pacific,NSEI
+SUDARSCHEM,Sudarshan Chemical Industries Limited,902.7000,N/A for download,Asia / Pacific,NSEI
+JAYNECOIND,Jayaswal Neco Industries Limited,73.2600,N/A for download,Asia / Pacific,NSEI
+TARIL,Transformers and Rectifiers (India) Limited,236.1500,N/A for download,Asia / Pacific,NSEI
+MIDHANI,Mishra Dhatu Nigam Limited,375.2500,N/A for download,Asia / Pacific,NSEI
+GRWRHITECH,Garware Hi-Tech Films Limited,3012.6000,N/A for download,Asia / Pacific,NSEI
+ACI,Archean Chemical Industries Limited,566.0500,N/A for download,Asia / Pacific,NSEI
+MAHSEAMLES,Maharashtra Seamless Limited,520.1000,N/A for download,Asia / Pacific,NSEI
+TIPSMUSIC,Tips Music Limited,543.8500,N/A for download,Asia / Pacific,NSEI
+BORORENEW,Borosil Renewables Limited,493.9500,N/A for download,Asia / Pacific,NSEI
+KTKBANK,The Karnataka Bank Limited,182.0500,N/A for download,Asia / Pacific,NSEI
+SUDEEPPHRM,Sudeep Pharma Limited,609.1500,N/A for download,Asia / Pacific,NSEI
+GNFC,Gujarat Narmada Valley Fertilizers & Chemicals Limited,466.8000,N/A for download,Asia / Pacific,NSEI
+REDTAPE,REDTAPE Limited,123.6800,N/A for download,Asia / Pacific,NSEI
+BECTORFOOD,Mrs. Bectors Food Specialities Limited,222.7800,N/A for download,Asia / Pacific,NSEI
+ETHOSLTD,Ethos Limited,2552.4000,N/A for download,Asia / Pacific,NSEI
+AARTIPHARM,Aarti Pharmalabs Limited,753.2000,N/A for download,Asia / Pacific,NSEI
+KALPATARU,Kalpataru Limited,331.3500,N/A for download,Asia / Pacific,NSEI
+TANLA,Tanla Platforms Limited,511.2500,N/A for download,Asia / Pacific,NSEI
+AKUMS,Akums Drugs and Pharmaceuticals Limited,439.5500,N/A for download,Asia / Pacific,NSEI
+WABAG,VA Tech Wabag Limited,1077.7000,N/A for download,Asia / Pacific,NSEI
+PRICOLLTD,Pricol Limited,549.1000,N/A for download,Asia / Pacific,NSEI
+TRANSRAILL,Transrail Lighting Limited,497.7500,N/A for download,Asia / Pacific,NSEI
+BLUESTONE,BlueStone Jewellery and Lifestyle Limited,440.1000,N/A for download,Asia / Pacific,NSEI
+THYROCARE,Thyrocare Technologies Limited,420.0000,N/A for download,Asia / Pacific,NSEI
+PARKHOSPS,Park Medi World Limited,153.6300,N/A for download,Asia / Pacific,NSEI
+LLOYDSENPP,Lloyds Engineering Works Limited,24.6000,N/A for download,Asia / Pacific,NSEI
+LLOYDSENGG,Lloyds Engineering Works Limited,44.6000,N/A for download,Asia / Pacific,NSEI
+POWERMECH,Power Mech Projects Limited,2074.4000,N/A for download,Asia / Pacific,NSEI
+SAREGAMA,Saregama India Limited,337.2000,N/A for download,Asia / Pacific,NSEI
+GARFIBRES,Garware Technical Fibres Limited,654.6000,N/A for download,Asia / Pacific,NSEI
+INOXGREEN,Inox Green Energy Services Limited,169.9500,N/A for download,Asia / Pacific,NSEI
+DIACABS,Diamond Power Infrastructure Limited,122.5400,N/A for download,Asia / Pacific,NSEI
+GAEL,Gujarat Ambuja Exports Limited,141.0100,N/A for download,Asia / Pacific,NSEI
+AVL,Aditya Vision Limited,500.0000,N/A for download,Asia / Pacific,NSEI
+CERA,Cera Sanitaryware Limited,5000.0000,N/A for download,Asia / Pacific,NSEI
+WELENT,Welspun Enterprises Limited,471.5500,N/A for download,Asia / Pacific,NSEI
+GALAXYSURF,Galaxy Surfactants Limited,1813.7000,N/A for download,Asia / Pacific,NSEI
+DCBBANK,DCB Bank Limited,199.6700,N/A for download,Asia / Pacific,NSEI
+RAYMONDLSL,Raymond Lifestyle Limited,1047.9000,N/A for download,Asia / Pacific,NSEI
+PRSMJOHNSN,Prism Johnson Limited,126.4700,N/A for download,Asia / Pacific,NSEI
+MASTEK,Mastek Limited,2051.1000,N/A for download,Asia / Pacific,NSEI
+SYMPHONY,Symphony Limited,923.1500,N/A for download,Asia / Pacific,NSEI
+MAXESTATES,Max Estates Limited,385.2000,N/A for download,Asia / Pacific,NSEI
+RUSTOMJEE,Keystone Realtors Limited,498.5000,N/A for download,Asia / Pacific,NSEI
+ARVINDFASN,Arvind Fashions Limited,470.7500,N/A for download,Asia / Pacific,NSEI
+IMFA,Indian Metals and Ferro Alloys Limited,1165.8000,N/A for download,Asia / Pacific,NSEI
+ASHAPURMIN,Ashapura Minechem Limited,654.7500,N/A for download,Asia / Pacific,NSEI
+HAPPSTMNDS,Happiest Minds Technologies Limited,413.4000,N/A for download,Asia / Pacific,NSEI
+JAIBALAJI,Jai Balaji Industries Limited,67.8300,N/A for download,Asia / Pacific,NSEI
+SHREMINVIT,Shrem Invit,101.0000,N/A for download,Asia / Pacific,NSEI
+SHADOWFAX,Shadowfax Technologies Limited,106.6200,N/A for download,Asia / Pacific,NSEI
+SUPRAJIT,Suprajit Engineering Limited,450.5000,N/A for download,Asia / Pacific,NSEI
+EPL,EPL Limited,191.9300,N/A for download,Asia / Pacific,NSEI
+FDC,FDC Limited,377.7500,N/A for download,Asia / Pacific,NSEI
+GREENLAM,Greenlam Industries Limited,239.9300,N/A for download,Asia / Pacific,NSEI
+UTLSOLAR,Fujiyama Power Systems Limited,199.2300,N/A for download,Asia / Pacific,NSEI
+SAPPHIRE,Sapphire Foods India Limited,189.5500,N/A for download,Asia / Pacific,NSEI
+GANESHHOU,Ganesh Housing Limited,730.7000,N/A for download,Asia / Pacific,NSEI
+ICRA,ICRA Limited,6306.5000,N/A for download,Asia / Pacific,NSEI
+TEJASNET,Tejas Networks Limited,340.8000,N/A for download,Asia / Pacific,NSEI
+DYNAMATECH,Dynamatic Technologies Limited,8798.0000,N/A for download,Asia / Pacific,NSEI
+MHRIL,Mahindra Holidays & Resorts India Limited,295.8000,N/A for download,Asia / Pacific,NSEI
+WAKEFIT,Wakefit Innovations Limited,182.2500,N/A for download,Asia / Pacific,NSEI
+KOVAI,Kovai Medical Center and Hospital Limited,2576.6500,N/A for download,Asia / Pacific,NSEI
+AJAXENGG,Ajax Engineering Limited,518.7000,N/A for download,Asia / Pacific,NSEI
+MASFIN,MAS Financial Services Limited,325.3000,N/A for download,Asia / Pacific,NSEI
+INDIAGLYCO,India Glycols Limited,878.8000,N/A for download,Asia / Pacific,NSEI
+NETWORK18,Network18 Media & Investments Limited,38.1200,N/A for download,Asia / Pacific,NSEI
+KINGFA,Kingfa Science & Technology (India) Limited,4363.7000,N/A for download,Asia / Pacific,NSEI
+SUNTECK,Sunteck Realty Limited,400.1000,N/A for download,Asia / Pacific,NSEI
+AHLUCONT,Ahluwalia Contracts (India) Limited,863.9500,N/A for download,Asia / Pacific,NSEI
+ATLANTAELE,Atlanta Electricals Limited,756.1000,N/A for download,Asia / Pacific,NSEI
+DBREALTY,Valor Estate Limited,106.6300,N/A for download,Asia / Pacific,NSEI
+PARAS,Paras Defence and Space Technologies Limited,712.7500,N/A for download,Asia / Pacific,NSEI
+AVALON,Avalon Technologies Limited,858.2500,N/A for download,Asia / Pacific,NSEI
+THOMASCOOK,Thomas Cook (India) Limited,122.5700,N/A for download,Asia / Pacific,NSEI
+FIEMIND,Fiem Industries Limited,2170.3000,N/A for download,Asia / Pacific,NSEI
+FEDFINA,Fedbank Financial Services Limited,152.5200,N/A for download,Asia / Pacific,NSEI
+INFIBPP,AvenuesAI Limited,12.8700,N/A for download,Asia / Pacific,NSEI
+INFIBEAM,AvenuesAI Limited,16.2800,N/A for download,Asia / Pacific,NSEI
+PICCADIL,Piccadily Agro Industries Limited,580.8500,N/A for download,Asia / Pacific,NSEI
+JUSTDIAL,Just Dial Limited,668.5500,N/A for download,Asia / Pacific,NSEI
+SHILPAMED,Shilpa Medicare Limited,288.9500,N/A for download,Asia / Pacific,NSEI
+YATHARTH,Yatharth Hospital & Trauma Care Services Limited,587.2000,N/A for download,Asia / Pacific,NSEI
+SFL,Sheela Foam Limited,519.1000,N/A for download,Asia / Pacific,NSEI
+PNCINFRA,PNC Infratech Limited,218.2000,N/A for download,Asia / Pacific,NSEI
+HNDFDS,Hindustan Foods Limited,464.7000,N/A for download,Asia / Pacific,NSEI
+PURVA,Puravankara Limited,234.1100,N/A for download,Asia / Pacific,NSEI
+ISGEC,Isgec Heavy Engineering Limited,755.6500,N/A for download,Asia / Pacific,NSEI
+JKPAPER,JK Paper Limited,326.9500,N/A for download,Asia / Pacific,NSEI
+RELINFRA,Reliance Infrastructure Limited,134.0400,N/A for download,Asia / Pacific,NSEI
+NIITMTS,NIIT Learning Systems Limited,396.9000,N/A for download,Asia / Pacific,NSEI
+LGBBROSLTD,L.G. Balakrishnan & Bros Limited,1708.1000,N/A for download,Asia / Pacific,NSEI
+SUPRIYA,Supriya Lifescience Limited,676.0500,N/A for download,Asia / Pacific,NSEI
+GULFOILLUB,Gulf Oil Lubricants India Limited,1089.8000,N/A for download,Asia / Pacific,NSEI
+INDUSINVIT,Indus Infra Trust,121.4400,N/A for download,Asia / Pacific,NSEI
+SURYAROSNI,Surya Roshni Limited,246.8500,N/A for download,Asia / Pacific,NSEI
+RENUKA,Shree Renuka Sugars Limited,25.1100,N/A for download,Asia / Pacific,NSEI
+RALLIS,Rallis India Limited,274.7000,N/A for download,Asia / Pacific,NSEI
+VIPIND,V.I.P. Industries Limited,375.2000,N/A for download,Asia / Pacific,NSEI
+SJS,S.J.S. Enterprises Limited,1668.3000,N/A for download,Asia / Pacific,NSEI
+PRAJIND,Praj Industries Limited,290.1500,N/A for download,Asia / Pacific,NSEI
+NEPHROPLUS,Nephrocare Health Services Limited,527.7000,N/A for download,Asia / Pacific,NSEI
+SMARTWORKS,Smartworks Coworking Spaces Limited,462.7000,N/A for download,Asia / Pacific,NSEI
+SUBROS,Subros Limited,808.8000,N/A for download,Asia / Pacific,NSEI
+HCC,Hindustan Construction Company Limited,20.0200,N/A for download,Asia / Pacific,NSEI
+AXISCADES,AXISCADES Technologies Limited,1223.8000,N/A for download,Asia / Pacific,NSEI
+RAIN,Rain Industries Limited,154.9200,N/A for download,Asia / Pacific,NSEI
+TEXRAIL,Texmaco Rail & Engineering Limited,127.7400,N/A for download,Asia / Pacific,NSEI
+STLTECH,Sterlite Technologies Limited,106.3500,N/A for download,Asia / Pacific,NSEI
+CMSINFO,CMS Info Systems Limited,315.3500,N/A for download,Asia / Pacific,NSEI
+QPOWER,Quality Power Electrical Equipments Limited,666.7000,N/A for download,Asia / Pacific,NSEI
+PILANIINVS,Pilani Investment and Industries Corporation Limited,4614.5000,N/A for download,Asia / Pacific,NSEI
+PTC,PTC India Limited,172.4100,N/A for download,Asia / Pacific,NSEI
+JUNIPER,Juniper Hotels Limited,227.2000,N/A for download,Asia / Pacific,NSEI
+DHANUKA,Dhanuka Agritech Limited,1118.7000,N/A for download,Asia / Pacific,NSEI
+SENCO,Senco Gold Limited,307.6500,N/A for download,Asia / Pacific,NSEI
+VMART,V-Mart Retail Limited,632.2500,N/A for download,Asia / Pacific,NSEI
+SMLMAH,SML Mahindra Limited,3459.7000,N/A for download,Asia / Pacific,NSEI
+SAATVIKGL,Saatvik Green Energy Limited,393.1500,N/A for download,Asia / Pacific,NSEI
+CRAMC,Canara Robeco Asset Management Company Limited,250.5500,N/A for download,Asia / Pacific,NSEI
+SHREEJISPG,Shreeji Shipping Global Limited,306.3500,N/A for download,Asia / Pacific,NSEI
+RTNINDIA,RattanIndia Enterprises Limited,36.2100,N/A for download,Asia / Pacific,NSEI
+INDIGOPNTS,Indigo Paints Limited,1044.4000,N/A for download,Asia / Pacific,NSEI
+CAPILLARY,Capillary Technologies India Limited,627.5500,N/A for download,Asia / Pacific,NSEI
+JAMNAAUTO,Jamna Auto Industries Limited,124.3600,N/A for download,Asia / Pacific,NSEI
+TINPLATE,The Tinplate Company of India Limited,430.5000,N/A for download,Asia / Pacific,NSEI
+SHARDAMOTR,Sharda Motor Industries Limited,851.8500,N/A for download,Asia / Pacific,NSEI
+BALUFORGE,Balu Forge Industries Limited,422.1000,N/A for download,Asia / Pacific,NSEI
+AURIONPRO,Aurionpro Solutions Limited,902.8000,N/A for download,Asia / Pacific,NSEI
+KSCL,Kaveri Seed Company Limited,938.5000,N/A for download,Asia / Pacific,NSEI
+CARERATING,CARE Ratings Limited,1602.4000,N/A for download,Asia / Pacific,NSEI
+ENTERO,Entero Healthcare Solutions Limited,1104.9000,N/A for download,Asia / Pacific,NSEI
+PDSL,PDS Limited,340.0000,N/A for download,Asia / Pacific,NSEI
+RAJESHEXPO,Rajesh Exports Limited,162.3600,N/A for download,Asia / Pacific,NSEI
+VSTTILLERS,V.S.T. Tillers Tractors Limited,5523.5000,N/A for download,Asia / Pacific,NSEI
+MIDWESTLTD,Midwest Limited,1321.7000,N/A for download,Asia / Pacific,NSEI
+GOKULAGRO,Gokul Agro Resources Limited,161.9300,N/A for download,Asia / Pacific,NSEI
+BAJAJELEC,Bajaj Electricals Limited,414.5500,N/A for download,Asia / Pacific,NSEI
+GHCL,GHCL Limited,530.7000,N/A for download,Asia / Pacific,NSEI
+VERTOZ,Vertoz Limited,55.8000,N/A for download,Asia / Pacific,NSEI
+SIS,SIS Limited,336.5000,N/A for download,Asia / Pacific,NSEI
+VRLLOG,VRL Logistics Limited,269.9500,N/A for download,Asia / Pacific,NSEI
+SKYGOLD,Sky Gold and Diamonds Limited,303.7500,N/A for download,Asia / Pacific,NSEI
+CEIGALL,Ceigall India Limited,270.1500,N/A for download,Asia / Pacific,NSEI
+ICIL,Indo Count Industries Limited,235.7500,N/A for download,Asia / Pacific,NSEI
+TIIL,Technocraft Industries (India) Limited,2031.3000,N/A for download,Asia / Pacific,NSEI
