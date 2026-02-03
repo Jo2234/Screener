@@ -14,9 +14,9 @@ source "$SCREENER_DIR/.email_config"
 # Change to screener directory
 cd "$SCREENER_DIR"
 
-# Run the screener
+# Run the screener with fresh data (no cache)
 echo "$(date): Starting EMA Crossover Screener..."
-"$PYTHON_PATH" screener.py
+"$PYTHON_PATH" screener.py --no-cache
 
 # Find the generated PDF
 PDF_FILE=$(ls -t "$SCREENER_DIR/output/"*.pdf 2>/dev/null | head -1)
