@@ -437,35 +437,74 @@ def fetch_stock_data(symbol: str, exchange: str = None, use_cache: bool = True) 
     """
     Fetch historical stock data for a symbol with retry logic and rate limiting.
     Uses direct Yahoo Finance API calls to avoid yfinance rate limiting.
+    Tries multiple symbol variations if the primary lookup fails.
     """
+    # Build list of symbol variations to try
     yf_symbol = get_yfinance_symbol(symbol, exchange)
-    cache_key = yf_symbol
     
+    # Create fallback variations based on known patterns
+    symbol_variations = [yf_symbol]
+    
+    # Add exchange-specific fallbacks if not already in the primary symbol
+    if exchange:
+        # NSE stocks often need .NS suffix
+        if 'NSE' in str(exchange).upper() or exchange == 'NSEI':
+            if not symbol.endswith('.NS'):
+                symbol_variations.append(f"{symbol}.NS")
+        
+        # Singapore stocks often need .SI suffix
+        if 'SGX' in str(exchange).upper() or 'SINGAPORE' in str(exchange).upper():
+            if not symbol.endswith('.SI'):
+                symbol_variations.append(f"{symbol}.SI")
+        
+        # Hong Kong stocks often need .HK suffix
+        if any(x in str(exchange).upper() for x in ['HK', 'HKSE', 'SEHK', 'SZSC', 'SHSC']):
+            if not symbol.endswith('.HK'):
+                # For numeric symbols (China stocks), add padding if needed
+                if symbol.isdigit():
+                    symbol_variations.append(f"{symbol.zfill(4)}.HK")
+                else:
+                    symbol_variations.append(f"{symbol}.HK")
+        
+        # Bombay Stock Exchange
+        if 'BSE' in str(exchange).upper() or exchange == 'BSEI':
+            if not symbol.endswith('.BO'):
+                symbol_variations.append(f"{symbol}.BO")
+    
+    # Remove duplicates while preserving order
+    symbol_variations = list(dict.fromkeys(symbol_variations))
+    
+    # Try cache first for primary symbol
+    cache_key = yf_symbol
     if use_cache and is_cache_valid(cache_key):
         df = get_cached_data(cache_key)
         if not df.empty:
             return df, 'cache'
     
-    # Retry with exponential backoff
-    for attempt in range(MAX_RETRIES):
-        # Rate limiting - acquire semaphore
-        with _request_semaphore:
-            # Add small delay between requests
-            time.sleep(MIN_REQUEST_INTERVAL + random.uniform(0, 0.2))
-            
-            # Try direct API first (more reliable)
-            df = fetch_via_direct_api(yf_symbol)
-            
-            if not df.empty:
-                if use_cache:
-                    cache_data(cache_key, df)
-                return df, 'fetch'
-            
-            # If direct API fails, wait and retry
-            if attempt < MAX_RETRIES - 1:
-                delay = BASE_DELAY * (2 ** attempt) + random.uniform(0, 1)
-                time.sleep(delay)
-                continue
+    # Try each symbol variation
+    for try_symbol in symbol_variations:
+        # Retry with exponential backoff
+        for attempt in range(MAX_RETRIES):
+            # Rate limiting - acquire semaphore
+            with _request_semaphore:
+                # Add small delay between requests
+                time.sleep(MIN_REQUEST_INTERVAL + random.uniform(0, 0.2))
+                
+                # Try direct API
+                df = fetch_via_direct_api(try_symbol)
+                
+                if not df.empty:
+                    if use_cache:
+                        cache_data(cache_key, df)  # Cache under original key
+                    return df, 'fetch'
+                
+                # If direct API fails, wait and retry (only for first variation)
+                if attempt < MAX_RETRIES - 1 and try_symbol == symbol_variations[0]:
+                    delay = BASE_DELAY * (2 ** attempt) + random.uniform(0, 1)
+                    time.sleep(delay)
+                    continue
+                else:
+                    break  # Try next variation
     
     return pd.DataFrame(), 'error'
 
