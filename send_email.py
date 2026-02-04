@@ -28,6 +28,7 @@ def send_email(pdf_path: str):
     # Load config from environment
     api_key = os.environ.get('RESEND_API_KEY')
     recipient_email = os.environ.get('RECIPIENT_EMAIL')
+    cc_email = os.environ.get('CC_EMAIL')  # Optional CC recipient
     
     if not api_key:
         print("ERROR: RESEND_API_KEY not found in .email_config")
@@ -82,8 +83,14 @@ def send_email(pdf_path: str):
             ],
         }
         
+        # Add CC if configured
+        if cc_email:
+            params["cc"] = [cc_email]
+        
         email = resend.Emails.send(params)
         print(f"Email sent successfully to {recipient_email}")
+        if cc_email:
+            print(f"CC: {cc_email}")
         print(f"Email ID: {email['id']}")
         
     except Exception as e:
