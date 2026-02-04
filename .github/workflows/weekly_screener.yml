@@ -2,9 +2,9 @@
 name: Weekly EMA Crossover Screener
 
 on:
-  # Saturday 9:00 AM Singapore time (SGT = UTC+8) → Saturday 1:00 AM UTC
+  # Saturday 7:00 AM Singapore time (SGT = UTC+8) → Friday 11:00 PM UTC
   schedule:
-    - cron: '0 1 * * 6'
+    - cron: '0 23 * * 5'
   
   # Allow manual trigger for testing
   workflow_dispatch:
