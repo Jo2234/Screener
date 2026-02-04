@@ -793,29 +793,51 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
     story.append(Spacer(1, 30))
     
     # Summary table
-    summary_data = [['Category', 'Symbols', 'Bullish', 'Bearish', 'Errors']]
+    summary_data = [['Category', 'Symbols', 'Bullish', 'Bearish', 'Overall', 'Errors']]
     total_symbols = 0
     total_bullish = 0
     total_bearish = 0
     total_errors = 0
     
+    # Track which rows have bullish/bearish overall for conditional formatting
+    overall_values = []
+    
     for csv_result in all_results:
+        n_bullish = len(csv_result.bullish)
+        n_bearish = len(csv_result.bearish)
+        if n_bullish == 0 and n_bearish == 0:
+            overall = '\u2014'  # em dash
+        elif n_bearish / csv_result.total_symbols > n_bullish / csv_result.total_symbols:
+            overall = 'Bearish'
+        else:
+            overall = 'Bullish'
+        overall_values.append(overall)
         summary_data.append([
             csv_result.display_name,
             str(csv_result.total_symbols),
-            str(len(csv_result.bullish)),
-            str(len(csv_result.bearish)),
+            str(n_bullish),
+            str(n_bearish),
+            overall,
             str(csv_result.errors)
         ])
         total_symbols += csv_result.total_symbols
-        total_bullish += len(csv_result.bullish)
-        total_bearish += len(csv_result.bearish)
+        total_bullish += n_bullish
+        total_bearish += n_bearish
         total_errors += csv_result.errors
     
-    summary_data.append(['TOTAL', str(total_symbols), str(total_bullish), str(total_bearish), str(total_errors)])
+    # Overall for TOTAL row
+    if total_bullish == 0 and total_bearish == 0:
+        total_overall = '\u2014'
+    elif total_bearish / max(total_symbols, 1) > total_bullish / max(total_symbols, 1):
+        total_overall = 'Bearish'
+    else:
+        total_overall = 'Bullish'
+    overall_values.append(total_overall)
+    summary_data.append(['TOTAL', str(total_symbols), str(total_bullish), str(total_bearish), total_overall, str(total_errors)])
     
-    summary_table = Table(summary_data, colWidths=[4*cm, 2.5*cm, 2*cm, 2*cm, 2*cm])
-    summary_table.setStyle(TableStyle([
+    summary_table = Table(summary_data, colWidths=[3.5*cm, 2*cm, 1.8*cm, 1.8*cm, 2*cm, 1.5*cm])
+    
+    table_style_commands = [
         ('BACKGROUND', (0, 0), (-1, 0), HexColor('#2E86AB')),
         ('TEXTCOLOR', (0, 0), (-1, 0), white),
         ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
@@ -827,7 +849,19 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
         ('FONTNAME', (0, -1), (-1, -1), 'Helvetica-Bold'),
         ('GRID', (0, 0), (-1, -1), 0.5, HexColor('#dee2e6')),
         ('ROWBACKGROUNDS', (0, 1), (-1, -2), [HexColor('#ffffff'), HexColor('#f8f9fa')]),
-    ]))
+    ]
+    
+    # Conditional coloring for the Overall column (column index 4)
+    for row_idx, val in enumerate(overall_values):
+        data_row = row_idx + 1  # offset for header row
+        if val == 'Bullish':
+            table_style_commands.append(('TEXTCOLOR', (4, data_row), (4, data_row), HexColor('#155724')))
+            table_style_commands.append(('FONTNAME', (4, data_row), (4, data_row), 'Helvetica-Bold'))
+        elif val == 'Bearish':
+            table_style_commands.append(('TEXTCOLOR', (4, data_row), (4, data_row), HexColor('#721c24')))
+            table_style_commands.append(('FONTNAME', (4, data_row), (4, data_row), 'Helvetica-Bold'))
+    
+    summary_table.setStyle(TableStyle(table_style_commands))
     story.append(summary_table)
     
     # Build bookmark anchors map for charts
@@ -918,10 +952,10 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
                     f'<a name="{anchor_id}"/><b>{crossover_emoji} {result.symbol}</b> - {result.company[:50]}',
                     subsection_style
                 )
-                img = Image(str(result.chart_path), width=18*cm, height=9*cm)
+                img = Image(str(result.chart_path), width=19*cm, height=12*cm)
                 
                 # Use KeepTogether to ensure title stays with chart
-                chart_block = KeepTogether([chart_title, img, Spacer(1, 15)])
+                chart_block = KeepTogether([chart_title, img, Spacer(1, 5)])
                 story.append(chart_block)
     
     # Build PDF
@@ -933,11 +967,23 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
 # Main Screener
 # ============================================================================
 
+# Display name overrides for proper capitalization/abbreviation
+DISPLAY_NAME_OVERRIDES = {
+    'Nse': 'NSE',
+    'Nyse': 'NYSE',
+    'Singapore': 'SGX',
+    'Etfs': 'ETFs',
+}
+
+
 def process_csv_file(csv_path: Path, use_cache: bool = True) -> CSVResults:
     """Process a single CSV file and return results."""
     
     csv_name = csv_path.stem
     display_name = csv_name.replace('_', ' ').replace('-', ' ').title()
+    # Apply display name overrides for proper capitalization
+    for wrong, correct in DISPLAY_NAME_OVERRIDES.items():
+        display_name = display_name.replace(wrong, correct)
     
     print(f"\n{'='*60}")
     print(f"  Processing: {display_name}")
