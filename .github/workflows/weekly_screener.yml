@@ -1,0 +1,58 @@
+name: Weekly EMA Crossover Screener
+
+on:
+  # Saturday 9:00 AM Singapore time (SGT = UTC+8) → Saturday 1:00 AM UTC
+  schedule:
+    - cron: '0 1 * * 6'
+  
+  # Allow manual trigger for testing
+  workflow_dispatch:
+
+jobs:
+  run-screener:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pandas yfinance reportlab resend matplotlib numpy
+
+      - name: Create output directories
+        run: mkdir -p output output/charts logs
+
+      - name: Run EMA Crossover Screener
+        run: python screener.py --no-cache
+
+      - name: Find generated PDF
+        id: find-pdf
+        run: |
+          PDF_FILE=$(ls -t output/*.pdf 2>/dev/null | head -1)
+          if [ -z "$PDF_FILE" ]; then
+            echo "ERROR: No PDF report found!"
+            exit 1
+          fi
+          echo "pdf_path=$PDF_FILE" >> $GITHUB_OUTPUT
+          echo "Found PDF: $PDF_FILE"
+
+      - name: Send email with report
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          CC_EMAIL: ${{ secrets.CC_EMAIL }}
+        run: python send_email.py "${{ steps.find-pdf.outputs.pdf_path }}"
+
+      - name: Upload PDF as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ema-crossover-report
+          path: output/*.pdf
+          retention-days: 30
