@@ -13,6 +13,8 @@ jobs:
   run-screener:
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    env:
+      REPORT_TIMEZONE: Asia/Singapore
 
     steps:
       - name: Checkout repository
