@@ -28,7 +28,7 @@ cd Screener
 ### 2. Install Dependencies
 
 ```bash
-pip3 install pandas yfinance reportlab resend
+python3 -m pip install -r requirements.txt resend
 ```
 
 ### 3. Configure Email (Required for automation)
@@ -77,12 +77,23 @@ python3 screener.py --no-cache
 ### Run with Email
 
 ```bash
-source .email_config && bash run_screener_and_email.sh
+bash run_screener_and_email.sh
 ```
 
 ### Automated Weekly Runs (macOS)
 
-The scheduler runs the screener automatically every week.
+The scheduler runs every Saturday at 9:00 AM in `Asia/Singapore`, regardless of
+the host timezone. GitHub Actions runs at Friday 23:00 UTC (Saturday 7:00 AM
+Singapore time). Both choose the latest completed Monday–Friday reporting week
+using `REPORT_TIMEZONE` (default: `Asia/Singapore`). This setting selects calendar
+dates; it does not convert exchange session timestamps.
+
+The scheduler and wrapper locate the checkout from their own script paths. The
+scheduler passes its active Python interpreter (`sys.executable`) to the wrapper;
+a direct wrapper invocation uses `python3` on `PATH`. Set `PYTHON_PATH` to override
+the interpreter, for example `/path/to/venv/bin/python`. The wrapper explicitly
+loads `.email_config` from the checkout; set `EMAIL_CONFIG` to an absolute path to
+use a different local config file. Paths containing spaces are supported.
 
 **Start the scheduler:**
 ```bash
@@ -113,6 +124,8 @@ Create `~/Library/LaunchAgents/com.johan.screener.scheduler.plist`:
 </dict>
 </plist>
 ```
+
+Replace all `/path/to` entries with your checkout and Python environment paths.
 
 Load it:
 ```bash
@@ -164,6 +177,16 @@ tail -f logs/scheduler.log
 ```bash
 source .email_config && python3 send_email.py output/EMA_Crossover_Report_*.pdf
 ```
+
+## Offline regression tests
+
+```bash
+python3 -m pip install -r requirements.txt pytest
+python3 -m pytest -q
+```
+
+Tests use synthetic market data and local fake email entrypoints. They do not
+fetch Yahoo data, send email, or start the scheduler loop.
 
 ## License
 
