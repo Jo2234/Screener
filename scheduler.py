@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Weekly Screener Scheduler
-Runs the EMA Crossover Screener every Saturday at 7:17 PM Singapore time.
+Runs the EMA Crossover Screener every Saturday at 9:00 AM in the reporting timezone (Asia/Singapore by default).
 Start with: nohup python3 scheduler.py &
 """
 
@@ -10,17 +10,22 @@ import time
 from datetime import datetime, timedelta
 import os
 import sys
+from pathlib import Path
+
+from reporting import REPORTING_TIMEZONE
 
 # Configuration
-SCREENER_DIR = "/Users/johan/Downloads/Screener"
+SCREENER_DIR = Path(__file__).resolve().parent
 RUN_HOUR = 9   # 9 AM
 RUN_MINUTE = 0
 RUN_WEEKDAY = 5  # Saturday (0=Monday, 5=Saturday)
 
 
-def get_next_run_time():
-    """Calculate the next Saturday at 7:17 PM."""
-    now = datetime.now()
+def get_next_run_time(as_of=None):
+    """Calculate the next Saturday at 9 AM in the reporting timezone."""
+    if as_of is not None and (as_of.tzinfo is None or as_of.utcoffset() is None):
+        raise ValueError("as_of must include a timezone")
+    now = as_of.astimezone(REPORTING_TIMEZONE) if as_of else datetime.now(REPORTING_TIMEZONE)
     
     # Calculate days until next Saturday
     days_until_saturday = (RUN_WEEKDAY - now.weekday()) % 7
@@ -39,15 +44,17 @@ def run_screener():
     """Run the screener and email script."""
     log_file = os.path.join(SCREENER_DIR, "logs", "scheduler.log")
     
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
     with open(log_file, "a") as log:
         log.write(f"\n{'='*60}\n")
-        log.write(f"{datetime.now()}: Starting scheduled run\n")
+        log.write(f"{datetime.now(REPORTING_TIMEZONE)}: Starting scheduled run\n")
         log.flush()
         
         try:
             result = subprocess.run(
                 ["/bin/bash", os.path.join(SCREENER_DIR, "run_screener_and_email.sh")],
                 cwd=SCREENER_DIR,
+                env={**os.environ, "PYTHON_PATH": os.environ.get("PYTHON_PATH") or sys.executable},
                 capture_output=True,
                 text=True,
                 timeout=1800  # 30 minute timeout
@@ -64,23 +71,23 @@ def run_screener():
         except Exception as e:
             log.write(f"ERROR: {e}\n")
         
-        log.write(f"{datetime.now()}: Run completed\n")
+        log.write(f"{datetime.now(REPORTING_TIMEZONE)}: Run completed\n")
 
 
 def main():
     """Main scheduler loop."""
-    print(f"EMA Crossover Scheduler started at {datetime.now()}")
-    print(f"Will run every Saturday at {RUN_HOUR}:{RUN_MINUTE:02d}")
+    print(f"EMA Crossover Scheduler started at {datetime.now(REPORTING_TIMEZONE)}")
+    print(f"Will run every Saturday at {RUN_HOUR}:{RUN_MINUTE:02d} {REPORTING_TIMEZONE}")
     
     # Log startup
     log_file = os.path.join(SCREENER_DIR, "logs", "scheduler.log")
     os.makedirs(os.path.dirname(log_file), exist_ok=True)
     with open(log_file, "a") as log:
-        log.write(f"\n{datetime.now()}: Scheduler started\n")
+        log.write(f"\n{datetime.now(REPORTING_TIMEZONE)}: Scheduler started\n")
     
     while True:
         next_run = get_next_run_time()
-        sleep_seconds = (next_run - datetime.now()).total_seconds()
+        sleep_seconds = (next_run - datetime.now(REPORTING_TIMEZONE)).total_seconds()
         
         if sleep_seconds > 0:
             print(f"Next run: {next_run} (sleeping {sleep_seconds/3600:.1f} hours)")
