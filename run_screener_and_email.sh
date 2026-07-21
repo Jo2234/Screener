@@ -1,15 +1,17 @@
 #!/bin/bash
 # Weekly EMA Crossover Screener - Run and Email Script
-# Runs every Saturday at 5:45 PM Singapore time
+# Invoked manually or by scheduler.py
 
 set -e
 
 # Configuration
-SCREENER_DIR="/Users/johan/Downloads/Screener"
-PYTHON_PATH="/Users/johan/.pyenv/versions/3.13.5/bin/python3"
+SCREENER_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+# Use the scheduler's interpreter override or python3 from the active environment.
+PYTHON_PATH="${PYTHON_PATH:-$(command -v python3)}"
+EMAIL_CONFIG="${EMAIL_CONFIG:-$SCREENER_DIR/.email_config}"
 
 # Load email config from local file (not in git)
-source "$SCREENER_DIR/.email_config"
+source "$EMAIL_CONFIG"
 
 # Change to screener directory
 cd "$SCREENER_DIR"
