@@ -7,6 +7,8 @@ and generates a single PDF report with summaries and charts for each CSV.
 """
 
 import os
+import hashlib
+import json
 import re
 import shutil
 import sqlite3
@@ -19,6 +21,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from typing import Optional, Tuple, Dict, List
 from io import BytesIO
+
+from reporting import get_previous_full_week
 
 import pandas as pd
 import numpy as np
@@ -47,29 +51,7 @@ from reportlab.lib.enums import TA_CENTER, TA_LEFT
 SHORT_EMA = 78
 LONG_EMA = 165
 
-# Target week for crossover detection (dynamically calculated)
-def get_previous_full_week():
-    """
-    Calculate the previous full trading week (Monday to Friday).
-    If run on a weekend, returns the week that just ended.
-    If run on a weekday, returns the week before the current week.
-    """
-    today = datetime.now().date()
-    weekday = today.weekday()  # Monday=0, Sunday=6
-    
-    if weekday >= 5:  # Saturday (5) or Sunday (6)
-        # Previous week just ended - get last Monday to Friday
-        days_since_friday = weekday - 4  # Sat=1, Sun=2
-        friday = today - timedelta(days=days_since_friday)
-        monday = friday - timedelta(days=4)
-    else:  # Monday (0) to Friday (4)
-        # Current week is incomplete - get the week before
-        days_since_last_friday = weekday + 3  # Mon=3, Tue=4, Wed=5, Thu=6, Fri=7
-        friday = today - timedelta(days=days_since_last_friday)
-        monday = friday - timedelta(days=4)
-    
-    return datetime.combine(monday, datetime.min.time()), datetime.combine(friday, datetime.min.time())
-
+# Target week uses the explicit reporting calendar, not the host timezone.
 TARGET_WEEK_START, TARGET_WEEK_END = get_previous_full_week()
 
 # How many days of history to fetch (need enough for 165-day EMA to stabilize)
@@ -150,6 +132,19 @@ class CrossoverResult:
     df: Optional[pd.DataFrame] = None
     chart_path: Optional[Path] = None
     error: Optional[str] = None
+    exchange: Optional[str] = None
+    category: str = ""
+
+    @property
+    def chart_id(self) -> str:
+        """One safe identity for chart files and PDF links, including raw aliases."""
+        identity = json.dumps(
+            [self.category, self.exchange, self.symbol, self.crossover_type],
+            ensure_ascii=True, separators=(",", ":")
+        )
+        digest = hashlib.sha256(identity.encode("utf-8")).hexdigest()
+        label = re.sub(r"[^A-Za-z0-9_-]", "_", self.symbol)[:40]
+        return f"chart_{label}_{digest}"
 
 
 @dataclass
@@ -583,7 +578,7 @@ def process_single_stock(symbol_data: Dict, use_cache: bool = True) -> Crossover
     
     if df.empty:
         return CrossoverResult(
-            symbol=symbol, company=company, crossover_type=None,
+            symbol=symbol, company=company, exchange=exchange, crossover_type=None,
             date=None, price=None, current_price=None, pct_change=None,
             short_ema=None, long_ema=None, df=None, 
             error="Symbol not found on Yahoo Finance"
@@ -592,7 +587,7 @@ def process_single_stock(symbol_data: Dict, use_cache: bool = True) -> Crossover
     # Check if we have enough data for reliable EMA calculation
     if len(df) < LONG_EMA:
         return CrossoverResult(
-            symbol=symbol, company=company, crossover_type=None,
+            symbol=symbol, company=company, exchange=exchange, crossover_type=None,
             date=None, price=None, current_price=None, pct_change=None,
             short_ema=None, long_ema=None, df=None,
             error=f"Insufficient data ({len(df)} days) - need {LONG_EMA} days for EMA"
@@ -611,7 +606,7 @@ def process_single_stock(symbol_data: Dict, use_cache: bool = True) -> Crossover
                       crossover_data['close']) * 100
         
         return CrossoverResult(
-            symbol=symbol, company=company, crossover_type=crossover_type,
+            symbol=symbol, company=company, exchange=exchange, crossover_type=crossover_type,
             date=crossover_date, price=crossover_data['close'],
             current_price=current_price, pct_change=pct_change,
             short_ema=crossover_data['short_ema'], long_ema=crossover_data['long_ema'],
@@ -619,7 +614,7 @@ def process_single_stock(symbol_data: Dict, use_cache: bool = True) -> Crossover
         )
     
     return CrossoverResult(
-        symbol=symbol, company=company, crossover_type=None,
+        symbol=symbol, company=company, exchange=exchange, crossover_type=None,
         date=None, price=None, current_price=None, pct_change=None,
         short_ema=None, long_ema=None, df=None, error=None
     )
@@ -687,9 +682,7 @@ def generate_chart(result: CrossoverResult, output_dir: Path) -> Path:
     
     plt.tight_layout()
     
-    # Create safe filename
-    safe_symbol = re.sub(r'[^\w\-]', '_', result.symbol)
-    output_path = output_dir / f"{safe_symbol}_{result.crossover_type}.png"
+    output_path = output_dir / f"{result.chart_id}.png"
     plt.savefig(output_path, dpi=120, bbox_inches='tight', 
                 facecolor='white', edgecolor='none')
     plt.close()
@@ -864,9 +857,6 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
     summary_table.setStyle(TableStyle(table_style_commands))
     story.append(summary_table)
     
-    # Build bookmark anchors map for charts
-    chart_bookmarks = {}
-    
     # Process each CSV category
     for csv_result in all_results:
         story.append(PageBreak())
@@ -884,8 +874,7 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
             story.append(Paragraph("🟢 Bullish Crossovers", subsection_style))
             sorted_bullish = sorted(csv_result.bullish, key=lambda x: x.pct_change or 0, reverse=True)
             for i, result in enumerate(sorted_bullish, 1):
-                anchor_id = f"chart_{csv_result.csv_name}_{result.symbol}"
-                chart_bookmarks[anchor_id] = result
+                anchor_id = result.chart_id
                 link_text = (
                     f"<a href=\"#{anchor_id}\" color=\"#155724\">"
                     f"{i}. <b>{result.symbol}</b></a> - {result.company[:35]} | "
@@ -904,8 +893,7 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
             story.append(Paragraph("🔴 Bearish Crossovers", subsection_style))
             sorted_bearish = sorted(csv_result.bearish, key=lambda x: x.pct_change or 0)
             for i, result in enumerate(sorted_bearish, 1):
-                anchor_id = f"chart_{csv_result.csv_name}_{result.symbol}"
-                chart_bookmarks[anchor_id] = result
+                anchor_id = result.chart_id
                 link_text = (
                     f"<a href=\"#{anchor_id}\" color=\"#721c24\">"
                     f"{i}. <b>{result.symbol}</b></a> - {result.company[:35]} | "
@@ -943,7 +931,7 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
         
         for result in all_crossovers:
             if result.chart_path and result.chart_path.exists():
-                anchor_id = f"chart_{csv_result.csv_name}_{result.symbol}"
+                anchor_id = result.chart_id
                 
                 crossover_emoji = "🟢" if result.crossover_type == 'bullish' else "🔴"
                 
@@ -1015,6 +1003,7 @@ def process_csv_file(csv_path: Path, use_cache: bool = True) -> CSVResults:
             
             try:
                 result = future.result()
+                result.category = csv_name
                 
                 if result.error:
                     results.errors += 1
