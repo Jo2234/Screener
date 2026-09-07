@@ -2,24 +2,39 @@ name: Keep Alive
 
 on:
   schedule:
-    # Runs on the 1st of every month at 00:00 UTC
-    - cron: '0 0 1 * *'
+    # Check weekly so a 50-day idle repository is refreshed before GitHub's 60-day limit.
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+concurrency:
+  group: keepalive
+  cancel-in-progress: false
 
 jobs:
   keepalive:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       contents: write
-      actions: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout default branch
         uses: actions/checkout@v4
-
-      - name: Keep workflow alive
-        uses: gautamkrishnar/keepalive-workflow@v2
         with:
-          committer_username: "github-actions[bot]"
-          committer_email: "github-actions[bot]@users.noreply.github.com"
-          commit_message: "chore: automated keep-alive commit to prevent workflow disable"
-          time_elapsed: 50  # Only commit if no activity in the last 50 days
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Keep workflow alive after 50 days without a commit
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          last_commit=$(git log -1 --format=%ct)
+          now=$(date +%s)
+          if (( now - last_commit < 50 * 24 * 60 * 60 )); then
+            echo "Recent commit found; no keep-alive commit needed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: automated keep-alive commit to prevent workflow disable"
+          git push origin "HEAD:${DEFAULT_BRANCH}"
