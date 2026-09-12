@@ -28,7 +28,7 @@ cd Screener
 ### 2. Install Dependencies
 
 ```bash
-python3 -m pip install -r requirements.txt resend
+python3 -m pip install -r requirements.txt
 ```
 
 ### 3. Configure Email (Required for automation)
@@ -73,6 +73,71 @@ python3 screener.py
 # Run with fresh data (no cache)
 python3 screener.py --no-cache
 ```
+
+### Data quality and partial reports
+
+Every completed scan writes `output/run_summary.json` and a diagnostic PDF,
+including when its data quality gate fails. A complete scan exits 0. A partial
+scan also exits 0 only when it meets **all** configured limits; its PDF and email
+explicitly disclose the missing coverage. An unreliable scan or empty/invalid
+input exits 2 and suppresses routine email. PDF generation failure also exits 2,
+keeps the JSON evidence and removes the incomplete PDF. GitHub Actions uploads
+both available files even after failure.
+
+Default limits use eligible CSV symbol rows as their denominator. Successfully
+analyzed symbols include those with no crossover:
+
+| Limit | Whole run | Each CSV market |
+| --- | ---: | ---: |
+| Minimum analysis coverage | 95% | 90% |
+| Maximum operational error rate | 1% | 2% |
+
+Ordinary data gaps are well-formed Yahoo answers that a symbol has no usable
+prices: an explicit `Not Found`, a chart with no timestamps or only empty closes,
+history that ends before the reporting week (typically suspended or delisted) and
+fewer than 165 usable history rows. A chart without timestamps or closes counts
+as a gap only when its `meta.symbol` matches the requested symbol; wrong-typed
+timestamps, non-finite or unrepresentable dates, misaligned quote series or
+unidentified empty results are schema errors. These gaps still reduce analysis
+coverage and remain in failure details. A bare HTTP 404 does not prove delisting. Rate limits,
+timeouts, transport/HTTP/JSON/schema errors, chart responses without a result or
+with an application error, and processing errors count as operational failures. Empty
+markets or zero successfully analyzed symbols always fail, even with relaxed
+thresholds. Limits include their boundary (95% coverage and 1% errors pass).
+
+These defaults tolerate modest genuine symbol/history gaps without treating a
+provider outage as routine success. For example, 166 confirmed ordinary gaps
+among 4,127 eligible rows could pass at 96% coverage, **if each market also
+passes**; 166 transport failures fail the tighter operational limit. The observed
+historical 166 errors cannot be assigned a cause retrospectively because the old
+fetcher collapsed the reasons. The policy is a completeness safeguard, not a
+claim of financial accuracy or guaranteed delivery.
+
+Override limits explicitly with fractions from 0 to 1; the chosen limits remain
+in both artifacts:
+
+```bash
+python3 screener.py --no-cache --min-coverage 0.97 --min-market-coverage 0.95 \
+  --max-operational-error-rate 0.005 --max-market-operational-error-rate 0.01
+```
+
+Transient failures receive at most three attempts for the current symbol with
+bounded exponential backoff (up to eight seconds) and a 15-second request timeout.
+Aliases are tried only after a non-transient missing/no-data or HTTP 404 response; an alias
+cannot cure an exhausted provider outage. Twenty consecutive transient request
+failures without a successful fetch pause all new requests for 60 seconds so a
+short throttling burst can clear; the third such streak opens a circuit for the
+remainder of the run.
+The scan also stops starting fetches after a 30-minute budget, allowing time for
+diagnostic rendering within the workflow's 45-minute timeout. Cache reads and
+already active requests may finish; pending symbols retain explicit circuit or
+budget failure reasons. This bounds request work but does not guarantee artifacts
+if the operating system kills the process or the workflow itself times out.
+
+Each failed symbol retains its reason and attempted aliases in JSON; the PDF lists
+failure messages and coverage. The wrapper accepts only the PDF named by the
+current passing summary. Direct manual sending of older PDFs without a summary
+remains supported; a present summary must permit that exact report.
 
 ### Run with Email
 
