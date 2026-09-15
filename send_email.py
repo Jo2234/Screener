@@ -12,6 +12,7 @@ To set up:
 import sys
 import os
 import base64
+import json
 from datetime import datetime
 from pathlib import Path
 
@@ -47,6 +48,24 @@ def send_email(pdf_path: str):
         print(f"ERROR: PDF not found: {pdf_path}")
         sys.exit(1)
     
+    # Scheduled runs require this sidecar in the wrapper. Older PDFs without a
+    # sidecar can still be sent manually; any present sidecar must permit delivery.
+    quality_notice = ""
+    subject_suffix = ""
+    summary_path = pdf_file.parent / 'run_summary.json'
+    if summary_path.exists():
+        summary = json.loads(summary_path.read_text())
+        if not (summary.get('email_allowed') and summary.get('gate_passed')
+                and summary.get('report_generated') and summary.get('report_path') == pdf_file.name):
+            raise SystemExit('ERROR: Data quality gate failed or report mismatch; email suppressed')
+        if summary['status'] == 'partial':
+            totals = summary['totals']
+            subject_suffix = ' — Partial coverage'
+            quality_notice = (f"<p><strong>Partial coverage:</strong> {totals['successful_symbols']} of "
+                              f"{totals['total_symbols']} symbols were analyzed; {totals['failed_symbols']} "
+                              "were unavailable. The configured data quality gate passed. "
+                              "See the report for missing symbols, reasons and thresholds.</p>")
+
     # Extract date from filename
     pdf_name = pdf_file.name
     week_date = pdf_name.replace('EMA_Crossover_Report_', '').replace('.pdf', '')
@@ -63,11 +82,12 @@ def send_email(pdf_path: str):
         params = {
             "from": "Screener <onboarding@resend.dev>",  # Free tier uses this sender
             "to": [recipient_email],
-            "subject": f"EMA Crossover Report - Week of {week_date}",
+            "subject": f"EMA Crossover Report - Week of {week_date}{subject_suffix}",
             "html": f"""
             <h2>Weekly EMA Crossover Report</h2>
             <p>Please find attached the EMA Crossover Screener report for the week ending <strong>{week_date}</strong>.</p>
             <p>This report was automatically generated on {datetime.now().strftime('%Y-%m-%d at %H:%M')}.</p>
+            {quality_notice}
             <h3>Summary</h3>
             <ul>
                 <li>78-day / 165-day EMA crossover analysis</li>
