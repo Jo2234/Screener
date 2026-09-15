@@ -15,6 +15,8 @@ import sqlite3
 import threading
 import time
 import random
+import sys
+from xml.sax.saxutils import escape
 from datetime import datetime, timedelta
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -23,6 +25,7 @@ from typing import Optional, Tuple, Dict, List
 from io import BytesIO
 
 from reporting import get_previous_full_week
+from reliability import FetchFailure, FetchGuard, QualityPolicy, quality_summary
 
 import pandas as pd
 import numpy as np
@@ -77,6 +80,7 @@ MIN_REQUEST_INTERVAL = 0.5  # Minimum seconds between requests (stricter pacing)
 # Semaphore for rate limiting concurrent requests
 _request_semaphore = threading.Semaphore(3)  # Max 3 concurrent requests (conservative)
 _last_request_time = threading.local()
+_fetch_guard = None  # Initialized per run, never contacts providers at import time.
 
 # Exchange suffix mapping based on Exchange column values
 EXCHANGE_SUFFIXES = {
@@ -134,6 +138,8 @@ class CrossoverResult:
     error: Optional[str] = None
     exchange: Optional[str] = None
     category: str = ""
+    error_kind: Optional[str] = None
+    fetch_attempts: List[Dict] = field(default_factory=list)
 
     @property
     def chart_id(self) -> str:
@@ -157,6 +163,7 @@ class CSVResults:
     failed: List[CrossoverResult] = field(default_factory=list)
     total_symbols: int = 0
     errors: int = 0
+    input_error: Optional[str] = None
 
 
 # ============================================================================
@@ -386,46 +393,77 @@ def fetch_via_direct_api(yf_symbol: str) -> pd.DataFrame:
     
     try:
         response = requests.get(url, params=params, headers=headers, timeout=15)
-        
-        if response.status_code == 429:
-            # Rate limited - will be retried by caller
-            return pd.DataFrame()
-        
-        if response.status_code != 200:
-            return pd.DataFrame()
-        
+    except requests.Timeout as exc:
+        raise FetchFailure('timeout', 'Yahoo request timed out', retryable=True) from exc
+    except requests.RequestException as exc:
+        raise FetchFailure('transport', 'Yahoo transport request failed', retryable=True) from exc
+
+    if response.status_code == 429:
+        raise FetchFailure('rate_limit', 'Yahoo HTTP 429 rate limit', retryable=True)
+    if response.status_code >= 500:
+        raise FetchFailure('http_service', f'Yahoo HTTP {response.status_code}', retryable=True)
+    try:
         data = response.json()
-        
-        if 'chart' not in data or 'result' not in data['chart'] or not data['chart']['result']:
-            return pd.DataFrame()
-        
-        result = data['chart']['result'][0]
-        timestamps = result.get('timestamp', [])
-        
-        if not timestamps:
-            return pd.DataFrame()
-        
+    except ValueError as exc:
+        if response.status_code != 200:
+            raise FetchFailure('http_error', f'Yahoo HTTP {response.status_code}; no valid error payload') from exc
+        raise FetchFailure('json_error', 'Yahoo returned invalid JSON', retryable=True) from exc
+
+    if isinstance(data, dict) and isinstance(data.get('chart'), dict):
+        error = data['chart'].get('error')
+        if isinstance(error, dict) and str(error.get('code', '')).lower() in ('not found', 'notfound'):
+            raise FetchFailure('not_found', 'Yahoo explicitly reported symbol not found')
+    if response.status_code != 200:
+        raise FetchFailure('http_error', f'Yahoo HTTP {response.status_code}')
+
+    try:
+        chart = data['chart']
+        if chart.get('error'):
+            raise FetchFailure('provider_error', 'Yahoo returned an application error', retryable=True)
+        results = chart['result']
+        if results is None or results == []:
+            raise FetchFailure('missing_result', 'Yahoo returned no chart result; symbol identity is unconfirmed', retryable=True)
+        if not isinstance(results, list) or not isinstance(results[0], dict):
+            raise TypeError('chart.result must be a list of objects')
+        result = results[0]
+        # Gaps are ordinary only when Yahoo's metadata confirms it answered for this symbol.
+        meta = result.get('meta')
+        confirmed = (isinstance(meta, dict) and isinstance(meta.get('symbol'), str)
+                     and meta['symbol'].strip().upper() == yf_symbol.strip().upper())
+        timestamps = result.get('timestamp')
+        if timestamps is None or timestamps == []:
+            if not confirmed:
+                raise ValueError('Chart without timestamps lacks matching symbol metadata')
+            raise FetchFailure('no_data', 'Yahoo chart has no historical timestamps')
+        if not isinstance(timestamps, list) or not all(
+                isinstance(ts, (int, float)) and not isinstance(ts, bool) and np.isfinite(ts)
+                for ts in timestamps):
+            raise TypeError('chart timestamps must be a list of finite numbers')
         quote = result['indicators']['quote'][0]
-        
-        df = pd.DataFrame({
-            'Open': quote.get('open', []),
-            'High': quote.get('high', []),
-            'Low': quote.get('low', []),
-            'Close': quote.get('close', []),
-            'Volume': quote.get('volume', [])
-        })
-        
-        # Convert timestamps to datetime index
-        df.index = pd.to_datetime(timestamps, unit='s', utc=True)
-        df.index = df.index.tz_localize(None)  # Remove timezone for consistency
-        
-        # Remove rows with NaN close prices
-        df = df.dropna(subset=['Close'])
-        
+        columns = {name: quote[key] for name, key in (
+            ('Open', 'open'), ('High', 'high'), ('Low', 'low'), ('Close', 'close'), ('Volume', 'volume'))}
+        if not all(isinstance(values, list) and len(values) == len(timestamps) for values in columns.values()):
+            raise ValueError('Quote series must be lists aligned with timestamps')
+        df = pd.DataFrame(columns)
+        df.index = pd.to_datetime(timestamps, unit='s', utc=True).tz_localize(None)
+        if df.index.hasnans:
+            raise ValueError('Chart timestamps must convert to valid dates')
+        for column in df.columns:
+            df[column] = pd.to_numeric(df[column], errors='raise')
+        df = df.dropna(subset=['Close']).sort_index()
+        # Yahoo occasionally repeats a bar; keep the latest copy rather than failing the symbol.
+        df = df[~df.index.duplicated(keep='last')]
+        if df.empty:
+            if not confirmed:
+                raise ValueError('Chart without closing prices lacks matching symbol metadata')
+            raise FetchFailure('empty_prices', 'Yahoo chart contains no usable closing prices')
+        if not np.isfinite(df['Close']).all() or (df['Close'] <= 0).any():
+            raise ValueError('Invalid closing prices')
         return df
-        
-    except Exception as e:
-        return pd.DataFrame()
+    except FetchFailure:
+        raise
+    except (KeyError, TypeError, ValueError, IndexError, AttributeError, OverflowError) as exc:
+        raise FetchFailure('data_error', 'Yahoo chart payload is malformed', retryable=True) from exc
 
 
 def fetch_stock_data(symbol: str, exchange: str = None, use_cache: bool = True) -> Tuple[pd.DataFrame, str]:
@@ -476,32 +514,40 @@ def fetch_stock_data(symbol: str, exchange: str = None, use_cache: bool = True) 
         if not df.empty:
             return df, 'cache'
     
-    # Try each symbol variation
+    attempts = []
     for try_symbol in symbol_variations:
-        # Retry with exponential backoff
         for attempt in range(MAX_RETRIES):
-            # Rate limiting - acquire semaphore
-            with _request_semaphore:
-                # Add small delay between requests
-                time.sleep(MIN_REQUEST_INTERVAL + random.uniform(0, 0.2))
-                
-                # Try direct API
-                df = fetch_via_direct_api(try_symbol)
-                
-                if not df.empty:
-                    if use_cache:
-                        cache_data(cache_key, df)  # Cache under original key
-                    return df, 'fetch'
-                
-                # If direct API fails, wait and retry (only for first variation)
-                if attempt < MAX_RETRIES - 1 and try_symbol == symbol_variations[0]:
-                    delay = BASE_DELAY * (2 ** attempt) + random.uniform(0, 1)
-                    time.sleep(delay)
+            try:
+                with _request_semaphore:
+                    if _fetch_guard:
+                        _fetch_guard.check()
+                    time.sleep(MIN_REQUEST_INTERVAL + random.uniform(0, 0.2))
+                    df = fetch_via_direct_api(try_symbol)
+                    if _fetch_guard:
+                        _fetch_guard.observe()
+                if use_cache:
+                    cache_data(cache_key, df)
+                return df, 'fetch'
+            except FetchFailure as failure:
+                attempts.append({'symbol': try_symbol, 'attempt': attempt + 1,
+                                 'kind': failure.kind, 'message': str(failure)})
+                if _fetch_guard:
+                    _fetch_guard.observe(failure)
+                if failure.retryable and attempt < MAX_RETRIES - 1:
+                    time.sleep(min(8, BASE_DELAY * (2 ** attempt) + random.uniform(0, 1)))
                     continue
-                else:
-                    break  # Try next variation
-    
-    return pd.DataFrame(), 'error'
+                if failure.retryable or failure.kind in ('provider_circuit_open', 'fetch_budget_exhausted'):
+                    # An alias cannot remedy a provider outage. Preserve all attempt evidence.
+                    raise FetchFailure(failure.kind, str(failure), attempts=attempts) from failure
+                if failure.kind not in ('not_found', 'no_data', 'empty_prices') and 'HTTP 404' not in str(failure):
+                    raise FetchFailure(failure.kind, str(failure), attempts=attempts) from failure
+                break  # A missing/no-data/404 response may justify a valid alias.
+    final = attempts[-1]
+    # Never let a later not-found alias erase an earlier ambiguous data/HTTP failure.
+    ambiguous = [row for row in attempts if row['kind'] != 'not_found']
+    if ambiguous:
+        final = ambiguous[-1]
+    raise FetchFailure(final['kind'], final['message'], attempts=attempts)
 
 
 # ============================================================================
@@ -574,14 +620,21 @@ def process_single_stock(symbol_data: Dict, use_cache: bool = True) -> Crossover
     company = symbol_data['name']
     exchange = symbol_data.get('exchange')
     
-    df, source = fetch_stock_data(symbol, exchange, use_cache)
+    try:
+        df, source = fetch_stock_data(symbol, exchange, use_cache)
+    except FetchFailure as failure:
+        return CrossoverResult(
+            symbol=symbol, company=company, exchange=exchange, crossover_type=None,
+            date=None, price=None, current_price=None, pct_change=None,
+            short_ema=None, long_ema=None, error=str(failure),
+            error_kind=failure.kind, fetch_attempts=failure.attempts)
     
     if df.empty:
         return CrossoverResult(
             symbol=symbol, company=company, exchange=exchange, crossover_type=None,
             date=None, price=None, current_price=None, pct_change=None,
             short_ema=None, long_ema=None, df=None, 
-            error="Symbol not found on Yahoo Finance"
+            error="No usable historical data; symbol identity is unconfirmed", error_kind="no_data"
         )
     
     # Check if we have enough data for reliable EMA calculation
@@ -590,9 +643,19 @@ def process_single_stock(symbol_data: Dict, use_cache: bool = True) -> Crossover
             symbol=symbol, company=company, exchange=exchange, crossover_type=None,
             date=None, price=None, current_price=None, pct_change=None,
             short_ema=None, long_ema=None, df=None,
-            error=f"Insufficient data ({len(df)} days) - need {LONG_EMA} days for EMA"
+            error=f"Insufficient data ({len(df)} days) - need {LONG_EMA} days for EMA",
+            error_kind="insufficient_history"
         )
     
+    days = df.index.tz_localize(None).normalize() if df.index.tz is not None else df.index.normalize()
+    week_days = (days >= pd.Timestamp(TARGET_WEEK_START)) & (days <= pd.Timestamp(TARGET_WEEK_END))
+    if week_days.sum() < 2 or not (days < pd.Timestamp(TARGET_WEEK_START)).any():
+        return CrossoverResult(
+            symbol=symbol, company=company, exchange=exchange, crossover_type=None,
+            date=None, price=None, current_price=None, pct_change=None,
+            short_ema=None, long_ema=None, error='Insufficient observations for the reporting week',
+            error_kind='missing_report_week')
+
     df[f'EMA_{SHORT_EMA}'] = calculate_ema(df, SHORT_EMA)
     df[f'EMA_{LONG_EMA}'] = calculate_ema(df, LONG_EMA)
     
@@ -694,7 +757,7 @@ def generate_chart(result: CrossoverResult, output_dir: Path) -> Path:
 # PDF Generation
 # ============================================================================
 
-def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
+def generate_pdf_report(all_results: List[CSVResults], output_path: Path, summary=None):
     """Generate a comprehensive PDF report with all results."""
     
     doc = SimpleDocTemplate(
@@ -785,6 +848,23 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
     ))
     story.append(Spacer(1, 30))
     
+    if summary is not None:
+        totals = summary['totals']
+        story.append(Paragraph(f"<b>Data quality: {summary['status'].upper()}</b>", subsection_style))
+        story.append(Paragraph(
+            f"Successfully analyzed: {totals['successful_symbols']}/{totals['total_symbols']} "
+            f"({totals['coverage']:.2%}); failures: {totals['failed_symbols']}; "
+            f"operational errors: {totals['operational_errors']}. No-crossover analyses count as successful.", normal_style))
+        policy = summary['policy']
+        story.append(Paragraph(
+            f"Minimum coverage: run {policy['min_coverage']:.2%}, each market {policy['min_market_coverage']:.2%}. "
+            f"Maximum operational error rate: run {policy['max_operational_error_rate']:.2%}, "
+            f"each market {policy['max_market_operational_error_rate']:.2%}. "
+            "Missing symbols and short history remain gaps; incomplete reports do not establish absence of crossovers.", normal_style))
+        for violation in summary['violations']:
+            story.append(Paragraph(escape(violation), failed_style))
+        story.append(Spacer(1, 12))
+
     # Summary table
     summary_data = [['Category', 'Symbols', 'Bullish', 'Bearish', 'Overall', 'Errors']]
     total_symbols = 0
@@ -869,6 +949,9 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
         ))
         story.append(Spacer(1, 15))
         
+        if csv_result.input_error:
+            story.append(Paragraph(escape(csv_result.input_error), failed_style))
+
         # Bullish crossovers
         if csv_result.bullish:
             story.append(Paragraph("🟢 Bullish Crossovers", subsection_style))
@@ -912,8 +995,8 @@ def generate_pdf_report(all_results: List[CSVResults], output_path: Path):
             story.append(Paragraph("⚠️ Failed Symbols", subsection_style))
             for i, result in enumerate(csv_result.failed, 1):
                 error_text = (
-                    f"{i}. <b>{result.symbol}</b> - {result.company[:30]} | "
-                    f"<i>{result.error}</i>"
+                    f"{i}. <b>{escape(result.symbol)}</b> - {escape(result.company[:30])} | "
+                    f"<i>{escape(result.error or '')}</i>"
                 )
                 story.append(Paragraph(error_text, failed_style))
             story.append(Spacer(1, 10))
@@ -977,9 +1060,14 @@ def process_csv_file(csv_path: Path, use_cache: bool = True) -> CSVResults:
     print(f"  Processing: {display_name}")
     print(f"{'='*60}")
     
-    symbols = read_csv_symbols(csv_path)
+    try:
+        symbols = read_csv_symbols(csv_path)
+    except (OSError, ValueError, pd.errors.ParserError) as exc:
+        return CSVResults(csv_name=csv_name, display_name=display_name,
+                          input_error=f'Unreadable CSV: {type(exc).__name__}')
     if not symbols:
-        return CSVResults(csv_name=csv_name, display_name=display_name)
+        return CSVResults(csv_name=csv_name, display_name=display_name,
+                          input_error='CSV contains no valid symbols or has no Symbol/Ticker column')
     
     print(f"📊 {len(symbols)} symbols found")
     
@@ -1029,95 +1117,92 @@ def process_csv_file(csv_path: Path, use_cache: bool = True) -> CSVResults:
                 error_result = CrossoverResult(
                     symbol=sym_data['symbol'], company=sym_data['name'], crossover_type=None,
                     date=None, price=None, current_price=None, pct_change=None,
-                    short_ema=None, long_ema=None, df=None, error=f"Processing error: {str(e)}"
+                    short_ema=None, long_ema=None, df=None, exchange=sym_data.get('exchange'),
+                    category=csv_name, error=f"Processing error: {type(e).__name__}", error_kind="processing_error"
                 )
                 results.failed.append(error_result)
                 print(f"[{processed:4}/{len(symbols)}] {sym_data['symbol']:8} ❌ Error")
     
-    print(f"\n  ✅ {display_name}: {len(results.bullish)} bullish, {len(results.bearish)} bearish, {len(results.failed)} failed")
+    print(f"\n  {display_name}: {len(results.bullish)} bullish, {len(results.bearish)} bearish, {len(results.failed)} failed")
     
     return results
 
 
-def run_screener(use_cache: bool = True):
-    """
-    Run the EMA crossover screener on all CSV files in Symbol_Data folder.
-    """
-    print("\n" + "=" * 70)
-    print("  EMA CROSSOVER SCREENER")
-    print(f"  {SHORT_EMA}-day / {LONG_EMA}-day EMA")
-    print(f"  Target Week: {TARGET_WEEK_START.strftime('%Y-%m-%d')} to {TARGET_WEEK_END.strftime('%Y-%m-%d')}")
-    print(f"  Parallel Workers: {MAX_WORKERS}")
-    print("=" * 70)
-    
-    # Initialize
-    init_cache()
-    
-    # Clean and create output directories
+def run_screener(use_cache: bool = True, policy=None):
+    """Return a process status; preserve diagnostic evidence before failing the gate."""
+    global _fetch_guard
+    policy = policy or QualityPolicy()
+    _fetch_guard = FetchGuard()
     if OUTPUT_DIR.exists():
         shutil.rmtree(OUTPUT_DIR)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     CHARTS_DIR.mkdir(parents=True, exist_ok=True)
-    
-    # Find all CSV files
-    csv_files = sorted(SYMBOL_DATA_DIR.glob("*.csv"))
-    if not csv_files:
-        print(f"\n❌ No CSV files found in {SYMBOL_DATA_DIR}")
-        return
-    
-    print(f"\n📁 Found {len(csv_files)} CSV files in {SYMBOL_DATA_DIR}:")
-    for csv_file in csv_files:
-        print(f"   - {csv_file.name}")
-    
-    # Process each CSV
-    all_results = []
-    for csv_path in csv_files:
-        csv_results = process_csv_file(csv_path, use_cache)
-        all_results.append(csv_results)
-    
-    # Generate PDF report
-    report_date = TARGET_WEEK_END.strftime('%Y-%m-%d')
-    pdf_path = OUTPUT_DIR / f"EMA_Crossover_Report_{report_date}.pdf"
-    generate_pdf_report(all_results, pdf_path)
-    
-    # Final summary
-    total_bullish = sum(len(r.bullish) for r in all_results)
-    total_bearish = sum(len(r.bearish) for r in all_results)
-    total_errors = sum(r.errors for r in all_results)
-    
-    print("\n" + "=" * 70)
-    print("  SCREENING COMPLETE")
-    print("=" * 70)
-    print(f"\n  🟢 Total Bullish: {total_bullish}")
-    print(f"  🔴 Total Bearish: {total_bearish}")
-    print(f"  ❌ Total Errors: {total_errors}")
-    print(f"\n  📁 Output: {OUTPUT_DIR.absolute()}")
-    print(f"  📄 Report: {pdf_path.name}")
-    print("\n")
+    groups = []
+    run_error = None
+    try:
+        init_cache()
+        for csv_path in sorted(SYMBOL_DATA_DIR.glob('*.csv')):
+            groups.append(process_csv_file(csv_path, use_cache))
+    except Exception as exc:
+        run_error = f'Run interrupted: {type(exc).__name__}'
+    finally:
+        _fetch_guard = None
+    summary = quality_summary(groups, policy)
+    if run_error:
+        summary['violations'].append(run_error)
+        summary.update(status='failed', gate_passed=False, email_allowed=False)
+    summary.update(target_week_start=TARGET_WEEK_START.date().isoformat(),
+                   target_week_end=TARGET_WEEK_END.date().isoformat(),
+                   generated_at=datetime.now().astimezone().isoformat(),
+                   report_generated=False, report_path=None)
+    summary_path = OUTPUT_DIR / 'run_summary.json'
+    summary_path.write_text(json.dumps(summary, indent=2) + '\n')
+    pdf_path = OUTPUT_DIR / f"EMA_Crossover_Report_{TARGET_WEEK_END:%Y-%m-%d}.pdf"
+    try:
+        generate_pdf_report(groups, pdf_path, summary=summary)
+        summary.update(report_generated=True, report_path=pdf_path.name)
+    except Exception as exc:
+        summary['violations'].append(f'PDF generation failed: {type(exc).__name__}')
+        summary.update(status='failed', gate_passed=False, email_allowed=False)
+        if pdf_path.exists():
+            pdf_path.unlink()  # Do not retain a half-written PDF as a valid report.
+    summary_path.write_text(json.dumps(summary, indent=2) + '\n')
+    print(f"Data quality: {summary['status'].upper()}; "
+          f"analyzed {summary['totals']['successful_symbols']}/{summary['totals']['total_symbols']}; "
+          f"errors {summary['totals']['failed_symbols']}")
+    for violation in summary['violations']:
+        print(f'ERROR: {violation}')
+    print(f'Diagnostic summary: {summary_path.absolute()}')
+    return 0 if summary['email_allowed'] else 2
 
 
-# ============================================================================
-# Entry Point
-# ============================================================================
-
-if __name__ == "__main__":
+def main(argv=None):
     import argparse
-    
-    parser = argparse.ArgumentParser(
-        description="EMA Crossover Stock Screener - Multi-CSV PDF Report Generator",
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog="""
-Examples:
-  python3 screener.py                    # Run on all CSVs in Symbol_Data
-  python3 screener.py --no-cache         # Force fresh data fetch
-        """
-    )
-    parser.add_argument(
-        "--no-cache",
-        action="store_true",
-        help="Disable caching (always fetch fresh data)"
-    )
-    
-    args = parser.parse_args()
-    
-    run_screener(use_cache=not args.no_cache)
+    import math
+
+    def fraction(value):
+        try:
+            number = float(value)
+        except ValueError:
+            raise argparse.ArgumentTypeError('must be a fraction from 0 to 1')
+        if not math.isfinite(number) or not 0 <= number <= 1:
+            raise argparse.ArgumentTypeError('must be a finite fraction from 0 to 1')
+        return number
+
+    parser = argparse.ArgumentParser(description='EMA screener with per-run and per-market data quality gates')
+    parser.add_argument('--no-cache', action='store_true')
+    defaults = QualityPolicy()
+    for name, help_text in (
+        ('min_coverage', 'Minimum successfully analyzed fraction across all symbols'),
+        ('min_market_coverage', 'Minimum successfully analyzed fraction in each CSV market'),
+        ('max_operational_error_rate', 'Maximum provider/processing error fraction across all symbols'),
+        ('max_market_operational_error_rate', 'Maximum provider/processing error fraction in each CSV market')):
+        parser.add_argument('--' + name.replace('_', '-'), type=fraction,
+                            default=getattr(defaults, name), help=help_text)
+    args = parser.parse_args(argv)
+    policy = QualityPolicy(**{name: getattr(args, name) for name in defaults.__dataclass_fields__})
+    return run_screener(use_cache=not args.no_cache, policy=policy)
+
+
+if __name__ == '__main__':
+    sys.exit(main())
