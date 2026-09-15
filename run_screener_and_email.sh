@@ -20,13 +20,20 @@ cd "$SCREENER_DIR"
 echo "$(date): Starting EMA Crossover Screener..."
 "$PYTHON_PATH" screener.py --no-cache
 
-# Find the generated PDF
-PDF_FILE=$(ls -t "$SCREENER_DIR/output/"*.pdf 2>/dev/null | head -1)
-
-if [ -z "$PDF_FILE" ]; then
-    echo "$(date): ERROR - No PDF report found!"
-    exit 1
-fi
+# Read only the PDF named by this run's successful quality summary.
+PDF_FILE=$("$PYTHON_PATH" - <<'PYCODE'
+import json
+from pathlib import Path
+root = Path.cwd() / "output"
+summary = json.loads((root / "run_summary.json").read_text())
+name = summary.get("report_path")
+if not summary.get("email_allowed") or not summary.get("gate_passed") or not summary.get("report_generated"):
+    raise SystemExit("ERROR: Data quality gate or PDF generation failed; email suppressed")
+if not name or Path(name).name != name or not (root / name).is_file():
+    raise SystemExit("ERROR: Quality summary does not identify a valid report")
+print((root / name).resolve())
+PYCODE
+)
 
 echo "$(date): Sending email with $PDF_FILE..."
 

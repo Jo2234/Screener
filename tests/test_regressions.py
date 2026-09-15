@@ -192,6 +192,7 @@ with (root / "calls.jsonl").open("a") as out:
 if pathlib.Path(__file__).name == "screener.py":
     (root / "output").mkdir()
     (root / "output" / "fake report.pdf").write_bytes(b"fake PDF")
+    (root / "output" / "run_summary.json").write_text(json.dumps({"email_allowed": True, "gate_passed": True, "report_generated": True, "report_path": "fake report.pdf"}))
 '''
     (checkout / "screener.py").write_text(stub)
     (checkout / "send_email.py").write_text(stub)
